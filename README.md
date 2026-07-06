@@ -1,6 +1,6 @@
 # Deployer AI Risk Register (DARR): the open dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21209036.svg)](https://doi.org/10.5281/zenodo.21209036)
+[![DOI](https://zenodo.org/badge/1290940032.svg)](https://doi.org/10.5281/zenodo.21223592)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-1F3935)](https://creativecommons.org/licenses/by/4.0/)
 [![Live site](https://img.shields.io/badge/site-airiskdeployer.org-22B891)](https://www.airiskdeployer.org)
 [![Cite this repository](https://img.shields.io/badge/cite-CITATION.cff-6C75C0)](CITATION.cff)
@@ -68,7 +68,7 @@ assessments, scanners, evaluations, and GRC tooling.
 ```
 Deployer AI Risk Register: an open-source canonical AI risk register for
 organizations that deploy AI systems. Developed by MindXO. Version 1.0,
-3 July 2026. https://www.airiskdeployer.org/ DOI: 10.5281/zenodo.21209037
+3 July 2026. https://www.airiskdeployer.org/ DOI: 10.5281/zenodo.21223593
 ```
 
 GitHub's "Cite this repository" (from [`CITATION.cff`](CITATION.cff)) provides
