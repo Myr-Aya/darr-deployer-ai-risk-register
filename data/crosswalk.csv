@@ -1,0 +1,675 @@
+﻿risk_id,framework_id,framework,framework_role,item_id,item_name,match
+MR-001,iso_23894,ISO 23894,source,A.6,ISO/IEC 23894 Annex A A.6,clear
+MR-001,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-001,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-001,iso_42001,ISO 42001,source,A.7.4,ISO/IEC 42001 Annex A A.7.4,clear
+MR-001,eu_ai_act,EU AI Act,source,Art. 10,Art. 10,clear
+MR-001,eu_ai_act,EU AI Act,source,Art. 5(c),Art. 5(c),clear
+MR-001,ibm_atlas,IBM,crosscheck,ibm-data-bias,Data bias,clear
+MR-001,ibm_atlas,IBM,crosscheck,ibm-decision-bias,Decision bias,clear
+MR-001,ibm_atlas,IBM,crosscheck,ibm-discriminatory-actions,Discriminatory actions,clear
+MR-001,nist_genai,NIST GenAI,crosscheck,GENAI.6,Harmful Bias or Homogenization,clear
+MR-002,iso_23894,ISO 23894,source,A.6,ISO/IEC 23894 Annex A A.6,clear
+MR-002,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-002,iso_42001,ISO 42001,source,A.7.4,ISO/IEC 42001 Annex A A.7.4,clear
+MR-002,ibm_atlas,IBM,crosscheck,ibm-impact-on-cultural-diversity,Impact on cultural diversity,partial
+MR-002,ibm_atlas,IBM,crosscheck,ibm-output-bias,Output bias,clear
+MR-002,nist_genai,NIST GenAI,crosscheck,GENAI.6,Harmful Bias or Homogenization,clear
+MR-003,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-003,iso_23894,ISO 23894,source,A.6,ISO/IEC 23894 Annex A A.6,clear
+MR-003,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-003,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-003,ibm_atlas,IBM,crosscheck,ibm-spreading-toxicity,Spreading toxicity,clear
+MR-003,ibm_atlas,IBM,crosscheck,ibm-toxic-output,Toxic output,clear
+MR-003,cisco,Cisco,crosscheck,AISubtech-15.1.11,Safety Harms and Toxicity: Profanity,clear
+MR-003,cisco,Cisco,crosscheck,AISubtech-15.1.3,Safety Harms and Toxicity: Animal Abuse,partial
+MR-003,cisco,Cisco,crosscheck,AISubtech-15.1.6,Safety Harms and Toxicity: Environmental Harm,partial
+MR-003,cisco,Cisco,crosscheck,AISubtech-15.1.8,Safety Harms and Toxicity: Harassment,clear
+MR-003,cisco,Cisco,crosscheck,AISubtech-15.1.9,Safety Harms and Toxicity: Hate Speech,clear
+MR-003,nist_genai,NIST GenAI,crosscheck,GENAI.3,"Dangerous, Violent, or Hateful Content",clear
+MR-004,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-004,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-004,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-004,cisco,Cisco,crosscheck,AISubtech-15.1.16,Safety Harms and Toxicity: Terrorism / Extremism,clear
+MR-004,cisco,Cisco,crosscheck,AISubtech-15.1.17,Safety Harms and Toxicity: Violence and Public Safety Threat,clear
+MR-004,nist_genai,NIST GenAI,crosscheck,GENAI.3,"Dangerous, Violent, or Hateful Content",clear
+MR-005,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-005,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-005,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-005,cisco,Cisco,crosscheck,AISubtech-15.1.4,Safety Harms and Toxicity: Child Abuse / Exploitation,clear
+MR-005,nist_genai,NIST GenAI,crosscheck,GENAI.11,"Obscene, Degrading, and/or Abusive Content",clear
+MR-006,iso_23894,ISO 23894,source,A.6,ISO/IEC 23894 Annex A A.6,clear
+MR-006,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-006,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-006,iso_42001,ISO 42001,source,A.7.4,ISO/IEC 42001 Annex A A.7.4,clear
+MR-006,ibm_atlas,IBM,crosscheck,ibm-exclusion,Exclusion,partial
+MR-007,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-007,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-007,ibm_atlas,IBM,crosscheck,ibm-harmful-output,Harmful output,partial
+MR-007,cisco,Cisco,crosscheck,AISubtech-15.1.13,Safety Harms and Toxicity: Self Harm,clear
+MR-007,nist_genai,NIST GenAI,crosscheck,GENAI.3,"Dangerous, Violent, or Hateful Content",clear
+MR-008,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-008,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-008,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-008,cisco,Cisco,crosscheck,AISubtech-15.1.14,Safety Harms and Toxicity: Sexual Content and Exploitation,clear
+MR-008,nist_genai,NIST GenAI,crosscheck,GENAI.11,"Obscene, Degrading, and/or Abusive Content",clear
+MR-009,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-009,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-009,iso_42001,ISO 42001,source,A.7.4,ISO/IEC 42001 Annex A A.7.4,clear
+MR-009,iso_42001,ISO 42001,source,A.7.5,ISO/IEC 42001 Annex A A.7.5,clear
+MR-009,mitre_atlas,MITRE ATLAS,source,AML.T0057,LLM Data Leakage,sub
+MR-009,mitre_atlas,MITRE ATLAS,source,AML.T0077,LLM Response Rendering,sub
+MR-009,mitre_atlas,MITRE ATLAS,source,AML.T0085,Data from AI Services,sub
+MR-009,mitre_atlas,MITRE ATLAS,source,AML.T0085.000,RAG Databases,sub
+MR-009,mitre_atlas,MITRE ATLAS,source,AML.T0085.001,AI Agent Tools,sub
+MR-009,ibm_atlas,IBM,crosscheck,ibm-exposing-personal-information,Exposing personal information,clear
+MR-009,ibm_atlas,IBM,crosscheck,ibm-sharing-ip-pi-confidential-information-with-user,Sharing IP/PI/confidential information with user,clear
+MR-009,cisco,Cisco,crosscheck,AISubtech-15.1.25,Privacy Attacks: PII / PHI / PCI,clear
+MR-009,cisco,Cisco,crosscheck,AISubtech-8.2.1,Training Data Exposure,clear
+MR-009,cisco,Cisco,crosscheck,AISubtech-8.2.2,LLM Data Leakage,clear
+MR-009,nist_aml,NIST AML,crosscheck,NISTAML.03,Privacy Compromises,clear
+MR-009,nist_aml,NIST AML,crosscheck,NISTAML.032,Reconstruction,partial
+MR-009,nist_aml,NIST AML,crosscheck,NISTAML.036,Leaking information from user interactions,clear
+MR-009,nist_aml,NIST AML,crosscheck,NISTAML.037,Training Data Attacks,clear
+MR-009,nist_aml,NIST AML,crosscheck,NISTAML.038,Data Extraction,clear
+MR-009,nist_genai,NIST GenAI,crosscheck,GENAI.4,Data Privacy,clear
+MR-009,owasp_llm,OWASP LLM,crosscheck,LLM02:2025,Sensitive Information Disclosure,clear
+MR-009,owasp_llm,OWASP LLM,crosscheck,LLM08:2025,Vector and Embedding Weaknesses,partial
+MR-010,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-010,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-010,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0051,LLM Prompt Injection,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0051.000,Direct,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0051.001,Indirect,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0051.002,Triggered,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0054,LLM Jailbreak,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0061,LLM Prompt Self-Replication,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0067,LLM Trusted Output Components Manipulation,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0067.000,Citations,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0068,LLM Prompt Obfuscation,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0070,RAG Poisoning,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0071,False RAG Entry Injection,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0092,Manipulate User LLM Chat History,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0093,Prompt Infiltration via Public-Facing Application,sub
+MR-010,mitre_atlas,MITRE ATLAS,source,AML.T0094,Delay Execution of LLM Instructions,sub
+MR-010,ibm_atlas,IBM,crosscheck,ibm-context-overload-attack,Context overload attack,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-direct-instructions-attack,Direct instructions attack,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-encoded-interactions-attack,Encoded interactions attack,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-indirect-instructions-attack,Indirect instructions attack,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-jailbreaking,Jailbreaking,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-prompt-injection-attack,Prompt injection attack,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-prompt-priming,Prompt priming,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-social-hacking-attack,Social hacking attack,clear
+MR-010,ibm_atlas,IBM,crosscheck,ibm-specialized-tokens-attack,Specialized tokens attack,clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.1.1,Instruction Manipulation (Direct Prompt Injection),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.1.2,Obfuscation (Direct Prompt Injection),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.1.3,Multi-Agent Prompt Injection,clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.2.1,Instruction Manipulation (Indirect Prompt Injection),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.2.2,Obfuscation (Indirect Prompt Injection),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.2.3,Multi-Agent (Indirect Prompt Injection),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.4.1,Image-Text Injection,clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.4.2,Image Manipulation,clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.4.3,Audio Command Injection,clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-1.4.4,Video Overlay Manipulation,clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-19.1.1,Contradictory Inputs Attack,partial
+MR-010,cisco,Cisco,crosscheck,AISubtech-19.1.2,Modality Skewing,partial
+MR-010,cisco,Cisco,crosscheck,AISubtech-19.2.1,Convergence Payload Injection,partial
+MR-010,cisco,Cisco,crosscheck,AISubtech-19.2.2,Chained Payload Execution,partial
+MR-010,cisco,Cisco,crosscheck,AISubtech-2.1.1,Context Manipulation (Jailbreak),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-2.1.2,Obfuscation (Jailbreak),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-2.1.3,Semantic Manipulation (Jailbreak),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-2.1.4,Token Exploitation (Jailbreak),clear
+MR-010,cisco,Cisco,crosscheck,AISubtech-2.1.5,Multi-Agent Jailbreak Collaboration,clear
+MR-010,nist_aml,NIST AML,crosscheck,NISTAML.015,Indirect Prompt Injection,clear
+MR-010,nist_aml,NIST AML,crosscheck,NISTAML.018,Prompt Injection,clear
+MR-010,nist_aml,NIST AML,crosscheck,NISTAML.02,Integrity Violations,clear
+MR-010,nist_aml,NIST AML,crosscheck,NISTAML.027,Misaligned Outputs,clear
+MR-010,nist_aml,NIST AML,crosscheck,NISTAML.04,Misuse Violations,clear
+MR-010,owasp_llm,OWASP LLM,crosscheck,LLM01:2025,Prompt Injection,clear
+MR-010,owasp_llm,OWASP LLM,crosscheck,LLM08:2025,Vector and Embedding Weaknesses,partial
+MR-010,owasp_asi,OWASP Agentic,crosscheck,ASI01,Agent Goal Hijack,clear
+MR-010,owasp_asi,OWASP Agentic,crosscheck,ASI06,Memory and Context Poisoning,clear
+MR-011,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-011,iso_42001,ISO 42001,source,A.7.3,ISO/IEC 42001 Annex A A.7.3,clear
+MR-011,iso_42001,ISO 42001,source,A.7.5,ISO/IEC 42001 Annex A A.7.5,clear
+MR-011,eu_ai_act,EU AI Act,source,Art. 10,Art. 10,clear
+MR-011,eu_ai_act,EU AI Act,source,Art. 26(9),Art. 26(9),clear
+MR-011,ibm_atlas,IBM,crosscheck,ibm-data-acquisition-restrictions,Data acquisition restrictions,partial
+MR-011,ibm_atlas,IBM,crosscheck,ibm-data-privacy-rights-alignment,Data privacy rights alignment,clear
+MR-011,ibm_atlas,IBM,crosscheck,ibm-data-transfer-restrictions,Data transfer restrictions,partial
+MR-011,ibm_atlas,IBM,crosscheck,ibm-data-usage-restrictions,Data usage restrictions,partial
+MR-011,ibm_atlas,IBM,crosscheck,ibm-personal-information-in-data,Personal information in data,clear
+MR-011,ibm_atlas,IBM,crosscheck,ibm-personal-information-in-prompt,Personal information in prompt,clear
+MR-011,nist_genai,NIST GenAI,crosscheck,GENAI.4,Data Privacy,clear
+MR-012,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-012,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-012,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0015,Evade AI Model,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0031,Erode AI Model Integrity,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0041,Physical Environment Access,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0043,Craft Adversarial Data,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0043.000,White-Box Optimization,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0043.001,Black-Box Optimization,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0043.002,Black-Box Transfer,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0043.003,Manual Modification,sub
+MR-012,mitre_atlas,MITRE ATLAS,source,AML.T0043.004,Insert Backdoor Trigger,sub
+MR-012,ibm_atlas,IBM,crosscheck,ibm-evasion-attack,Evasion attack,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-11.1.1,Agent-Specific Evasion,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-11.1.2,Tool-Scoped Evasion,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-11.1.3,Environment-Scoped Payloads,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-11.1.4,Defense-Aware Payloads,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-11.2.1,Targeted Model Fingerprinting,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-11.2.2,Conditional Attack Execution,clear
+MR-012,cisco,Cisco,crosscheck,AISubtech-17.1.1,"Sensor Spoofing: Action Signals (audio, visual)",partial
+MR-012,nist_aml,NIST AML,crosscheck,NISTAML.02,Integrity Violations,clear
+MR-012,nist_aml,NIST AML,crosscheck,NISTAML.022,Evasion,clear
+MR-012,nist_aml,NIST AML,crosscheck,NISTAML.025,Black-box Evasion,clear
+MR-013,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-013,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-013,iso_42001,ISO 42001,source,A.7.2,ISO/IEC 42001 Annex A A.7.2,clear
+MR-013,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-013,mitre_atlas,MITRE ATLAS,source,AML.T0025,Exfiltration via Cyber Means,sub
+MR-013,mitre_atlas,MITRE ATLAS,source,AML.T0056,Extract LLM System Prompt,sub
+MR-013,ibm_atlas,IBM,crosscheck,ibm-confidential-data-in-prompt,Confidential data in prompt,clear
+MR-013,ibm_atlas,IBM,crosscheck,ibm-confidential-information-in-data,Confidential information in data,clear
+MR-013,ibm_atlas,IBM,crosscheck,ibm-ip-information-in-prompt,IP information in prompt,partial
+MR-013,ibm_atlas,IBM,crosscheck,ibm-prompt-leaking,Prompt leaking,clear
+MR-013,ibm_atlas,IBM,crosscheck,ibm-revealing-confidential-information,Revealing confidential information,clear
+MR-013,ibm_atlas,IBM,crosscheck,ibm-sharing-ip-pi-confidential-information-with-tools,Sharing IP/PI/confidential information with tools,clear
+MR-013,cisco,Cisco,crosscheck,AISubtech-14.1.1,Credential Theft,partial
+MR-013,cisco,Cisco,crosscheck,AISubtech-15.1.24,Intellectual Property Compromise: Confidential Data,clear
+MR-013,cisco,Cisco,crosscheck,AISubtech-7.4.1,Token Theft,partial
+MR-013,cisco,Cisco,crosscheck,AISubtech-8.3.1,Tool Metadata Exposure,clear
+MR-013,cisco,Cisco,crosscheck,AISubtech-8.3.2,System Information Leakage,clear
+MR-013,cisco,Cisco,crosscheck,AISubtech-8.4.1,System LLM Prompt Leakage,clear
+MR-013,nist_aml,NIST AML,crosscheck,NISTAML.035,Prompt Extraction,clear
+MR-013,owasp_llm,OWASP LLM,crosscheck,LLM02:2025,Sensitive Information Disclosure,clear
+MR-013,owasp_llm,OWASP LLM,crosscheck,LLM07:2025,System Prompt Leakage,clear
+MR-014,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-014,iso_42001,ISO 42001,source,A.7.3,ISO/IEC 42001 Annex A A.7.3,clear
+MR-014,iso_42001,ISO 42001,source,A.7.5,ISO/IEC 42001 Annex A A.7.5,clear
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0018,Manipulate AI Model,sub
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0018.000,Poison AI Model,sub
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0018.001,Modify AI Model Architecture,sub
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0018.002,Embed Malware,sub
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0019,Publish Poisoned Datasets,sub
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0020,Poison Training Data,sub
+MR-014,mitre_atlas,MITRE ATLAS,source,AML.T0059,Erode Dataset Integrity,sub
+MR-014,ibm_atlas,IBM,crosscheck,ibm-data-poisoning,Data poisoning,clear
+MR-014,cisco,Cisco,crosscheck,AISubtech-6.1.1,Knowledge Base Poisoning,clear
+MR-014,cisco,Cisco,crosscheck,AISubtech-6.1.2,Reinforcement Biasing,clear
+MR-014,cisco,Cisco,crosscheck,AISubtech-6.1.3,Reinforcement Signal Corruption,clear
+MR-014,cisco,Cisco,crosscheck,AISubtech-7.3.1,Corrupted Third-Party Data,clear
+MR-014,cisco,Cisco,crosscheck,AISubtech-9.2.1,Obfuscation Vulnerabilities,clear
+MR-014,cisco,Cisco,crosscheck,AISubtech-9.2.2,Backdoors and Trojans,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.011,Model Poisoning (availability),clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.012,Clean-label Poisoning,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.013,Data Poisoning,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.02,Integrity Violations,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.021,Clean-label Backdoor,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.023,Backdoor Poisoning,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.024,Targeted Poisoning,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.026,Model Poisoning (integrity),clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.05,Supply Chain Attacks,clear
+MR-014,nist_aml,NIST AML,crosscheck,NISTAML.051,Model Poisoning (supply chain),clear
+MR-014,owasp_llm,OWASP LLM,crosscheck,LLM04:2025,Data and Model Poisoning,clear
+MR-015,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-015,iso_42001,ISO 42001,source,A.4.5,ISO/IEC 42001 Annex A A.4.5,clear
+MR-015,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-015,eu_ai_act,EU AI Act,source,Art. 15,Art. 15,clear
+MR-015,eu_ai_act,EU AI Act,source,CoP S&S Ch. Commitment 6,CoP S&S Ch. Commitment 6,clear
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0012,Valid Accounts,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0029,Denial of AI Service,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0034,Cost Harvesting,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0034.000,Excessive Queries,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0034.001,Resource-Intensive Queries,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0034.002,Agentic Resource Consumption,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0046,Spamming AI System with Chaff Data,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0048,External Harms,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0048.000,Financial Harm,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0048.001,Reputational Harm,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0048.002,Societal Harm,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0048.003,User Harm,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0048.004,AI Intellectual Property Theft,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0049,Exploit Public-Facing Application,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0078,Drive-by Compromise,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0105,Escape to Host,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0112,Machine Compromise,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0112.000,Local AI Agent,sub
+MR-015,mitre_atlas,MITRE ATLAS,source,AML.T0112.001,AI Artifacts,sub
+MR-015,cisco,Cisco,crosscheck,AISubtech-13.1.1,Compute Exhaustion,clear
+MR-015,cisco,Cisco,crosscheck,AISubtech-13.1.2,Memory Flooding,clear
+MR-015,cisco,Cisco,crosscheck,AISubtech-13.1.3,Model Denial of Service,clear
+MR-015,cisco,Cisco,crosscheck,AISubtech-13.1.4,Application Denial of Service,clear
+MR-015,cisco,Cisco,crosscheck,AISubtech-13.1.5,Decision Paralysis Attacks,clear
+MR-015,cisco,Cisco,crosscheck,AISubtech-13.2.1,Service Misuse for Cost Inflation,clear
+MR-015,cisco,Cisco,crosscheck,AISubtech-14.1.2,Insufficient Access Controls,partial
+MR-015,cisco,Cisco,crosscheck,AISubtech-9.1.1,Code Execution,partial
+MR-015,cisco,Cisco,crosscheck,AISubtech-9.1.2,Unauthorized or Unsolicited System Access,partial
+MR-015,cisco,Cisco,crosscheck,AISubtech-9.1.3,Unauthorized or Unsolicited Network Access,partial
+MR-015,cisco,Cisco,crosscheck,AISubtech-9.1.4,"Injection Attacks (SQL, Command Execution, XSS)",partial
+MR-015,cisco,Cisco,crosscheck,AISubtech-9.1.5,Template Injection (SSTI),partial
+MR-015,nist_aml,NIST AML,crosscheck,NISTAML.01,Availability Violations,clear
+MR-015,nist_aml,NIST AML,crosscheck,NISTAML.014,Energy-latency,clear
+MR-015,nist_genai,NIST GenAI,crosscheck,GENAI.9,Information Security,clear
+MR-015,owasp_llm,OWASP LLM,crosscheck,LLM10:2025,Unbounded Consumption,clear
+MR-015,owasp_asi,OWASP Agentic,crosscheck,ASI03,Identity and Privilege Abuse,clear
+MR-015,owasp_asi,OWASP Agentic,crosscheck,ASI05,Unexpected Code Execution (RCE),clear
+MR-016,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-016,iso_42001,ISO 42001,source,A.4.5,ISO/IEC 42001 Annex A A.4.5,clear
+MR-016,mitre_atlas,MITRE ATLAS,source,AML.T0024,Exfiltration via AI Inference API,sub
+MR-016,mitre_atlas,MITRE ATLAS,source,AML.T0024.000,Infer Training Data Membership,sub
+MR-016,mitre_atlas,MITRE ATLAS,source,AML.T0024.001,Invert AI Model,sub
+MR-016,mitre_atlas,MITRE ATLAS,source,AML.T0024.002,Extract AI Model,sub
+MR-016,mitre_atlas,MITRE ATLAS,source,AML.T0035,AI Artifact Collection,sub
+MR-016,mitre_atlas,MITRE ATLAS,source,AML.T0044,Full AI Model Access,sub
+MR-016,ibm_atlas,IBM,crosscheck,ibm-extraction-attack,Extraction attack,clear
+MR-016,cisco,Cisco,crosscheck,AISubtech-10.1.1,API Query Stealing,clear
+MR-016,cisco,Cisco,crosscheck,AISubtech-10.1.2,Weight Reconstruction,clear
+MR-016,cisco,Cisco,crosscheck,AISubtech-10.1.3,Sensitive Data Reconstruction,clear
+MR-016,nist_aml,NIST AML,crosscheck,NISTAML.03,Privacy Compromises,clear
+MR-016,nist_aml,NIST AML,crosscheck,NISTAML.031,Model Extraction,clear
+MR-016,owasp_llm,OWASP LLM,crosscheck,LLM10:2025,Unbounded Consumption,clear
+MR-017,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-017,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-017,iso_42001,ISO 42001,source,A.7.5,ISO/IEC 42001 Annex A A.7.5,clear
+MR-017,ibm_atlas,IBM,crosscheck,ibm-attribute-inference-attack,Attribute inference attack,clear
+MR-017,ibm_atlas,IBM,crosscheck,ibm-membership-inference-attack,Membership inference attack,clear
+MR-017,ibm_atlas,IBM,crosscheck,ibm-reidentification,Reidentification,clear
+MR-017,cisco,Cisco,crosscheck,AISubtech-10.2.1,Model Inversion,clear
+MR-017,cisco,Cisco,crosscheck,AISubtech-8.1.1,Presence Detection,clear
+MR-017,nist_aml,NIST AML,crosscheck,NISTAML.03,Privacy Compromises,clear
+MR-017,nist_aml,NIST AML,crosscheck,NISTAML.032,Reconstruction,partial
+MR-017,nist_aml,NIST AML,crosscheck,NISTAML.033,Membership Inference,clear
+MR-017,nist_aml,NIST AML,crosscheck,NISTAML.034,Property Inference,clear
+MR-017,nist_genai,NIST GenAI,crosscheck,GENAI.4,Data Privacy,clear
+MR-018,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-018,iso_42001,ISO 42001,source,A.10.3,ISO/IEC 42001 Annex A A.10.3,clear
+MR-018,iso_42001,ISO 42001,source,A.4.4,ISO/IEC 42001 Annex A A.4.4,clear
+MR-018,eu_ai_act,EU AI Act,source,CoP S&S Ch. Commitment 6,CoP S&S Ch. Commitment 6,clear
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010,AI Supply Chain Compromise,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010.000,Hardware,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010.001,AI Software,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010.002,Data,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010.003,Model,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010.004,Container Registry,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0010.005,AI Agent Tool,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0058,Publish Poisoned Models,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0060,Publish Hallucinated Entities,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0074,Masquerading,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0076,Corrupt AI Model,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0104,Publish Poisoned AI Agent Tool,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0109,AI Supply Chain Rug Pull,sub
+MR-018,mitre_atlas,MITRE ATLAS,source,AML.T0111,AI Supply Chain Reputation Inflation,sub
+MR-018,cisco,Cisco,crosscheck,AISubtech-9.3.1,Malicious Package / Tool Injection,clear
+MR-018,cisco,Cisco,crosscheck,AISubtech-9.3.2,Dependency Name Squatting (Tools / Servers),clear
+MR-018,cisco,Cisco,crosscheck,AISubtech-9.3.3,Dependency Replacement / Rug Pull,clear
+MR-018,nist_aml,NIST AML,crosscheck,NISTAML.05,Supply Chain Attacks,clear
+MR-018,nist_aml,NIST AML,crosscheck,NISTAML.051,Model Poisoning (supply chain),clear
+MR-018,nist_genai,NIST GenAI,crosscheck,GENAI.12,Value Chain and Component Integration,clear
+MR-018,nist_genai,NIST GenAI,crosscheck,GENAI.9,Information Security,clear
+MR-018,owasp_llm,OWASP LLM,crosscheck,LLM03:2025,Supply Chain,clear
+MR-018,owasp_asi,OWASP Agentic,crosscheck,ASI04,Agentic Supply Chain Vulnerabilities,clear
+MR-019,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-019,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-019,ibm_atlas,IBM,crosscheck,ibm-harmful-code-generation,Harmful code generation,clear
+MR-019,cisco,Cisco,crosscheck,AISubtech-12.2.1,Code Detection / Malicious Code Output,clear
+MR-020,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-020,iso_42001,ISO 42001,source,A.10.3,ISO/IEC 42001 Annex A A.10.3,clear
+MR-020,iso_42001,ISO 42001,source,A.6.2.5,ISO/IEC 42001 Annex A A.6.2.5,clear
+MR-020,ibm_atlas,IBM,crosscheck,ibm-attack-on-ai-agents-external-resources,Attack on AI agents' external resources,clear
+MR-020,cisco,Cisco,crosscheck,AISubtech-12.1.1,Parameter Manipulation,clear
+MR-020,cisco,Cisco,crosscheck,AISubtech-12.1.2,Tool Poisoning,clear
+MR-020,cisco,Cisco,crosscheck,AISubtech-12.1.3,Unsafe System / Browser / File Execution,clear
+MR-020,cisco,Cisco,crosscheck,AISubtech-12.1.4,Tool Shadowing,clear
+MR-020,nist_aml,NIST AML,crosscheck,NISTAML.039,Compromising connected resources,clear
+MR-020,owasp_llm,OWASP LLM,crosscheck,LLM05:2025,Improper Output Handling,partial
+MR-020,owasp_llm,OWASP LLM,crosscheck,LLM06:2025,Excessive Agency,clear
+MR-020,owasp_asi,OWASP Agentic,crosscheck,ASI02,Tool Misuse and Exploitation,clear
+MR-021,iso_23894,ISO 23894,source,A.4,ISO/IEC 23894 Annex A A.4,clear
+MR-021,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-021,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-021,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-021,ibm_atlas,IBM,crosscheck,ibm-function-calling-hallucination,Function calling hallucination,clear
+MR-021,ibm_atlas,IBM,crosscheck,ibm-hallucination,Hallucination,clear
+MR-021,cisco,Cisco,crosscheck,AISubtech-15.1.19,Integrity: Hallucinations / Misinformation,clear
+MR-021,nist_genai,NIST GenAI,crosscheck,GENAI.2,Confabulation,clear
+MR-021,owasp_llm,OWASP LLM,crosscheck,LLM09:2025,Misinformation,clear
+MR-022,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-022,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-022,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-022,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-022,ibm_atlas,IBM,crosscheck,ibm-incomplete-advice,Incomplete advice,clear
+MR-022,cisco,Cisco,crosscheck,AISubtech-15.1.20,Integrity: Unauthorized Financial Advice,clear
+MR-022,cisco,Cisco,crosscheck,AISubtech-15.1.21,Integrity: Unauthorized Legal Advice,clear
+MR-022,cisco,Cisco,crosscheck,AISubtech-15.1.22,Integrity: Unauthorized Medical Advice,clear
+MR-023,iso_23894,ISO 23894,source,A.12,ISO/IEC 23894 Annex A A.12,clear
+MR-023,iso_42001,ISO 42001,source,A.5.5,ISO/IEC 42001 Annex A A.5.5,clear
+MR-023,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-023,nist_genai,NIST GenAI,crosscheck,GENAI.8,Information Integrity,clear
+MR-023,owasp_llm,OWASP LLM,crosscheck,LLM09:2025,Misinformation,clear
+MR-024,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-024,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-025,iso_23894,ISO 23894,source,A.12,ISO/IEC 23894 Annex A A.12,clear
+MR-025,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-025,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-026,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-026,iso_42001,ISO 42001,source,A.5.5,ISO/IEC 42001 Annex A A.5.5,clear
+MR-026,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-026,ibm_atlas,IBM,crosscheck,ibm-spreading-disinformation,Spreading disinformation,clear
+MR-026,cisco,Cisco,crosscheck,AISubtech-15.1.15,Safety Harms and Toxicity: Social Division and Polarization,partial
+MR-026,cisco,Cisco,crosscheck,AISubtech-15.1.5,Safety Harms and Toxicity: Disinformation,clear
+MR-026,nist_genai,NIST GenAI,crosscheck,GENAI.8,Information Integrity,clear
+MR-027,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-027,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-027,mitre_atlas,MITRE ATLAS,source,AML.T0102,Generate Malicious Commands,sub
+MR-027,cisco,Cisco,crosscheck,AISubtech-15.1.1,Cybersecurity and Hacking: Malware / Exploits,clear
+MR-027,cisco,Cisco,crosscheck,AISubtech-15.1.2,Cybersecurity and Hacking: Cyber Abuse,clear
+MR-027,nist_genai,NIST GenAI,crosscheck,GENAI.9,Information Security,clear
+MR-028,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-028,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0011,User Execution,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0011.000,Unsafe AI Artifacts,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0011.001,Malicious Package,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0011.002,Poisoned AI Agent Tool,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0011.003,Malicious Link,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0052,Phishing,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0052.000,Spearphishing via Social Engineering LLM,sub
+MR-028,mitre_atlas,MITRE ATLAS,source,AML.T0052.001,Deepfake-Assisted Phishing,sub
+MR-028,cisco,Cisco,crosscheck,AISubtech-15.1.12,Safety Harms and Toxicity: Scams and Deception,clear
+MR-028,cisco,Cisco,crosscheck,AISubtech-15.1.7,Safety Harms and Toxicity: Financial Harm,partial
+MR-028,cisco,Cisco,crosscheck,AISubtech-18.1.1,Spam / Scam / Social Engineering Generation,clear
+MR-029,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-029,iso_42001,ISO 42001,source,A.5.5,ISO/IEC 42001 Annex A A.5.5,clear
+MR-029,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-029,cisco,Cisco,crosscheck,AISubtech-15.1.18,Safety Harms and Toxicity: Weapons / CBRN Risks,clear
+MR-029,nist_genai,NIST GenAI,crosscheck,GENAI.1,CBRN Information or Capabilities,clear
+MR-030,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-030,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-030,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-030,eu_ai_act,EU AI Act,source,Art. 5(a),Art. 5(a),clear
+MR-030,eu_ai_act,EU AI Act,source,Art. 5(b),Art. 5(b),clear
+MR-030,owasp_asi,OWASP Agentic,crosscheck,ASI09,Human-Agent Trust Exploitation,clear
+MR-031,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-031,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-031,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-031,eu_ai_act,EU AI Act,source,Art. 50(4),Art. 50(4),clear
+MR-031,mitre_atlas,MITRE ATLAS,source,AML.T0073,Impersonation,sub
+MR-031,mitre_atlas,MITRE ATLAS,source,AML.T0088,Generate Deepfakes,sub
+MR-031,ibm_atlas,IBM,crosscheck,ibm-nonconsensual-use,Nonconsensual use,clear
+MR-031,cisco,Cisco,crosscheck,AISubtech-3.1.1,Identity Obfuscation,partial
+MR-031,nist_genai,NIST GenAI,crosscheck,GENAI.8,Information Integrity,clear
+MR-032,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-032,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-032,iso_42001,ISO 42001,source,A.9.2,ISO/IEC 42001 Annex A A.9.2,clear
+MR-032,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-032,ibm_atlas,IBM,crosscheck,ibm-dangerous-use,Dangerous use,clear
+MR-032,cisco,Cisco,crosscheck,AISubtech-15.1.10,Safety Harms and Toxicity: Non-Violent Crime,partial
+MR-032,cisco,Cisco,crosscheck,AISubtech-18.2.1,Abuse of APIs for Mass Automation,partial
+MR-032,cisco,Cisco,crosscheck,AISubtech-18.2.2,Dedicated Malicious Server or Infrastructure,partial
+MR-032,nist_aml,NIST AML,crosscheck,NISTAML.04,Misuse Violations,clear
+MR-033,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-033,iso_42001,ISO 42001,source,A.5.5,ISO/IEC 42001 Annex A A.5.5,clear
+MR-033,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-033,eu_ai_act,EU AI Act,source,Art. 26(10),Art. 26(10),clear
+MR-033,eu_ai_act,EU AI Act,source,Art. 5(e),Art. 5(e),clear
+MR-033,eu_ai_act,EU AI Act,source,Art. 50(3),Art. 50(3),clear
+MR-033,cisco,Cisco,crosscheck,AISubtech-16.1.1,Logging Sensitive Conversations,partial
+MR-034,iso_23894,ISO 23894,source,A.12,ISO/IEC 23894 Annex A A.12,clear
+MR-034,iso_23894,ISO 23894,source,A.3,ISO/IEC 23894 Annex A A.3,clear
+MR-034,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-034,ibm_atlas,IBM,crosscheck,ibm-over-or-under-reliance,Over- or under-reliance,clear
+MR-034,ibm_atlas,IBM,crosscheck,ibm-over-or-under-reliance-on-ai-agents,Over- or under-reliance on AI agents,clear
+MR-034,nist_genai,NIST GenAI,crosscheck,GENAI.7,Human-AI Configuration,clear
+MR-034,owasp_llm,OWASP LLM,crosscheck,LLM09:2025,Misinformation,clear
+MR-034,owasp_asi,OWASP Agentic,crosscheck,ASI09,Human-Agent Trust Exploitation,clear
+MR-035,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-035,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-035,ibm_atlas,IBM,crosscheck,ibm-ai-agents-impact-on-human-agency,AI agents' impact on human agency,clear
+MR-035,ibm_atlas,IBM,crosscheck,ibm-ai-agents-impact-on-human-agency-2,AI agents' Impact on human agency,clear
+MR-035,nist_genai,NIST GenAI,crosscheck,GENAI.7,Human-AI Configuration,clear
+MR-036,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-036,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-036,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-036,ibm_atlas,IBM,crosscheck,ibm-impact-on-human-dignity,Impact on human dignity,partial
+MR-036,nist_genai,NIST GenAI,crosscheck,GENAI.7,Human-AI Configuration,clear
+MR-036,owasp_asi,OWASP Agentic,crosscheck,ASI09,Human-Agent Trust Exploitation,clear
+MR-037,iso_23894,ISO 23894,source,A.5,ISO/IEC 23894 Annex A A.5,clear
+MR-037,iso_42001,ISO 42001,source,A.4.5,ISO/IEC 42001 Annex A A.4.5,clear
+MR-037,ibm_atlas,IBM,crosscheck,ibm-ai-agents-impact-on-environment,AI agents' impact on environment,clear
+MR-037,ibm_atlas,IBM,crosscheck,ibm-impact-on-the-environment,Impact on the environment,clear
+MR-037,ibm_atlas,IBM,crosscheck,ibm-redundant-actions,Redundant actions,partial
+MR-037,nist_genai,NIST GenAI,crosscheck,GENAI.5,Environmental Impacts,clear
+MR-038,iso_42001,ISO 42001,source,A.5.5,ISO/IEC 42001 Annex A A.5.5,clear
+MR-038,ibm_atlas,IBM,crosscheck,ibm-ai-agents-impact-on-jobs,AI agents' impact on jobs,clear
+MR-038,ibm_atlas,IBM,crosscheck,ibm-impact-on-jobs,Impact on Jobs,clear
+MR-039,iso_23894,ISO 23894,source,A.8,ISO/IEC 23894 Annex A A.8,clear
+MR-039,iso_42001,ISO 42001,source,A.7.3,ISO/IEC 42001 Annex A A.7.3,clear
+MR-039,iso_42001,ISO 42001,source,A.7.5,ISO/IEC 42001 Annex A A.7.5,clear
+MR-039,eu_ai_act,EU AI Act,source,Art. 53 (provider),Art. 53 (provider),clear
+MR-039,eu_ai_act,EU AI Act,source,CoP Copyright Ch. Commitment 1,CoP Copyright Ch. Commitment 1,clear
+MR-039,ibm_atlas,IBM,crosscheck,ibm-copyright-infringement,Copyright infringement,clear
+MR-039,ibm_atlas,IBM,crosscheck,ibm-data-usage-rights-restrictions,Data usage rights restrictions,clear
+MR-039,ibm_atlas,IBM,crosscheck,ibm-generated-content-ownership-and-ip,Generated content ownership and IP,clear
+MR-039,cisco,Cisco,crosscheck,AISubtech-15.1.23,Intellectual Property Compromise: Intellectual Property Infringement,clear
+MR-039,nist_genai,NIST GenAI,crosscheck,GENAI.10,Intellectual Property,clear
+MR-040,iso_23894,ISO 23894,source,A.2,ISO/IEC 23894 Annex A A.2,clear
+MR-040,iso_42001,ISO 42001,source,A.10.4,ISO/IEC 42001 Annex A A.10.4,clear
+MR-040,iso_42001,ISO 42001,source,A.2.3,ISO/IEC 42001 Annex A A.2.3,clear
+MR-040,iso_42001,ISO 42001,source,A.8.5,ISO/IEC 42001 Annex A A.8.5,clear
+MR-040,eu_ai_act,EU AI Act,source,(umbrella for all EU AI Act obligations),(umbrella for all EU AI Act obligations),clear
+MR-040,eu_ai_act,EU AI Act,source,Art. 26(12),Art. 26(12),clear
+MR-040,ibm_atlas,IBM,crosscheck,ibm-model-usage-rights-restrictions,Model usage rights restrictions,partial
+MR-041,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-041,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-041,ibm_atlas,IBM,crosscheck,ibm-impact-on-education-bypassing-learning,Impact on education: bypassing learning,clear
+MR-041,ibm_atlas,IBM,crosscheck,ibm-impact-on-education-plagiarism,Impact on education: plagiarism,clear
+MR-042,iso_23894,ISO 23894,source,A.2,ISO/IEC 23894 Annex A A.2,clear
+MR-042,iso_42001,ISO 42001,source,A.10.2,ISO/IEC 42001 Annex A A.10.2,clear
+MR-042,iso_42001,ISO 42001,source,A.3.2,ISO/IEC 42001 Annex A A.3.2,clear
+MR-042,ibm_atlas,IBM,crosscheck,ibm-accountability-of-ai-agent-actions,Accountability of AI agent actions,clear
+MR-042,ibm_atlas,IBM,crosscheck,ibm-legal-accountability,Legal accountability,clear
+MR-043,iso_23894,ISO 23894,source,A.2,ISO/IEC 23894 Annex A A.2,clear
+MR-043,iso_42001,ISO 42001,source,A.2.2,ISO/IEC 42001 Annex A A.2.2,clear
+MR-043,iso_42001,ISO 42001,source,A.2.3,ISO/IEC 42001 Annex A A.2.3,clear
+MR-043,iso_42001,ISO 42001,source,A.2.4,ISO/IEC 42001 Annex A A.2.4,clear
+MR-043,iso_42001,ISO 42001,source,A.6.1.2,ISO/IEC 42001 Annex A A.6.1.2,clear
+MR-043,iso_42001,ISO 42001,source,A.9.2,ISO/IEC 42001 Annex A A.9.2,clear
+MR-043,iso_42001,ISO 42001,source,A.9.3,ISO/IEC 42001 Annex A A.9.3,clear
+MR-043,eu_ai_act,EU AI Act,source,Art. 9,Art. 9,clear
+MR-043,ibm_atlas,IBM,crosscheck,ibm-ai-agent-compliance,AI agent compliance,partial
+MR-044,iso_42001,ISO 42001,source,A.10.3,ISO/IEC 42001 Annex A A.10.3,clear
+MR-044,ibm_atlas,IBM,crosscheck,ibm-human-exploitation,Human exploitation,clear
+MR-045,iso_23894,ISO 23894,source,A.12,ISO/IEC 23894 Annex A A.12,clear
+MR-045,iso_42001,ISO 42001,source,A.4.2,ISO/IEC 42001 Annex A A.4.2,clear
+MR-045,iso_42001,ISO 42001,source,A.6.2.3,ISO/IEC 42001 Annex A A.6.2.3,clear
+MR-045,iso_42001,ISO 42001,source,A.6.2.7,ISO/IEC 42001 Annex A A.6.2.7,clear
+MR-045,iso_42001,ISO 42001,source,A.7.5,ISO/IEC 42001 Annex A A.7.5,clear
+MR-045,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-045,eu_ai_act,EU AI Act,source,Art. 13,Art. 13,clear
+MR-045,eu_ai_act,EU AI Act,source,CoP Transparency Ch. Measure 1.2,CoP Transparency Ch. Measure 1.2,clear
+MR-045,ibm_atlas,IBM,crosscheck,ibm-lack-of-ai-agent-transparency,Lack of AI agent transparency,clear
+MR-045,ibm_atlas,IBM,crosscheck,ibm-lack-of-data-transparency,Lack of data transparency,clear
+MR-045,ibm_atlas,IBM,crosscheck,ibm-lack-of-model-transparency,Lack of model transparency,clear
+MR-045,ibm_atlas,IBM,crosscheck,ibm-lack-of-system-transparency,Lack of system transparency,clear
+MR-045,ibm_atlas,IBM,crosscheck,ibm-lack-of-training-data-transparency,Lack of training data transparency,clear
+MR-045,ibm_atlas,IBM,crosscheck,ibm-uncertain-data-provenance,Uncertain data provenance,clear
+MR-045,nist_genai,NIST GenAI,crosscheck,GENAI.12,Value Chain and Component Integration,clear
+MR-046,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-046,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-046,eu_ai_act,EU AI Act,source,Art. 15,Art. 15,clear
+MR-046,eu_ai_act,EU AI Act,source,Art. 9,Art. 9,clear
+MR-046,eu_ai_act,EU AI Act,source,CoP S&S Ch. Commitments 2-5,CoP S&S Ch. Commitments 2-5,clear
+MR-046,ibm_atlas,IBM,crosscheck,ibm-incomplete-ai-agent-evaluation,Incomplete AI agent evaluation,clear
+MR-046,ibm_atlas,IBM,crosscheck,ibm-incorrect-risk-testing,Incorrect risk testing,clear
+MR-046,ibm_atlas,IBM,crosscheck,ibm-lack-of-testing-diversity,Lack of testing diversity,clear
+MR-046,ibm_atlas,IBM,crosscheck,ibm-reproducibility,Reproducibility,partial
+MR-046,ibm_atlas,IBM,crosscheck,ibm-unrepresentative-risk-testing,Unrepresentative risk testing,clear
+MR-047,iso_42001,ISO 42001,source,A.10.3,ISO/IEC 42001 Annex A A.10.3,clear
+MR-047,nist_genai,NIST GenAI,crosscheck,GENAI.6,Harmful Bias or Homogenization,clear
+MR-047,owasp_asi,OWASP Agentic,crosscheck,ASI08,Cascading Failures,clear
+MR-048,iso_23894,ISO 23894,source,A.3,ISO/IEC 23894 Annex A A.3,clear
+MR-048,iso_42001,ISO 42001,source,A.3.2,ISO/IEC 42001 Annex A A.3.2,clear
+MR-048,iso_42001,ISO 42001,source,A.4.6,ISO/IEC 42001 Annex A A.4.6,clear
+MR-048,eu_ai_act,EU AI Act,source,Art. 4,Art. 4,clear
+MR-048,ibm_atlas,IBM,crosscheck,ibm-lack-of-domain-expertise,Lack of domain expertise,partial
+MR-049,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-049,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-049,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-050,iso_23894,ISO 23894,source,A.4,ISO/IEC 23894 Annex A A.4,clear
+MR-050,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-050,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-050,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-050,eu_ai_act,EU AI Act,source,Art. 15,Art. 15,clear
+MR-050,ibm_atlas,IBM,crosscheck,ibm-poor-model-accuracy,Poor model accuracy,clear
+MR-051,iso_23894,ISO 23894,source,A.2,ISO/IEC 23894 Annex A A.2,clear
+MR-051,iso_42001,ISO 42001,source,A.5.4,ISO/IEC 42001 Annex A A.5.4,clear
+MR-051,iso_42001,ISO 42001,source,A.6.1.2,ISO/IEC 42001 Annex A A.6.1.2,clear
+MR-051,ibm_atlas,IBM,crosscheck,ibm-misaligned-actions,Misaligned actions,clear
+MR-052,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-052,iso_23894,ISO 23894,source,A.11,ISO/IEC 23894 Annex A A.11,clear
+MR-052,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-052,eu_ai_act,EU AI Act,source,CoP S&S Ch. Commitments 2-5,CoP S&S Ch. Commitments 2-5,clear
+MR-053,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-053,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-054,iso_23894,ISO 23894,source,A.2,ISO/IEC 23894 Annex A A.2,clear
+MR-054,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-054,iso_42001,ISO 42001,source,A.9.2,ISO/IEC 42001 Annex A A.9.2,clear
+MR-054,eu_ai_act,EU AI Act,source,Art. 14,Art. 14,clear
+MR-054,eu_ai_act,EU AI Act,source,Art. 26(2),Art. 26(2),clear
+MR-055,iso_23894,ISO 23894,source,A.12,ISO/IEC 23894 Annex A A.12,clear
+MR-055,iso_42001,ISO 42001,source,A.6.2.7,ISO/IEC 42001 Annex A A.6.2.7,clear
+MR-055,iso_42001,ISO 42001,source,A.8.2,ISO/IEC 42001 Annex A A.8.2,clear
+MR-055,eu_ai_act,EU AI Act,source,Art. 13,Art. 13,clear
+MR-055,eu_ai_act,EU AI Act,source,Art. 26(11),Art. 26(11),clear
+MR-055,eu_ai_act,EU AI Act,source,Art. 50,Art. 50,clear
+MR-055,ibm_atlas,IBM,crosscheck,ibm-inaccessible-training-data,Inaccessible training data,clear
+MR-055,ibm_atlas,IBM,crosscheck,ibm-unexplainable-and-untraceable-actions,Unexplainable and untraceable actions,clear
+MR-055,ibm_atlas,IBM,crosscheck,ibm-unexplainable-output,Unexplainable output,clear
+MR-055,ibm_atlas,IBM,crosscheck,ibm-unreliable-source-attribution,Unreliable source attribution,clear
+MR-055,ibm_atlas,IBM,crosscheck,ibm-untraceable-attribution,Untraceable attribution,clear
+MR-056,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-056,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-056,eu_ai_act,EU AI Act,source,Art. 15,Art. 15,clear
+MR-056,ibm_atlas,IBM,crosscheck,ibm-overfitting,Overfitting,partial
+MR-057,iso_23894,ISO 23894,source,A.10,ISO/IEC 23894 Annex A A.10,clear
+MR-057,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-057,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-057,owasp_asi,OWASP Agentic,crosscheck,ASI07,Insecure Inter-Agent Communication,clear
+MR-057,owasp_asi,OWASP Agentic,crosscheck,ASI08,Cascading Failures,clear
+MR-058,iso_23894,ISO 23894,source,A.7,ISO/IEC 23894 Annex A A.7,clear
+MR-058,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-058,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-058,ibm_atlas,IBM,crosscheck,ibm-improper-retraining,Improper retraining,partial
+MR-059,iso_23894,ISO 23894,source,A.4,ISO/IEC 23894 Annex A A.4,clear
+MR-059,iso_42001,ISO 42001,source,A.7.4,ISO/IEC 42001 Annex A A.7.4,clear
+MR-059,iso_42001,ISO 42001,source,A.7.6,ISO/IEC 42001 Annex A A.7.6,clear
+MR-059,eu_ai_act,EU AI Act,source,Art. 10,Art. 10,clear
+MR-059,eu_ai_act,EU AI Act,source,Art. 26(4),Art. 26(4),clear
+MR-059,ibm_atlas,IBM,crosscheck,ibm-data-contamination,Data contamination,clear
+MR-059,ibm_atlas,IBM,crosscheck,ibm-improper-data-curation,Improper data curation,clear
+MR-059,ibm_atlas,IBM,crosscheck,ibm-introduce-data-bias,Introduce data bias,partial
+MR-059,ibm_atlas,IBM,crosscheck,ibm-temporal-gap,Temporal gap,partial
+MR-059,ibm_atlas,IBM,crosscheck,ibm-unrepresentative-data,Unrepresentative data,clear
+MR-060,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-060,iso_42001,ISO 42001,source,A.6.2.2,ISO/IEC 42001 Annex A A.6.2.2,clear
+MR-060,iso_42001,ISO 42001,source,A.9.4,ISO/IEC 42001 Annex A A.9.4,clear
+MR-060,eu_ai_act,EU AI Act,source,Art. 26(1),Art. 26(1),clear
+MR-060,ibm_atlas,IBM,crosscheck,ibm-improper-usage,Improper usage,clear
+MR-060,ibm_atlas,IBM,crosscheck,ibm-incomplete-usage-definition,Incomplete usage definition,partial
+MR-061,iso_23894,ISO 23894,source,A.9,ISO/IEC 23894 Annex A A.9,clear
+MR-061,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-062,iso_42001,ISO 42001,source,A.2.2,ISO/IEC 42001 Annex A A.2.2,clear
+MR-062,iso_42001,ISO 42001,source,A.9.2,ISO/IEC 42001 Annex A A.9.2,clear
+MR-063,iso_42001,ISO 42001,source,A.3.2,ISO/IEC 42001 Annex A A.3.2,clear
+MR-063,iso_42001,ISO 42001,source,A.4.2,ISO/IEC 42001 Annex A A.4.2,clear
+MR-063,eu_ai_act,EU AI Act,source,Art. 26(8),Art. 26(8),clear
+MR-063,eu_ai_act,EU AI Act,source,Art. 49,Art. 49,clear
+MR-064,iso_42001,ISO 42001,source,A.10.3,ISO/IEC 42001 Annex A A.10.3,clear
+MR-064,iso_42001,ISO 42001,source,A.4.2,ISO/IEC 42001 Annex A A.4.2,clear
+MR-064,nist_genai,NIST GenAI,crosscheck,GENAI.12,Value Chain and Component Integration,clear
+MR-065,iso_42001,ISO 42001,source,A.10.3,ISO/IEC 42001 Annex A A.10.3,clear
+MR-065,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-065,eu_ai_act,EU AI Act,source,CoP S&S Ch. Commitments 1-10,CoP S&S Ch. Commitments 1-10,clear
+MR-065,eu_ai_act,EU AI Act,source,CoP Transparency Ch. Commitment 1,CoP Transparency Ch. Commitment 1,clear
+MR-066,iso_42001,ISO 42001,source,A.6.2.4,ISO/IEC 42001 Annex A A.6.2.4,clear
+MR-066,iso_42001,ISO 42001,source,A.6.2.6,ISO/IEC 42001 Annex A A.6.2.6,clear
+MR-066,ibm_atlas,IBM,crosscheck,ibm-mitigation-and-maintenance,Mitigation and maintenance,partial
+MR-067,iso_42001,ISO 42001,source,A.5.2,ISO/IEC 42001 Annex A A.5.2,clear
+MR-067,iso_42001,ISO 42001,source,A.5.5,ISO/IEC 42001 Annex A A.5.5,clear
+MR-067,eu_ai_act,EU AI Act,source,Art. 27,Art. 27,clear
+MR-067,ibm_atlas,IBM,crosscheck,ibm-impact-on-affected-communities,Impact on affected communities,partial
+MR-068,iso_42001,ISO 42001,source,A.3.3,ISO/IEC 42001 Annex A A.3.3,clear
+MR-068,iso_42001,ISO 42001,source,A.8.3,ISO/IEC 42001 Annex A A.8.3,clear
+MR-068,iso_42001,ISO 42001,source,A.8.4,ISO/IEC 42001 Annex A A.8.4,clear
+MR-068,eu_ai_act,EU AI Act,source,Art. 26(5),Art. 26(5),clear
+MR-068,eu_ai_act,EU AI Act,source,Art. 72,Art. 72,clear
+MR-068,eu_ai_act,EU AI Act,source,Art. 73,Art. 73,clear
+MR-068,eu_ai_act,EU AI Act,source,CoP S&S Ch. Commitment 9,CoP S&S Ch. Commitment 9,clear
+MR-069,iso_42001,ISO 42001,source,A.6.2.8,ISO/IEC 42001 Annex A A.6.2.8,clear
+MR-069,eu_ai_act,EU AI Act,source,Art. 12,Art. 12,clear
+MR-069,eu_ai_act,EU AI Act,source,Art. 26(6),Art. 26(6),clear
+MR-070,iso_42001,ISO 42001,source,A.4.6,ISO/IEC 42001 Annex A A.4.6,clear
+MR-070,iso_42001,ISO 42001,source,A.6,ISO/IEC 42001 Annex A A.6,clear
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0053,AI Agent Tool Invocation,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0080,AI Agent Context Poisoning,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0080.000,Memory,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0080.001,Thread,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0081,Modify AI Agent Configuration,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0082,RAG Credential Harvesting,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0083,Credentials from AI Agent Configuration,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0086,Exfiltration via AI Agent Tool Invocation,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0098,AI Agent Tool Credential Harvesting,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0099,AI Agent Tool Data Poisoning,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0100,AI Agent Clickbait,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0101,Data Destruction via AI Agent Tool Invocation,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0103,Deploy AI Agent,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0108,AI Agent,sub
+MR-071,mitre_atlas,MITRE ATLAS,source,AML.T0110,AI Agent Tool Poisoning,sub
+MR-071,ibm_atlas,IBM,crosscheck,ibm-exploit-trust-mismatch,Exploit trust mismatch,clear
+MR-071,ibm_atlas,IBM,crosscheck,ibm-unauthorized-use,Unauthorized use,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-1.3.1,"Goal Manipulation (Models, Agents)",partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-1.3.2,"Goal Manipulation (Tools, Prompts, Resources)",partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-14.2.1,Permission Escalation via Delegation,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-3.1.2,Trusted Agent Spoofing,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.1.1,Rogue Agent Introduction,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.2.1,Context Window Exploitation,partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.2.2,Session Boundary Violation,partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.3.1,Schema Inconsistencies,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.3.2,Namespace Collision,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.3.3,Server Rebinding Attack,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.3.4,Replay Exploitation,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.3.5,Capability Inflation,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-4.3.6,Cross-Origin Exploitation,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-5.1.1,Long-term / Short-term Memory Injection,partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-5.2.1,Agent Profile Tampering,clear
+MR-071,cisco,Cisco,crosscheck,AISubtech-7.2.1,Memory Anchor Attacks,partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-7.2.2,Memory Index Manipulation,partial
+MR-071,cisco,Cisco,crosscheck,AISubtech-8.2.3,Data Exfiltration via Agent Tooling,clear
+MR-071,nist_aml,NIST AML,crosscheck,NISTAML.039,Compromising connected resources,clear
+MR-071,owasp_llm,OWASP LLM,crosscheck,LLM06:2025,Excessive Agency,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI01,Agent Goal Hijack,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI02,Tool Misuse and Exploitation,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI03,Identity and Privilege Abuse,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI04,Agentic Supply Chain Vulnerabilities,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI05,Unexpected Code Execution (RCE),clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI06,Memory and Context Poisoning,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI07,Insecure Inter-Agent Communication,clear
+MR-071,owasp_asi,OWASP Agentic,crosscheck,ASI10,Rogue Agents,clear
+MR-072,eu_ai_act,EU AI Act,source,Art. 27,Art. 27,clear
+MR-073,eu_ai_act,EU AI Act,source,Art. 26(7),Art. 26(7),clear
+MR-074,eu_ai_act,EU AI Act,source,Art. 26(8),Art. 26(8),clear
+MR-074,eu_ai_act,EU AI Act,source,Art. 49,Art. 49,clear
+MR-074,eu_ai_act,EU AI Act,source,Art. 71,Art. 71,clear
+MR-075,eu_ai_act,EU AI Act,source,Art. 26(11),Art. 26(11),clear
+MR-076,eu_ai_act,EU AI Act,source,Art. 26(5),Art. 26(5),clear
+MR-076,eu_ai_act,EU AI Act,source,Art. 72,Art. 72,clear
+MR-076,eu_ai_act,EU AI Act,source,Art. 73,Art. 73,clear
+MR-077,eu_ai_act,EU AI Act,source,Art. 5,Art. 5,clear
+MR-078,eu_ai_act,EU AI Act,source,Art. 50(3),Art. 50(3),clear
+MR-078,eu_ai_act,EU AI Act,source,Art. 50(4),Art. 50(4),clear
+MR-078,ibm_atlas,IBM,crosscheck,ibm-non-disclosure,Non-disclosure,clear
+MR-079,eu_ai_act,EU AI Act,source,Art. 4,Art. 4,clear
+MR-080,eu_ai_act,EU AI Act,source,"CoP GPAI Code of Practice, Transparency Chapter, Commitment 1 (Measures 1.1-1.3)","CoP GPAI Code of Practice, Transparency Chapter, Commitment 1 (Measures 1.1-1.3)",clear
+MR-081,eu_ai_act,EU AI Act,source,"CoP GPAI Code of Practice, Copyright Chapter, Commitment 1 (Measures 1.1-1.5)","CoP GPAI Code of Practice, Copyright Chapter, Commitment 1 (Measures 1.1-1.5)",clear
+MR-082,eu_ai_act,EU AI Act,source,"CoP GPAI Code of Practice, Safety and Security Chapter, Commitments 1-10","CoP GPAI Code of Practice, Safety and Security Chapter, Commitments 1-10",clear

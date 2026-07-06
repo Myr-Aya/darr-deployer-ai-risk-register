@@ -1,0 +1,38 @@
+LICENSE
+
+The Deployer AI Risk Register dataset and register content are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0). The full legal code
+is at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Copyright 2026 MindXO.
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format.
+  - Adapt: remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following term:
+  - Attribution: give appropriate credit, provide a link to the license, and
+    indicate if changes were made. You may do so in any reasonable manner, but
+    not in any way that suggests the licensor endorses you or your use.
+
+Required attribution:
+
+  "Deployer AI Risk Register, an open-source AI risk register by MindXO
+  (https://www.mind-xo.com), licensed under CC BY 4.0. Derived from the MIT AI
+  Risk Repository (V4, December 2025), used under CC BY 4.0; an independent
+  derivative work, not endorsed by or affiliated with MIT."
+
+Third-party sources referenced by this work retain their own licenses:
+  - MIT AI Risk Repository (CC BY 4.0)
+  - MITRE ATLAS v5.6.0. Copyright 2021-2026 The MITRE Corporation. Reproduced and
+    distributed with the permission of The MITRE Corporation, under the
+    non-exclusive, royalty-free license in the ATLAS Terms of Use
+    (https://atlas.mitre.org/terms). MITRE ATLAS is a trademark of The MITRE
+    Corporation; its use does not imply MITRE's endorsement.
+  - ISO/IEC 23894:2023 and ISO/IEC 42001:2023 (referenced by number only)
+  - EU AI Act (Regulation (EU) 2024/1689) and the GPAI Code of Practice
+    (referenced by article and commitment number only)
+  - IBM AI Risk Atlas and Cisco AI Security Framework (Apache 2.0)
+  - NIST AI 100-2 and AI 600-1 (US public domain)
+  - OWASP Top 10 for LLM and for Agentic Applications (CC BY-SA 4.0)

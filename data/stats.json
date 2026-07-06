@@ -1,0 +1,19 @@
+{
+ "risks": 82,
+ "risks_mit": 61,
+ "risks_iso": 9,
+ "risks_atlas": 1,
+ "risks_eu": 11,
+ "subrisks": 61,
+ "parents_with_subrisks": 12,
+ "register_rows": 143,
+ "mit_entries_processed": 1835,
+ "coverage_checks": [
+  "IBM AI Risk Atlas (99 risks)",
+  "Cisco AI Security Framework (112 threats)",
+  "NIST AI 100-2",
+  "OWASP Top 10 for LLM Applications",
+  "OWASP Top 10 for Agentic Applications",
+  "NIST Generative AI Profile (AI 600-1)"
+ ]
+}

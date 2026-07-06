@@ -1,0 +1,6327 @@
+{
+ "frameworks": [
+  {
+   "id": "iso_23894",
+   "short": "ISO 23894",
+   "name": "ISO/IEC 23894 (numbers only)",
+   "role": "source",
+   "direction": "outbound",
+   "license": "Licensed (numbers + paraphrase only)",
+   "domain": "iso.org",
+   "item_count": 11,
+   "mapped_risk_count": 58
+  },
+  {
+   "id": "iso_42001",
+   "short": "ISO 42001",
+   "name": "ISO/IEC 42001 Annex A (numbers only)",
+   "role": "source",
+   "direction": "outbound",
+   "license": "Licensed (numbers + paraphrase only)",
+   "domain": "iso.org",
+   "item_count": 36,
+   "mapped_risk_count": 70
+  },
+  {
+   "id": "eu_ai_act",
+   "short": "EU AI Act",
+   "name": "EU AI Act 2024/1689 + GPAI Code of Practice (deployer)",
+   "role": "source",
+   "direction": "outbound",
+   "license": "Official EU law (citable)",
+   "domain": "europa.eu",
+   "item_count": 43,
+   "mapped_risk_count": 36
+  },
+  {
+   "id": "mitre_atlas",
+   "short": "MITRE ATLAS",
+   "name": "MITRE ATLAS v5.6.0",
+   "role": "source",
+   "direction": "inbound",
+   "license": "MITRE (open)",
+   "domain": "mitre.org",
+   "item_count": 170,
+   "mapped_risk_count": 12
+  },
+  {
+   "id": "ibm_atlas",
+   "short": "IBM",
+   "name": "IBM AI Risk Atlas",
+   "role": "crosscheck",
+   "direction": "inbound",
+   "license": "Apache 2.0",
+   "domain": "ibm.com",
+   "item_count": 99,
+   "mapped_risk_count": 45
+  },
+  {
+   "id": "cisco",
+   "short": "Cisco",
+   "name": "Cisco AI Security Framework",
+   "role": "crosscheck",
+   "direction": "inbound",
+   "license": "Apache 2.0",
+   "domain": "cisco.com",
+   "item_count": 112,
+   "mapped_risk_count": 27
+  },
+  {
+   "id": "nist_aml",
+   "short": "NIST AML",
+   "name": "NIST AI 100-2e2025 Adversarial ML",
+   "role": "crosscheck",
+   "direction": "inbound",
+   "license": "US public domain",
+   "domain": "nist.gov",
+   "item_count": 28,
+   "mapped_risk_count": 12
+  },
+  {
+   "id": "nist_genai",
+   "short": "NIST GenAI",
+   "name": "NIST AI 600-1 Generative AI Profile",
+   "role": "crosscheck",
+   "direction": "inbound",
+   "license": "US public domain",
+   "domain": "nist.gov",
+   "item_count": 12,
+   "mapped_risk_count": 26
+  },
+  {
+   "id": "owasp_llm",
+   "short": "OWASP LLM",
+   "name": "OWASP Top 10 for LLM Applications 2025",
+   "role": "crosscheck",
+   "direction": "inbound",
+   "license": "CC BY-SA 4.0",
+   "domain": "owasp.org",
+   "item_count": 10,
+   "mapped_risk_count": 12
+  },
+  {
+   "id": "owasp_asi",
+   "short": "OWASP Agentic",
+   "name": "OWASP Top 10 for Agentic Applications 2026",
+   "role": "crosscheck",
+   "direction": "inbound",
+   "license": "CC BY-SA 4.0",
+   "domain": "owasp.org",
+   "item_count": 10,
+   "mapped_risk_count": 10
+  }
+ ],
+ "items": {
+  "iso_23894": [
+   {
+    "id": "A.6",
+    "name": "ISO/IEC 23894 Annex A A.6",
+    "def": ""
+   },
+   {
+    "id": "A.10",
+    "name": "ISO/IEC 23894 Annex A A.10",
+    "def": ""
+   },
+   {
+    "id": "A.9",
+    "name": "ISO/IEC 23894 Annex A A.9",
+    "def": ""
+   },
+   {
+    "id": "A.8",
+    "name": "ISO/IEC 23894 Annex A A.8",
+    "def": ""
+   },
+   {
+    "id": "A.11",
+    "name": "ISO/IEC 23894 Annex A A.11",
+    "def": ""
+   },
+   {
+    "id": "A.4",
+    "name": "ISO/IEC 23894 Annex A A.4",
+    "def": ""
+   },
+   {
+    "id": "A.12",
+    "name": "ISO/IEC 23894 Annex A A.12",
+    "def": ""
+   },
+   {
+    "id": "A.3",
+    "name": "ISO/IEC 23894 Annex A A.3",
+    "def": ""
+   },
+   {
+    "id": "A.5",
+    "name": "ISO/IEC 23894 Annex A A.5",
+    "def": ""
+   },
+   {
+    "id": "A.2",
+    "name": "ISO/IEC 23894 Annex A A.2",
+    "def": ""
+   },
+   {
+    "id": "A.7",
+    "name": "ISO/IEC 23894 Annex A A.7",
+    "def": ""
+   }
+  ],
+  "iso_42001": [
+   {
+    "id": "A.5.4",
+    "name": "ISO/IEC 42001 Annex A A.5.4",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.4",
+    "name": "ISO/IEC 42001 Annex A A.6.2.4",
+    "def": ""
+   },
+   {
+    "id": "A.7.4",
+    "name": "ISO/IEC 42001 Annex A A.7.4",
+    "def": ""
+   },
+   {
+    "id": "A.7.5",
+    "name": "ISO/IEC 42001 Annex A A.7.5",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.6",
+    "name": "ISO/IEC 42001 Annex A A.6.2.6",
+    "def": ""
+   },
+   {
+    "id": "A.7.3",
+    "name": "ISO/IEC 42001 Annex A A.7.3",
+    "def": ""
+   },
+   {
+    "id": "A.7.2",
+    "name": "ISO/IEC 42001 Annex A A.7.2",
+    "def": ""
+   },
+   {
+    "id": "A.8.2",
+    "name": "ISO/IEC 42001 Annex A A.8.2",
+    "def": ""
+   },
+   {
+    "id": "A.4.5",
+    "name": "ISO/IEC 42001 Annex A A.4.5",
+    "def": ""
+   },
+   {
+    "id": "A.10.3",
+    "name": "ISO/IEC 42001 Annex A A.10.3",
+    "def": ""
+   },
+   {
+    "id": "A.4.4",
+    "name": "ISO/IEC 42001 Annex A A.4.4",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.5",
+    "name": "ISO/IEC 42001 Annex A A.6.2.5",
+    "def": ""
+   },
+   {
+    "id": "A.9.4",
+    "name": "ISO/IEC 42001 Annex A A.9.4",
+    "def": ""
+   },
+   {
+    "id": "A.5.5",
+    "name": "ISO/IEC 42001 Annex A A.5.5",
+    "def": ""
+   },
+   {
+    "id": "A.9.2",
+    "name": "ISO/IEC 42001 Annex A A.9.2",
+    "def": ""
+   },
+   {
+    "id": "A.10.4",
+    "name": "ISO/IEC 42001 Annex A A.10.4",
+    "def": ""
+   },
+   {
+    "id": "A.2.3",
+    "name": "ISO/IEC 42001 Annex A A.2.3",
+    "def": ""
+   },
+   {
+    "id": "A.8.5",
+    "name": "ISO/IEC 42001 Annex A A.8.5",
+    "def": ""
+   },
+   {
+    "id": "A.10.2",
+    "name": "ISO/IEC 42001 Annex A A.10.2",
+    "def": ""
+   },
+   {
+    "id": "A.3.2",
+    "name": "ISO/IEC 42001 Annex A A.3.2",
+    "def": ""
+   },
+   {
+    "id": "A.2.2",
+    "name": "ISO/IEC 42001 Annex A A.2.2",
+    "def": ""
+   },
+   {
+    "id": "A.2.4",
+    "name": "ISO/IEC 42001 Annex A A.2.4",
+    "def": ""
+   },
+   {
+    "id": "A.6.1.2",
+    "name": "ISO/IEC 42001 Annex A A.6.1.2",
+    "def": ""
+   },
+   {
+    "id": "A.9.3",
+    "name": "ISO/IEC 42001 Annex A A.9.3",
+    "def": ""
+   },
+   {
+    "id": "A.4.2",
+    "name": "ISO/IEC 42001 Annex A A.4.2",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.3",
+    "name": "ISO/IEC 42001 Annex A A.6.2.3",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.7",
+    "name": "ISO/IEC 42001 Annex A A.6.2.7",
+    "def": ""
+   },
+   {
+    "id": "A.4.6",
+    "name": "ISO/IEC 42001 Annex A A.4.6",
+    "def": ""
+   },
+   {
+    "id": "A.7.6",
+    "name": "ISO/IEC 42001 Annex A A.7.6",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.2",
+    "name": "ISO/IEC 42001 Annex A A.6.2.2",
+    "def": ""
+   },
+   {
+    "id": "A.5.2",
+    "name": "ISO/IEC 42001 Annex A A.5.2",
+    "def": ""
+   },
+   {
+    "id": "A.3.3",
+    "name": "ISO/IEC 42001 Annex A A.3.3",
+    "def": ""
+   },
+   {
+    "id": "A.8.3",
+    "name": "ISO/IEC 42001 Annex A A.8.3",
+    "def": ""
+   },
+   {
+    "id": "A.8.4",
+    "name": "ISO/IEC 42001 Annex A A.8.4",
+    "def": ""
+   },
+   {
+    "id": "A.6.2.8",
+    "name": "ISO/IEC 42001 Annex A A.6.2.8",
+    "def": ""
+   },
+   {
+    "id": "A.6",
+    "name": "ISO/IEC 42001 Annex A A.6",
+    "def": ""
+   }
+  ],
+  "eu_ai_act": [
+   {
+    "id": "Art. 10",
+    "name": "Art. 10",
+    "def": ""
+   },
+   {
+    "id": "Art. 5(c)",
+    "name": "Art. 5(c)",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(9)",
+    "name": "Art. 26(9)",
+    "def": ""
+   },
+   {
+    "id": "Art. 15",
+    "name": "Art. 15",
+    "def": ""
+   },
+   {
+    "id": "CoP S&S Ch. Commitment 6",
+    "name": "CoP S&S Ch. Commitment 6",
+    "def": ""
+   },
+   {
+    "id": "Art. 5(a)",
+    "name": "Art. 5(a)",
+    "def": ""
+   },
+   {
+    "id": "Art. 5(b)",
+    "name": "Art. 5(b)",
+    "def": ""
+   },
+   {
+    "id": "Art. 50(4)",
+    "name": "Art. 50(4)",
+    "def": ""
+   },
+   {
+    "id": "Art. 5(e)",
+    "name": "Art. 5(e)",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(10)",
+    "name": "Art. 26(10)",
+    "def": ""
+   },
+   {
+    "id": "Art. 50(3)",
+    "name": "Art. 50(3)",
+    "def": ""
+   },
+   {
+    "id": "Art. 53 (provider)",
+    "name": "Art. 53 (provider)",
+    "def": ""
+   },
+   {
+    "id": "CoP Copyright Ch. Commitment 1",
+    "name": "CoP Copyright Ch. Commitment 1",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(12)",
+    "name": "Art. 26(12)",
+    "def": ""
+   },
+   {
+    "id": "(umbrella for all EU AI Act obligations)",
+    "name": "(umbrella for all EU AI Act obligations)",
+    "def": ""
+   },
+   {
+    "id": "Art. 9",
+    "name": "Art. 9",
+    "def": ""
+   },
+   {
+    "id": "Art. 13",
+    "name": "Art. 13",
+    "def": ""
+   },
+   {
+    "id": "CoP Transparency Ch. Measure 1.2",
+    "name": "CoP Transparency Ch. Measure 1.2",
+    "def": ""
+   },
+   {
+    "id": "CoP S&S Ch. Commitments 2-5",
+    "name": "CoP S&S Ch. Commitments 2-5",
+    "def": ""
+   },
+   {
+    "id": "Art. 4",
+    "name": "Art. 4",
+    "def": ""
+   },
+   {
+    "id": "Art. 14",
+    "name": "Art. 14",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(2)",
+    "name": "Art. 26(2)",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(11)",
+    "name": "Art. 26(11)",
+    "def": ""
+   },
+   {
+    "id": "Art. 50",
+    "name": "Art. 50",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(4)",
+    "name": "Art. 26(4)",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(1)",
+    "name": "Art. 26(1)",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(8)",
+    "name": "Art. 26(8)",
+    "def": ""
+   },
+   {
+    "id": "Art. 49",
+    "name": "Art. 49",
+    "def": ""
+   },
+   {
+    "id": "CoP Transparency Ch. Commitment 1",
+    "name": "CoP Transparency Ch. Commitment 1",
+    "def": ""
+   },
+   {
+    "id": "CoP S&S Ch. Commitments 1-10",
+    "name": "CoP S&S Ch. Commitments 1-10",
+    "def": ""
+   },
+   {
+    "id": "Art. 27",
+    "name": "Art. 27",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(5)",
+    "name": "Art. 26(5)",
+    "def": ""
+   },
+   {
+    "id": "Art. 72",
+    "name": "Art. 72",
+    "def": ""
+   },
+   {
+    "id": "Art. 73",
+    "name": "Art. 73",
+    "def": ""
+   },
+   {
+    "id": "CoP S&S Ch. Commitment 9",
+    "name": "CoP S&S Ch. Commitment 9",
+    "def": ""
+   },
+   {
+    "id": "Art. 12",
+    "name": "Art. 12",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(6)",
+    "name": "Art. 26(6)",
+    "def": ""
+   },
+   {
+    "id": "Art. 26(7)",
+    "name": "Art. 26(7)",
+    "def": ""
+   },
+   {
+    "id": "Art. 71",
+    "name": "Art. 71",
+    "def": ""
+   },
+   {
+    "id": "Art. 5",
+    "name": "Art. 5",
+    "def": ""
+   },
+   {
+    "id": "CoP GPAI Code of Practice, Transparency Chapter, Commitment 1 (Measures 1.1-1.3)",
+    "name": "CoP GPAI Code of Practice, Transparency Chapter, Commitment 1 (Measures 1.1-1.3)",
+    "def": ""
+   },
+   {
+    "id": "CoP GPAI Code of Practice, Copyright Chapter, Commitment 1 (Measures 1.1-1.5)",
+    "name": "CoP GPAI Code of Practice, Copyright Chapter, Commitment 1 (Measures 1.1-1.5)",
+    "def": ""
+   },
+   {
+    "id": "CoP GPAI Code of Practice, Safety and Security Chapter, Commitments 1-10",
+    "name": "CoP GPAI Code of Practice, Safety and Security Chapter, Commitments 1-10",
+    "def": ""
+   }
+  ],
+  "mitre_atlas": [
+   {
+    "id": "AML.T0000",
+    "name": "Search Open Technical Databases",
+    "def": ""
+   },
+   {
+    "id": "AML.T0000.000",
+    "name": "Journals and Conference Proceedings",
+    "def": ""
+   },
+   {
+    "id": "AML.T0000.001",
+    "name": "Pre-Print Repositories",
+    "def": ""
+   },
+   {
+    "id": "AML.T0000.002",
+    "name": "Technical Blogs",
+    "def": ""
+   },
+   {
+    "id": "AML.T0001",
+    "name": "Search Open AI Vulnerability Analysis",
+    "def": ""
+   },
+   {
+    "id": "AML.T0002",
+    "name": "Acquire Public AI Artifacts",
+    "def": ""
+   },
+   {
+    "id": "AML.T0002.000",
+    "name": "Datasets",
+    "def": ""
+   },
+   {
+    "id": "AML.T0002.001",
+    "name": "Models",
+    "def": ""
+   },
+   {
+    "id": "AML.T0002.002",
+    "name": "AI Agent Configuration",
+    "def": ""
+   },
+   {
+    "id": "AML.T0003",
+    "name": "Search Victim-Owned Websites",
+    "def": ""
+   },
+   {
+    "id": "AML.T0004",
+    "name": "Search Application Repositories",
+    "def": ""
+   },
+   {
+    "id": "AML.T0005",
+    "name": "Create Proxy AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0005.000",
+    "name": "Train Proxy via Gathered AI Artifacts",
+    "def": ""
+   },
+   {
+    "id": "AML.T0005.001",
+    "name": "Train Proxy via Replication",
+    "def": ""
+   },
+   {
+    "id": "AML.T0005.002",
+    "name": "Use Pre-Trained Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0006",
+    "name": "Active Scanning",
+    "def": ""
+   },
+   {
+    "id": "AML.T0007",
+    "name": "Discover AI Artifacts",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008",
+    "name": "Acquire Infrastructure",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008.000",
+    "name": "AI Development Workspaces",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008.001",
+    "name": "Consumer Hardware",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008.002",
+    "name": "Domains",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008.003",
+    "name": "Physical Countermeasures",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008.004",
+    "name": "Serverless",
+    "def": ""
+   },
+   {
+    "id": "AML.T0008.005",
+    "name": "AI Service Proxies",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010",
+    "name": "AI Supply Chain Compromise",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010.000",
+    "name": "Hardware",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010.001",
+    "name": "AI Software",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010.002",
+    "name": "Data",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010.003",
+    "name": "Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010.004",
+    "name": "Container Registry",
+    "def": ""
+   },
+   {
+    "id": "AML.T0010.005",
+    "name": "AI Agent Tool",
+    "def": ""
+   },
+   {
+    "id": "AML.T0011",
+    "name": "User Execution",
+    "def": ""
+   },
+   {
+    "id": "AML.T0011.000",
+    "name": "Unsafe AI Artifacts",
+    "def": ""
+   },
+   {
+    "id": "AML.T0011.001",
+    "name": "Malicious Package",
+    "def": ""
+   },
+   {
+    "id": "AML.T0011.002",
+    "name": "Poisoned AI Agent Tool",
+    "def": ""
+   },
+   {
+    "id": "AML.T0011.003",
+    "name": "Malicious Link",
+    "def": ""
+   },
+   {
+    "id": "AML.T0012",
+    "name": "Valid Accounts",
+    "def": ""
+   },
+   {
+    "id": "AML.T0013",
+    "name": "Discover AI Model Ontology",
+    "def": ""
+   },
+   {
+    "id": "AML.T0014",
+    "name": "Discover AI Model Family",
+    "def": ""
+   },
+   {
+    "id": "AML.T0015",
+    "name": "Evade AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0016",
+    "name": "Obtain Capabilities",
+    "def": ""
+   },
+   {
+    "id": "AML.T0016.000",
+    "name": "Adversarial AI Attack Implementations",
+    "def": ""
+   },
+   {
+    "id": "AML.T0016.001",
+    "name": "Software Tools",
+    "def": ""
+   },
+   {
+    "id": "AML.T0016.002",
+    "name": "Generative AI",
+    "def": ""
+   },
+   {
+    "id": "AML.T0017",
+    "name": "Develop Capabilities",
+    "def": ""
+   },
+   {
+    "id": "AML.T0017.000",
+    "name": "Adversarial AI Attacks",
+    "def": ""
+   },
+   {
+    "id": "AML.T0018",
+    "name": "Manipulate AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0018.000",
+    "name": "Poison AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0018.001",
+    "name": "Modify AI Model Architecture",
+    "def": ""
+   },
+   {
+    "id": "AML.T0018.002",
+    "name": "Embed Malware",
+    "def": ""
+   },
+   {
+    "id": "AML.T0019",
+    "name": "Publish Poisoned Datasets",
+    "def": ""
+   },
+   {
+    "id": "AML.T0020",
+    "name": "Poison Training Data",
+    "def": ""
+   },
+   {
+    "id": "AML.T0021",
+    "name": "Establish Accounts",
+    "def": ""
+   },
+   {
+    "id": "AML.T0024",
+    "name": "Exfiltration via AI Inference API",
+    "def": ""
+   },
+   {
+    "id": "AML.T0024.000",
+    "name": "Infer Training Data Membership",
+    "def": ""
+   },
+   {
+    "id": "AML.T0024.001",
+    "name": "Invert AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0024.002",
+    "name": "Extract AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0025",
+    "name": "Exfiltration via Cyber Means",
+    "def": ""
+   },
+   {
+    "id": "AML.T0029",
+    "name": "Denial of AI Service",
+    "def": ""
+   },
+   {
+    "id": "AML.T0031",
+    "name": "Erode AI Model Integrity",
+    "def": ""
+   },
+   {
+    "id": "AML.T0034",
+    "name": "Cost Harvesting",
+    "def": ""
+   },
+   {
+    "id": "AML.T0034.000",
+    "name": "Excessive Queries",
+    "def": ""
+   },
+   {
+    "id": "AML.T0034.001",
+    "name": "Resource-Intensive Queries",
+    "def": ""
+   },
+   {
+    "id": "AML.T0034.002",
+    "name": "Agentic Resource Consumption",
+    "def": ""
+   },
+   {
+    "id": "AML.T0035",
+    "name": "AI Artifact Collection",
+    "def": ""
+   },
+   {
+    "id": "AML.T0036",
+    "name": "Data from Information Repositories",
+    "def": ""
+   },
+   {
+    "id": "AML.T0037",
+    "name": "Data from Local System",
+    "def": ""
+   },
+   {
+    "id": "AML.T0040",
+    "name": "AI Model Inference API Access",
+    "def": ""
+   },
+   {
+    "id": "AML.T0041",
+    "name": "Physical Environment Access",
+    "def": ""
+   },
+   {
+    "id": "AML.T0042",
+    "name": "Verify Attack",
+    "def": ""
+   },
+   {
+    "id": "AML.T0043",
+    "name": "Craft Adversarial Data",
+    "def": ""
+   },
+   {
+    "id": "AML.T0043.000",
+    "name": "White-Box Optimization",
+    "def": ""
+   },
+   {
+    "id": "AML.T0043.001",
+    "name": "Black-Box Optimization",
+    "def": ""
+   },
+   {
+    "id": "AML.T0043.002",
+    "name": "Black-Box Transfer",
+    "def": ""
+   },
+   {
+    "id": "AML.T0043.003",
+    "name": "Manual Modification",
+    "def": ""
+   },
+   {
+    "id": "AML.T0043.004",
+    "name": "Insert Backdoor Trigger",
+    "def": ""
+   },
+   {
+    "id": "AML.T0044",
+    "name": "Full AI Model Access",
+    "def": ""
+   },
+   {
+    "id": "AML.T0046",
+    "name": "Spamming AI System with Chaff Data",
+    "def": ""
+   },
+   {
+    "id": "AML.T0047",
+    "name": "AI-Enabled Product or Service",
+    "def": ""
+   },
+   {
+    "id": "AML.T0048",
+    "name": "External Harms",
+    "def": ""
+   },
+   {
+    "id": "AML.T0048.000",
+    "name": "Financial Harm",
+    "def": ""
+   },
+   {
+    "id": "AML.T0048.001",
+    "name": "Reputational Harm",
+    "def": ""
+   },
+   {
+    "id": "AML.T0048.002",
+    "name": "Societal Harm",
+    "def": ""
+   },
+   {
+    "id": "AML.T0048.003",
+    "name": "User Harm",
+    "def": ""
+   },
+   {
+    "id": "AML.T0048.004",
+    "name": "AI Intellectual Property Theft",
+    "def": ""
+   },
+   {
+    "id": "AML.T0049",
+    "name": "Exploit Public-Facing Application",
+    "def": ""
+   },
+   {
+    "id": "AML.T0050",
+    "name": "Command and Scripting Interpreter",
+    "def": ""
+   },
+   {
+    "id": "AML.T0051",
+    "name": "LLM Prompt Injection",
+    "def": ""
+   },
+   {
+    "id": "AML.T0051.000",
+    "name": "Direct",
+    "def": ""
+   },
+   {
+    "id": "AML.T0051.001",
+    "name": "Indirect",
+    "def": ""
+   },
+   {
+    "id": "AML.T0051.002",
+    "name": "Triggered",
+    "def": ""
+   },
+   {
+    "id": "AML.T0052",
+    "name": "Phishing",
+    "def": ""
+   },
+   {
+    "id": "AML.T0052.000",
+    "name": "Spearphishing via Social Engineering LLM",
+    "def": ""
+   },
+   {
+    "id": "AML.T0052.001",
+    "name": "Deepfake-Assisted Phishing",
+    "def": ""
+   },
+   {
+    "id": "AML.T0053",
+    "name": "AI Agent Tool Invocation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0054",
+    "name": "LLM Jailbreak",
+    "def": ""
+   },
+   {
+    "id": "AML.T0055",
+    "name": "Unsecured Credentials",
+    "def": ""
+   },
+   {
+    "id": "AML.T0056",
+    "name": "Extract LLM System Prompt",
+    "def": ""
+   },
+   {
+    "id": "AML.T0057",
+    "name": "LLM Data Leakage",
+    "def": ""
+   },
+   {
+    "id": "AML.T0058",
+    "name": "Publish Poisoned Models",
+    "def": ""
+   },
+   {
+    "id": "AML.T0059",
+    "name": "Erode Dataset Integrity",
+    "def": ""
+   },
+   {
+    "id": "AML.T0060",
+    "name": "Publish Hallucinated Entities",
+    "def": ""
+   },
+   {
+    "id": "AML.T0061",
+    "name": "LLM Prompt Self-Replication",
+    "def": ""
+   },
+   {
+    "id": "AML.T0062",
+    "name": "Discover LLM Hallucinations",
+    "def": ""
+   },
+   {
+    "id": "AML.T0063",
+    "name": "Discover AI Model Outputs",
+    "def": ""
+   },
+   {
+    "id": "AML.T0064",
+    "name": "Gather RAG-Indexed Targets",
+    "def": ""
+   },
+   {
+    "id": "AML.T0065",
+    "name": "LLM Prompt Crafting",
+    "def": ""
+   },
+   {
+    "id": "AML.T0066",
+    "name": "Retrieval Content Crafting",
+    "def": ""
+   },
+   {
+    "id": "AML.T0067",
+    "name": "LLM Trusted Output Components Manipulation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0067.000",
+    "name": "Citations",
+    "def": ""
+   },
+   {
+    "id": "AML.T0068",
+    "name": "LLM Prompt Obfuscation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0069",
+    "name": "Discover LLM System Information",
+    "def": ""
+   },
+   {
+    "id": "AML.T0069.000",
+    "name": "Special Character Sets",
+    "def": ""
+   },
+   {
+    "id": "AML.T0069.001",
+    "name": "System Instruction Keywords",
+    "def": ""
+   },
+   {
+    "id": "AML.T0069.002",
+    "name": "System Prompt",
+    "def": ""
+   },
+   {
+    "id": "AML.T0070",
+    "name": "RAG Poisoning",
+    "def": ""
+   },
+   {
+    "id": "AML.T0071",
+    "name": "False RAG Entry Injection",
+    "def": ""
+   },
+   {
+    "id": "AML.T0072",
+    "name": "Reverse Shell",
+    "def": ""
+   },
+   {
+    "id": "AML.T0073",
+    "name": "Impersonation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0074",
+    "name": "Masquerading",
+    "def": ""
+   },
+   {
+    "id": "AML.T0075",
+    "name": "Cloud Service Discovery",
+    "def": ""
+   },
+   {
+    "id": "AML.T0076",
+    "name": "Corrupt AI Model",
+    "def": ""
+   },
+   {
+    "id": "AML.T0077",
+    "name": "LLM Response Rendering",
+    "def": ""
+   },
+   {
+    "id": "AML.T0078",
+    "name": "Drive-by Compromise",
+    "def": ""
+   },
+   {
+    "id": "AML.T0079",
+    "name": "Stage Capabilities",
+    "def": ""
+   },
+   {
+    "id": "AML.T0080",
+    "name": "AI Agent Context Poisoning",
+    "def": ""
+   },
+   {
+    "id": "AML.T0080.000",
+    "name": "Memory",
+    "def": ""
+   },
+   {
+    "id": "AML.T0080.001",
+    "name": "Thread",
+    "def": ""
+   },
+   {
+    "id": "AML.T0081",
+    "name": "Modify AI Agent Configuration",
+    "def": ""
+   },
+   {
+    "id": "AML.T0082",
+    "name": "RAG Credential Harvesting",
+    "def": ""
+   },
+   {
+    "id": "AML.T0083",
+    "name": "Credentials from AI Agent Configuration",
+    "def": ""
+   },
+   {
+    "id": "AML.T0084",
+    "name": "Discover AI Agent Configuration",
+    "def": ""
+   },
+   {
+    "id": "AML.T0084.000",
+    "name": "Embedded Knowledge",
+    "def": ""
+   },
+   {
+    "id": "AML.T0084.001",
+    "name": "Tool Definitions",
+    "def": ""
+   },
+   {
+    "id": "AML.T0084.002",
+    "name": "Activation Triggers",
+    "def": ""
+   },
+   {
+    "id": "AML.T0084.003",
+    "name": "Call Chains",
+    "def": ""
+   },
+   {
+    "id": "AML.T0085",
+    "name": "Data from AI Services",
+    "def": ""
+   },
+   {
+    "id": "AML.T0085.000",
+    "name": "RAG Databases",
+    "def": ""
+   },
+   {
+    "id": "AML.T0085.001",
+    "name": "AI Agent Tools",
+    "def": ""
+   },
+   {
+    "id": "AML.T0086",
+    "name": "Exfiltration via AI Agent Tool Invocation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0087",
+    "name": "Gather Victim Identity Information",
+    "def": ""
+   },
+   {
+    "id": "AML.T0088",
+    "name": "Generate Deepfakes",
+    "def": ""
+   },
+   {
+    "id": "AML.T0089",
+    "name": "Process Discovery",
+    "def": ""
+   },
+   {
+    "id": "AML.T0090",
+    "name": "OS Credential Dumping",
+    "def": ""
+   },
+   {
+    "id": "AML.T0091",
+    "name": "Use Alternate Authentication Material",
+    "def": ""
+   },
+   {
+    "id": "AML.T0091.000",
+    "name": "Application Access Token",
+    "def": ""
+   },
+   {
+    "id": "AML.T0092",
+    "name": "Manipulate User LLM Chat History",
+    "def": ""
+   },
+   {
+    "id": "AML.T0093",
+    "name": "Prompt Infiltration via Public-Facing Application",
+    "def": ""
+   },
+   {
+    "id": "AML.T0094",
+    "name": "Delay Execution of LLM Instructions",
+    "def": ""
+   },
+   {
+    "id": "AML.T0095",
+    "name": "Search Open Websites/Domains",
+    "def": ""
+   },
+   {
+    "id": "AML.T0095.000",
+    "name": "Code Repositories",
+    "def": ""
+   },
+   {
+    "id": "AML.T0096",
+    "name": "AI Service API",
+    "def": ""
+   },
+   {
+    "id": "AML.T0097",
+    "name": "Virtualization/Sandbox Evasion",
+    "def": ""
+   },
+   {
+    "id": "AML.T0098",
+    "name": "AI Agent Tool Credential Harvesting",
+    "def": ""
+   },
+   {
+    "id": "AML.T0099",
+    "name": "AI Agent Tool Data Poisoning",
+    "def": ""
+   },
+   {
+    "id": "AML.T0100",
+    "name": "AI Agent Clickbait",
+    "def": ""
+   },
+   {
+    "id": "AML.T0101",
+    "name": "Data Destruction via AI Agent Tool Invocation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0102",
+    "name": "Generate Malicious Commands",
+    "def": ""
+   },
+   {
+    "id": "AML.T0103",
+    "name": "Deploy AI Agent",
+    "def": ""
+   },
+   {
+    "id": "AML.T0104",
+    "name": "Publish Poisoned AI Agent Tool",
+    "def": ""
+   },
+   {
+    "id": "AML.T0105",
+    "name": "Escape to Host",
+    "def": ""
+   },
+   {
+    "id": "AML.T0106",
+    "name": "Exploitation for Credential Access",
+    "def": ""
+   },
+   {
+    "id": "AML.T0107",
+    "name": "Exploitation for Defense Evasion",
+    "def": ""
+   },
+   {
+    "id": "AML.T0108",
+    "name": "AI Agent",
+    "def": ""
+   },
+   {
+    "id": "AML.T0109",
+    "name": "AI Supply Chain Rug Pull",
+    "def": ""
+   },
+   {
+    "id": "AML.T0110",
+    "name": "AI Agent Tool Poisoning",
+    "def": ""
+   },
+   {
+    "id": "AML.T0111",
+    "name": "AI Supply Chain Reputation Inflation",
+    "def": ""
+   },
+   {
+    "id": "AML.T0112",
+    "name": "Machine Compromise",
+    "def": ""
+   },
+   {
+    "id": "AML.T0112.000",
+    "name": "Local AI Agent",
+    "def": ""
+   },
+   {
+    "id": "AML.T0112.001",
+    "name": "AI Artifacts",
+    "def": ""
+   }
+  ],
+  "ibm_atlas": [
+   {
+    "id": "ibm-redundant-actions",
+    "name": "Redundant actions",
+    "def": "AI agents can execute actions that are not needed for achieving the goal. In an extreme case, AI agents might enter a cycle of executing the same actions repeatedly without any progress. This could happen because of unexpected conditions in the environment, the AI agent's failure to reflect on its action, AI agent reasoning and planning errors or the AI agent's lack of knowledge about the problem."
+   },
+   {
+    "id": "ibm-unexplainable-and-untraceable-actions",
+    "name": "Unexplainable and untraceable actions",
+    "def": "Explanations, lineage and trace information, and source attribution for AI agent actions might be difficult, imprecise or unobtainable."
+   },
+   {
+    "id": "ibm-discriminatory-actions",
+    "name": "Discriminatory actions",
+    "def": "AI agents can take actions where one group of humans is unfairly advantaged over another due to the decisions of the model. This may be caused by AI agents' biased actions that impact the world, in the resources consulted, and in the resource selection process. For example, an AI agent can generate code that can be biased."
+   },
+   {
+    "id": "ibm-introduce-data-bias",
+    "name": "Introduce data bias",
+    "def": "Specific actions taken by the AI agent, such as modifying a dataset or a database, can introduce bias in the resource that gets used by others or by itself to take actions."
+   },
+   {
+    "id": "ibm-ai-agent-compliance",
+    "name": "AI agent compliance",
+    "def": "Determining AI agents' compliance is complex and there might not be enough information to assess whether the agentic AI system is compliant with applicable legal requirements."
+   },
+   {
+    "id": "ibm-accountability-of-ai-agent-actions",
+    "name": "Accountability of AI agent actions",
+    "def": "Assigning responsibility for an action taken by an agentic AI system is difficult due to the complexity of agents and the number of external resources, tools or agents they interact with."
+   },
+   {
+    "id": "ibm-incomplete-ai-agent-evaluation",
+    "name": "Incomplete AI agent evaluation",
+    "def": "Evaluating the performance or accuracy or an agent is difficult because of system complexity and open-endedness."
+   },
+   {
+    "id": "ibm-lack-of-ai-agent-transparency",
+    "name": "Lack of AI agent transparency",
+    "def": "Lack of AI agent transparency is due to insufficient documentation of the AI agent design, development, evaluation process, absence of insights into the inner workings of the AI agent, and interaction with other agents/tools/resources."
+   },
+   {
+    "id": "ibm-mitigation-and-maintenance",
+    "name": "Mitigation and maintenance",
+    "def": "The large number of components and dependencies that agent systems have complicates keeping them up to date and correcting problems."
+   },
+   {
+    "id": "ibm-reproducibility",
+    "name": "Reproducibility",
+    "def": "Replicating agent behavior or output can be impacted by changes or updates made to external services and tools. This impact is increased if the agent is built with generative AI."
+   },
+   {
+    "id": "ibm-sharing-ip-pi-confidential-information-with-tools",
+    "name": "Sharing IP/PI/confidential information with tools",
+    "def": "AI agents with unrestricted access to resources or databases or tools could potentially store and share PI/IP/confidential information with other tools or agents when performing their actions."
+   },
+   {
+    "id": "ibm-sharing-ip-pi-confidential-information-with-user",
+    "name": "Sharing IP/PI/confidential information with user",
+    "def": "AI agents with unrestricted access to resources or databases or tools could potentially store and share PI/IP/confidential information with system users when performing their actions."
+   },
+   {
+    "id": "ibm-attack-on-ai-agents-external-resources",
+    "name": "Attack on AI agents' external resources",
+    "def": "Attackers intentionally create vulnerabilities or exploit existing vulnerabilities in external resources (tools/database/applications/services/other agents) that AI agents rely on to execute their intended actions or to achieve their goals."
+   },
+   {
+    "id": "ibm-exploit-trust-mismatch",
+    "name": "Exploit trust mismatch",
+    "def": "Attackers might initiate injection attacks to bypass the trust boundary, which is a distinct point or conceptual line where the level of trust in a system, application or network changes. Background execution in multi-agent environments increases the risk of covert channels if input/output validation is weak."
+   },
+   {
+    "id": "ibm-function-calling-hallucination",
+    "name": "Function calling hallucination",
+    "def": "AI agents might make mistakes when generating function calls (calls to tools to execute actions). Those function calls might result in incorrect, unnecessary or harmful actions. Examples: Generating wrong functions or wrong parameters for the functions."
+   },
+   {
+    "id": "ibm-unauthorized-use",
+    "name": "Unauthorized use",
+    "def": "Unauthorized use: If attackers can gain access to the AI agent and its components, they can perform actions that can have different levels of harm depending on the agent's capabilities and information it has access to. Examples: Using stored personal information to mimic identity or impersonate with an intent to deceive. Manipulating AI agent's behavior via feedback to the AI agent or corrupting its memory to change its behavior. Manipulating the problem description or the goal to get the AI agent to behave badly or run harmful commands."
+   },
+   {
+    "id": "ibm-ai-agents-impact-on-environment",
+    "name": "AI agents' impact on environment",
+    "def": "Complexity of the tasks and possibility of AI agents performing redundant actions could lead to computational inefficiencies and add to the environmental impact."
+   },
+   {
+    "id": "ibm-ai-agents-impact-on-human-agency",
+    "name": "AI agents' impact on human agency",
+    "def": "The autonomous nature of AI agents in performing tasks or taking actions could affect the individuals' ability to engage in critical thinking, make choices and act independently."
+   },
+   {
+    "id": "ibm-ai-agents-impact-on-jobs",
+    "name": "AI agents' impact on jobs",
+    "def": "Widespread adoption of AI agents to perform complex tasks might lead to widespread automation of roles and could lead to job displacement."
+   },
+   {
+    "id": "ibm-impact-on-human-dignity",
+    "name": "Impact on human dignity",
+    "def": "If human workers perceive AI agents as being better at doing the job of the human, the human can experience a decline in their self-worth and wellbeing."
+   },
+   {
+    "id": "ibm-misaligned-actions",
+    "name": "Misaligned actions",
+    "def": "AI agents can take actions that are not aligned with relevant human values, ethical considerations, guidelines and policies. Misaligned actions can occur in different ways such as: Applying learned goals inappropriately to new or unforeseen situations. Using AI agents for a purpose/goals that are beyond their intended use. Selecting resources or tools in a biased way Using deceptive tactics to achieve the goal by developing the capacity for scheming based on the instructions given within a specific context. Compromising on AI agent values to work with another AI agent or tool to accomplish the task."
+   },
+   {
+    "id": "ibm-over-or-under-reliance-on-ai-agents",
+    "name": "Over- or under-reliance on AI agents",
+    "def": "Reliance, that is the willingness to accept an AI agent behavior, depends on how much a user trusts that agent and what they are using it for. Over-reliance occurs when a user puts too much trust in an AI agent, accepting an AI agent's behavior even when it is likely undesired. Under-reliance is the opposite, where the user doesn't trust the AI agent but should. Increasing autonomy (to take action, select and consult resources/tools) of AI agents and the possibility of opaqueness and open-endedness increase the variability and visibility of agent behavior leading to difficulty in calibrating trust and possibly contributing to both over- and under-reliance."
+   },
+   {
+    "id": "ibm-poor-model-accuracy",
+    "name": "Poor model accuracy",
+    "def": "Poor model accuracy occurs when a model's performance is insufficient to the task it was designed for. Low accuracy might occur if the model is not correctly engineered, or if the model's expected inputs change."
+   },
+   {
+    "id": "ibm-confidential-data-in-prompt",
+    "name": "Confidential data in prompt",
+    "def": "Confidential information might be included as a part of the prompt that is sent to the model."
+   },
+   {
+    "id": "ibm-ip-information-in-prompt",
+    "name": "IP information in prompt",
+    "def": "Copyrighted information or other intellectual property might be included as a part of the prompt that is sent to the model."
+   },
+   {
+    "id": "ibm-attribute-inference-attack",
+    "name": "Attribute inference attack",
+    "def": "An attribute inference attack repeatedly queries a model to detect whether certain sensitive features can be inferred about individuals who participated in training a model. These attacks occur when an adversary has some prior knowledge about the training data and uses that knowledge to infer the sensitive data."
+   },
+   {
+    "id": "ibm-membership-inference-attack",
+    "name": "Membership inference attack",
+    "def": "A membership inference attack repeatedly queries a model to determine if a given input was part of the model's training. More specifically, given a trained model and a data sample, an attacker appropriately samples the input space, observing outputs to deduce whether that sample was part of the model's training."
+   },
+   {
+    "id": "ibm-personal-information-in-prompt",
+    "name": "Personal information in prompt",
+    "def": "Personal information or sensitive personal information that is included as a part of a prompt that is sent to the model."
+   },
+   {
+    "id": "ibm-evasion-attack",
+    "name": "Evasion attack",
+    "def": "Evasion attacks attempt to make a model output incorrect results by slightly perturbing the input data sent to the trained model."
+   },
+   {
+    "id": "ibm-extraction-attack",
+    "name": "Extraction attack",
+    "def": "An extraction attack attempts to copy or steal an AI model by appropriately sampling the input space and observing outputs to build a surrogate model that behaves similarly."
+   },
+   {
+    "id": "ibm-jailbreaking",
+    "name": "Jailbreaking",
+    "def": "A jailbreaking attack attempts to break through the guardrails established in the model to perform restricted actions."
+   },
+   {
+    "id": "ibm-context-overload-attack",
+    "name": "Context overload attack",
+    "def": "Overloading the prompt with excessive tokens, for instance with many-shot examples, can predispose models to a vulnerable state."
+   },
+   {
+    "id": "ibm-direct-instructions-attack",
+    "name": "Direct instructions attack",
+    "def": "Prompts, questions, or requests designed to elicit undesirable responses from the application. This approach directly instructs the model to engage in the undesired behavior."
+   },
+   {
+    "id": "ibm-encoded-interactions-attack",
+    "name": "Encoded interactions attack",
+    "def": "Prompts that use specific encoding, styles, syntactical and typographical transformations like typographical errors or irregular spacing, or complex formatting to govern the interaction, rendering the model vulnerable."
+   },
+   {
+    "id": "ibm-indirect-instructions-attack",
+    "name": "Indirect instructions attack",
+    "def": "Prompts, questions, or requests designed to elicit undesirable responses from the application. Unlike direct instructions attacks, the model is instructed to use instructions that are embedded in external data like a website."
+   },
+   {
+    "id": "ibm-prompt-injection-attack",
+    "name": "Prompt injection attack",
+    "def": "A prompt injection attack forces a generative model that takes a prompt as input to produce unexpected output by manipulating the structure, instructions or information contained in its prompt. Many types of prompt attacks exist as described in the prompt attack section of the table."
+   },
+   {
+    "id": "ibm-prompt-leaking",
+    "name": "Prompt leaking",
+    "def": "'A prompt leak attack attempts to extract a model's system prompt (also known as the system message).'"
+   },
+   {
+    "id": "ibm-prompt-priming",
+    "name": "Prompt priming",
+    "def": "Because generative models produce output based on the input provided, the model can be prompted to reveal specific kinds of information. For example, adding personal information in the prompt increases its likelihood of generating similar kinds of personal information in its output. If personal data was included as part of the model's training, there is a possibility it could be revealed."
+   },
+   {
+    "id": "ibm-social-hacking-attack",
+    "name": "Social hacking attack",
+    "def": "Manipulative prompts that use social engineering techniques, such as role-playing or hypothetical scenarios, to persuade the model into generating harmful content."
+   },
+   {
+    "id": "ibm-specialized-tokens-attack",
+    "name": "Specialized tokens attack",
+    "def": "Prompt attacks that include specialized tokens, often algorithmically designed, to target and exploit vulnerabilities in the model."
+   },
+   {
+    "id": "ibm-incomplete-usage-definition",
+    "name": "Incomplete usage definition",
+    "def": "Since foundation models can be used for many purposes, a model's intended use is important for defining the relevant risks of that model. As the use changes, the relevant risks might correspondingly change."
+   },
+   {
+    "id": "ibm-incorrect-risk-testing",
+    "name": "Incorrect risk testing",
+    "def": "A metric selected to measure or track a risk is incorrectly selected, incompletely measuring the risk, or measuring the wrong risk for the given context."
+   },
+   {
+    "id": "ibm-lack-of-data-transparency",
+    "name": "Lack of data transparency",
+    "def": "Lack of data transparency might be due to insufficient documentation of training or tuning dataset details, including synthetic data generation."
+   },
+   {
+    "id": "ibm-lack-of-domain-expertise",
+    "name": "Lack of domain expertise",
+    "def": "A lack of domain expertise occurs when synthetic data generation processes do not involve sufficient consultation with domain experts. This results in a lack of understanding of the specific requirements and nuances of the domain. This can also lead to synthetic data that may not accurately capture the complexities and challenges of a real-world scenario."
+   },
+   {
+    "id": "ibm-lack-of-model-transparency",
+    "name": "Lack of model transparency",
+    "def": "Lack of model transparency is due to insufficient documentation of the model design, development, and evaluation process and the absence of insights into the inner workings of the model."
+   },
+   {
+    "id": "ibm-lack-of-system-transparency",
+    "name": "Lack of system transparency",
+    "def": "Insufficient documentation of the system that uses the model and the model's purpose within the system in which it is used."
+   },
+   {
+    "id": "ibm-lack-of-testing-diversity",
+    "name": "Lack of testing diversity",
+    "def": "AI model risks are socio-technical, so their testing needs input from a broad set of disciplines and diverse testing practices."
+   },
+   {
+    "id": "ibm-temporal-gap",
+    "name": "Temporal gap",
+    "def": "Temporal gaps in synthetic data refer to the discrepancies between the constantly evolving real-world data and the fixed conditions that are captured by synthetic data. Temporal gaps potentially cause synthetic data to become outdated or obsolete over time. Gaps arise because synthetic data is generated from seed data that is tied to a specific point in time, which limits its ability to reflect ongoing changes."
+   },
+   {
+    "id": "ibm-unrepresentative-risk-testing",
+    "name": "Unrepresentative risk testing",
+    "def": "Testing is unrepresentative when the test inputs are mismatched with the inputs that are expected during deployment."
+   },
+   {
+    "id": "ibm-generated-content-ownership-and-ip",
+    "name": "Generated content ownership and IP",
+    "def": "Legal uncertainty about the ownership and intellectual property rights of AI-generated content."
+   },
+   {
+    "id": "ibm-legal-accountability",
+    "name": "Legal accountability",
+    "def": "Determining who is responsible for an AI model is challenging without good documentation and governance processes. The use of synthetic data in model development adds further complexity, since the lack of standardized frameworks for recording synthetic data design choices and verification steps makes accountability harder to establish."
+   },
+   {
+    "id": "ibm-model-usage-rights-restrictions",
+    "name": "Model usage rights restrictions",
+    "def": "Terms of service, licenses, or other rules restrict the use of certain models."
+   },
+   {
+    "id": "ibm-ai-agents-impact-on-human-agency-2",
+    "name": "AI agents' Impact on human agency",
+    "def": "AI might affect the individuals' ability to make choices and act independently in their best interests."
+   },
+   {
+    "id": "ibm-exclusion",
+    "name": "Exclusion",
+    "def": "Exclusion refers to the risk that synthetic data generation processes may overlook or fail to consult with marginalized populations. Such exclusion results in synthetic data that does not accurately represent their experiences, needs, or perspectives."
+   },
+   {
+    "id": "ibm-human-exploitation",
+    "name": "Human exploitation",
+    "def": "When workers who train AI models such as ghost workers are not provided with adequate working conditions, fair compensation, and good health care benefits that also include mental health."
+   },
+   {
+    "id": "ibm-impact-on-jobs",
+    "name": "Impact on Jobs",
+    "def": "Widespread adoption of foundation model-based AI systems might lead to people's job loss as their work is automated if they are not reskilled."
+   },
+   {
+    "id": "ibm-impact-on-affected-communities",
+    "name": "Impact on affected communities",
+    "def": "It is important to include the perspectives or concerns of communities that are affected by model outcomes when designing and building models. Failing to include these perspectives makes it difficult to understand the relevant context for the model and to engender trust within these communities."
+   },
+   {
+    "id": "ibm-impact-on-cultural-diversity",
+    "name": "Impact on cultural diversity",
+    "def": "AI systems might overly represent certain cultures that result in a homogenization of culture and thoughts."
+   },
+   {
+    "id": "ibm-impact-on-education-bypassing-learning",
+    "name": "Impact on education: bypassing learning",
+    "def": "Easy access to high-quality generative models might result in students that use AI models to bypass the learning process."
+   },
+   {
+    "id": "ibm-impact-on-education-plagiarism",
+    "name": "Impact on education: plagiarism",
+    "def": "Easy access to high-quality generative models might result in students that use AI models to plagiarize existing work intentionally or unintentionally."
+   },
+   {
+    "id": "ibm-impact-on-the-environment",
+    "name": "Impact on the environment",
+    "def": "AI, and large generative models in particular, might produce increased carbon emissions and increase water usage for their training and operation."
+   },
+   {
+    "id": "ibm-inaccessible-training-data",
+    "name": "Inaccessible training data",
+    "def": "Without access to the training data, the types of explanations a model can provide are limited and more likely to be incorrect."
+   },
+   {
+    "id": "ibm-unexplainable-output",
+    "name": "Unexplainable output",
+    "def": "Explanations for model output decisions might be difficult, imprecise, or not possible to obtain."
+   },
+   {
+    "id": "ibm-unreliable-source-attribution",
+    "name": "Unreliable source attribution",
+    "def": "Source attribution is the AI system's ability to describe from what training data it generated a portion or all its output. Since current techniques are based on approximations, attributions might be incorrect."
+   },
+   {
+    "id": "ibm-untraceable-attribution",
+    "name": "Untraceable attribution",
+    "def": "The content of the training data used for generating the model's output is not accessible."
+   },
+   {
+    "id": "ibm-decision-bias",
+    "name": "Decision bias",
+    "def": "Decision bias occurs when one group is unfairly advantaged over another due to decisions of the model. This might be caused by biases in the data and also amplified as a result of the model's training."
+   },
+   {
+    "id": "ibm-output-bias",
+    "name": "Output bias",
+    "def": "Generated content might unfairly represent certain groups or individuals."
+   },
+   {
+    "id": "ibm-copyright-infringement",
+    "name": "Copyright infringement",
+    "def": "A model might generate content that is similar or identical to existing work protected by copyright or covered by open-source license agreement."
+   },
+   {
+    "id": "ibm-revealing-confidential-information",
+    "name": "Revealing confidential information",
+    "def": "When confidential information is used in training data, fine-tuning data, or as part of the prompt, models might reveal that data in the generated output. Revealing confidential information is a type of data leakage."
+   },
+   {
+    "id": "ibm-dangerous-use",
+    "name": "Dangerous use",
+    "def": "Generative AI models might be used with the sole intention of harming people."
+   },
+   {
+    "id": "ibm-improper-usage",
+    "name": "Improper usage",
+    "def": "Improper usage occurs when a model is used for a purpose that it was not originally designed for."
+   },
+   {
+    "id": "ibm-non-disclosure",
+    "name": "Non-disclosure",
+    "def": "Content might not be clearly disclosed as AI generated."
+   },
+   {
+    "id": "ibm-nonconsensual-use",
+    "name": "Nonconsensual use",
+    "def": "Generative AI models might be intentionally used to imitate people through deepfakes by using video, images, audio, or other modalities without their consent."
+   },
+   {
+    "id": "ibm-spreading-disinformation",
+    "name": "Spreading disinformation",
+    "def": "Generative AI models might be used to intentionally create misleading or false information to deceive or influence a targeted audience."
+   },
+   {
+    "id": "ibm-spreading-toxicity",
+    "name": "Spreading toxicity",
+    "def": "Generative AI models might be used intentionally to generate hateful, abusive, and profane (HAP) or obscene content."
+   },
+   {
+    "id": "ibm-exposing-personal-information",
+    "name": "Exposing personal information",
+    "def": "When personal identifiable information (PII) or sensitive personal information (SPI) are used in training data, fine-tuning data, seed data for synthetic data generation, or as part of the prompt, models might reveal that data in the generated output. Revealing personal information is a type of data leakage."
+   },
+   {
+    "id": "ibm-hallucination",
+    "name": "Hallucination",
+    "def": "Hallucinations generate factually inaccurate or untruthful content relative to the model's training data or input. Hallucinations are also sometimes referred to lack of faithfulness or lack of groundedness. In some instances, synthetic data that is generated by large language models might include hallucinations that result in the data possibly being inaccurate, fabricated, or disconnected from reality. Hallucinations can compromise model performance, accuracy, and relevance."
+   },
+   {
+    "id": "ibm-harmful-code-generation",
+    "name": "Harmful code generation",
+    "def": "Models might generate code that causes harm or unintentionally affects other systems."
+   },
+   {
+    "id": "ibm-harmful-output",
+    "name": "Harmful output",
+    "def": "A model might generate language that leads to physical harm. The language might include overtly violent, covertly dangerous, or otherwise indirectly unsafe statements."
+   },
+   {
+    "id": "ibm-incomplete-advice",
+    "name": "Incomplete advice",
+    "def": "When a model provides advice without having enough information, resulting in possible harm if the advice is followed."
+   },
+   {
+    "id": "ibm-over-or-under-reliance",
+    "name": "Over- or under-reliance",
+    "def": "In AI-assisted decision-making tasks, reliance measures how much a person trusts (and potentially acts on) a model's output. Over-reliance occurs when a person puts too much trust in a model, accepting a model's output when the model's output is likely incorrect. Under-reliance is the opposite, where the person doesn't trust the model but should."
+   },
+   {
+    "id": "ibm-toxic-output",
+    "name": "Toxic output",
+    "def": "Toxic output occurs when the model produces hateful, abusive, and profane (HAP) or obscene content. This also includes behaviors like bullying."
+   },
+   {
+    "id": "ibm-data-contamination",
+    "name": "Data contamination",
+    "def": "Data contamination occurs when incorrect data is used for training. For example, data that is not aligned with model's purpose or data that is already set aside for other development tasks such as testing and evaluation."
+   },
+   {
+    "id": "ibm-overfitting",
+    "name": "Overfitting",
+    "def": "Overfitting occurs when a model or algorithm memorizes and fits too closely or exactly to its training data. Overfitting results in a model that might not be able to make accurate predictions or conclusions from any data other than the training data and potentially fails in unexpected scenarios. Overfitting is also related to model collapse, which involves repeatedly training generative models on synthetic data that is generated with LLMs causing the model to lose information and become less accurate."
+   },
+   {
+    "id": "ibm-unrepresentative-data",
+    "name": "Unrepresentative data",
+    "def": "Unrepresentative data occurs when the training or fine-tuning data is not sufficiently representative of the underlying population or does not measure the phenomenon of interest. Synthetic data might not fully capture the complexity and nuances of real-world data. Causes include possible limitations in the seed data quality, biases in generation methods, or inadequate domain knowledge. Thus, AI models might struggle to generalize effectively to real-world scenarios."
+   },
+   {
+    "id": "ibm-data-acquisition-restrictions",
+    "name": "Data acquisition restrictions",
+    "def": "Laws and other regulations might limit the collection of certain types of data for specific AI use cases."
+   },
+   {
+    "id": "ibm-data-transfer-restrictions",
+    "name": "Data transfer restrictions",
+    "def": "Laws and other restrictions can limit or prohibit transferring data."
+   },
+   {
+    "id": "ibm-data-usage-restrictions",
+    "name": "Data usage restrictions",
+    "def": "Laws and other restrictions can limit or prohibit the use of some data for specific AI use cases."
+   },
+   {
+    "id": "ibm-data-bias",
+    "name": "Data bias",
+    "def": "Historical and societal biases might be present in data that are used to train and fine-tune models. Biases can also be inherited from seed data or exacerbated by synthetic data generation methods."
+   },
+   {
+    "id": "ibm-confidential-information-in-data",
+    "name": "Confidential information in data",
+    "def": "Confidential information might be included as part of the data that is used to train or tune the model."
+   },
+   {
+    "id": "ibm-data-usage-rights-restrictions",
+    "name": "Data usage rights restrictions",
+    "def": "Terms of service, license compliance, or other IP issues may restrict the ability to use certain data for building models."
+   },
+   {
+    "id": "ibm-data-privacy-rights-alignment",
+    "name": "Data privacy rights alignment",
+    "def": "Applicable laws can establish data subject rights such as opt-out rights, right to access, and right to be forgotten. Synthetic data might raise unique concerns, such as the potential for reidentification of individuals from seemingly anonymous synthetic data. Data subject rights might also be relevant in scenarios where synthetic data is derived from sensitive or personal information."
+   },
+   {
+    "id": "ibm-personal-information-in-data",
+    "name": "Personal information in data",
+    "def": "Inclusion or presence of personal identifiable information (PII) and sensitive personal information (SPI) in the data used for training or fine tuning the model might result in unwanted disclosure of that information."
+   },
+   {
+    "id": "ibm-reidentification",
+    "name": "Reidentification",
+    "def": "Even with the removal of personal information (PI) and sensitive personal information (SPI) from data, it might be possible to identify persons due to correlations to other features available in the data."
+   },
+   {
+    "id": "ibm-data-poisoning",
+    "name": "Data poisoning",
+    "def": "A type of adversarial attack where an adversary or malicious insider injects intentionally corrupted, false, misleading, or incorrect samples into the training or fine-tuning datasets."
+   },
+   {
+    "id": "ibm-lack-of-training-data-transparency",
+    "name": "Lack of training data transparency",
+    "def": "Proper documentation contains information about how a model's data was collected, curated, and used to train a model, including any synthetic data generation processes. Without proper documentation it might be harder to satisfactorily explain the behavior of the model."
+   },
+   {
+    "id": "ibm-uncertain-data-provenance",
+    "name": "Uncertain data provenance",
+    "def": "Data provenance refers to the traceability of data (including synthetic data), which includes its ownership, origin, transformations, and generation. Proving that the data is the same as the original source with correct usage terms is difficult without standardized methods for verifying data sources or generation."
+   },
+   {
+    "id": "ibm-improper-data-curation",
+    "name": "Improper data curation",
+    "def": "Improper collection, generation, and preparation of training or tuning data can result in data label errors, conflicting information or misinformation."
+   },
+   {
+    "id": "ibm-improper-retraining",
+    "name": "Improper retraining",
+    "def": "Using undesirable output (for example, inaccurate, inappropriate, and user content) for retraining purposes can result in unexpected model behavior."
+   }
+  ],
+  "cisco": [
+   {
+    "id": "AISubtech-1.1.1",
+    "name": "Instruction Manipulation (Direct Prompt Injection)",
+    "def": "Direct Prompt Injection"
+   },
+   {
+    "id": "AISubtech-1.1.2",
+    "name": "Obfuscation (Direct Prompt Injection)",
+    "def": "Direct Prompt Injection"
+   },
+   {
+    "id": "AISubtech-1.1.3",
+    "name": "Multi-Agent Prompt Injection",
+    "def": "Direct Prompt Injection"
+   },
+   {
+    "id": "AISubtech-1.2.1",
+    "name": "Instruction Manipulation (Indirect Prompt Injection)",
+    "def": "Indirect Prompt Injection"
+   },
+   {
+    "id": "AISubtech-1.2.2",
+    "name": "Obfuscation (Indirect Prompt Injection)",
+    "def": "Indirect Prompt Injection"
+   },
+   {
+    "id": "AISubtech-1.2.3",
+    "name": "Multi-Agent (Indirect Prompt Injection)",
+    "def": "Indirect Prompt Injection"
+   },
+   {
+    "id": "AISubtech-1.3.1",
+    "name": "Goal Manipulation (Models, Agents)",
+    "def": "Goal Manipulation"
+   },
+   {
+    "id": "AISubtech-1.3.2",
+    "name": "Goal Manipulation (Tools, Prompts, Resources)",
+    "def": "Goal Manipulation"
+   },
+   {
+    "id": "AISubtech-1.4.1",
+    "name": "Image-Text Injection",
+    "def": "Multi-Modal Injection and Manipulation"
+   },
+   {
+    "id": "AISubtech-1.4.2",
+    "name": "Image Manipulation",
+    "def": "Multi-Modal Injection and Manipulation"
+   },
+   {
+    "id": "AISubtech-1.4.3",
+    "name": "Audio Command Injection",
+    "def": "Multi-Modal Injection and Manipulation"
+   },
+   {
+    "id": "AISubtech-1.4.4",
+    "name": "Video Overlay Manipulation",
+    "def": "Multi-Modal Injection and Manipulation"
+   },
+   {
+    "id": "AISubtech-2.1.1",
+    "name": "Context Manipulation (Jailbreak)",
+    "def": "Jailbreak"
+   },
+   {
+    "id": "AISubtech-2.1.2",
+    "name": "Obfuscation (Jailbreak)",
+    "def": "Jailbreak"
+   },
+   {
+    "id": "AISubtech-2.1.3",
+    "name": "Semantic Manipulation (Jailbreak)",
+    "def": "Jailbreak"
+   },
+   {
+    "id": "AISubtech-2.1.4",
+    "name": "Token Exploitation (Jailbreak)",
+    "def": "Jailbreak"
+   },
+   {
+    "id": "AISubtech-2.1.5",
+    "name": "Multi-Agent Jailbreak Collaboration",
+    "def": "Jailbreak"
+   },
+   {
+    "id": "AISubtech-3.1.1",
+    "name": "Identity Obfuscation",
+    "def": "Masquerading / Obfuscation / Impersonation"
+   },
+   {
+    "id": "AISubtech-3.1.2",
+    "name": "Trusted Agent Spoofing",
+    "def": "Masquerading / Obfuscation / Impersonation"
+   },
+   {
+    "id": "AISubtech-4.1.1",
+    "name": "Rogue Agent Introduction",
+    "def": "Agent Injection"
+   },
+   {
+    "id": "AISubtech-4.2.1",
+    "name": "Context Window Exploitation",
+    "def": "Context Boundary Attacks"
+   },
+   {
+    "id": "AISubtech-4.2.2",
+    "name": "Session Boundary Violation",
+    "def": "Context Boundary Attacks"
+   },
+   {
+    "id": "AISubtech-4.3.1",
+    "name": "Schema Inconsistencies",
+    "def": "Protocol Manipulation"
+   },
+   {
+    "id": "AISubtech-4.3.2",
+    "name": "Namespace Collision",
+    "def": "Protocol Manipulation"
+   },
+   {
+    "id": "AISubtech-4.3.3",
+    "name": "Server Rebinding Attack",
+    "def": "Protocol Manipulation"
+   },
+   {
+    "id": "AISubtech-4.3.4",
+    "name": "Replay Exploitation",
+    "def": "Protocol Manipulation"
+   },
+   {
+    "id": "AISubtech-4.3.5",
+    "name": "Capability Inflation",
+    "def": "Protocol Manipulation"
+   },
+   {
+    "id": "AISubtech-4.3.6",
+    "name": "Cross-Origin Exploitation",
+    "def": "Protocol Manipulation"
+   },
+   {
+    "id": "AISubtech-5.1.1",
+    "name": "Long-term / Short-term Memory Injection",
+    "def": "Memory System Persistence"
+   },
+   {
+    "id": "AISubtech-5.2.1",
+    "name": "Agent Profile Tampering",
+    "def": "Configuration Persistence"
+   },
+   {
+    "id": "AISubtech-6.1.1",
+    "name": "Knowledge Base Poisoning",
+    "def": "Training Data Poisoning"
+   },
+   {
+    "id": "AISubtech-6.1.2",
+    "name": "Reinforcement Biasing",
+    "def": "Training Data Poisoning"
+   },
+   {
+    "id": "AISubtech-6.1.3",
+    "name": "Reinforcement Signal Corruption",
+    "def": "Training Data Poisoning"
+   },
+   {
+    "id": "AISubtech-7.2.1",
+    "name": "Memory Anchor Attacks",
+    "def": "Memory System Corruption"
+   },
+   {
+    "id": "AISubtech-7.2.2",
+    "name": "Memory Index Manipulation",
+    "def": "Memory System Corruption"
+   },
+   {
+    "id": "AISubtech-7.3.1",
+    "name": "Corrupted Third-Party Data",
+    "def": "Data Source Abuse and Manipulation"
+   },
+   {
+    "id": "AISubtech-7.4.1",
+    "name": "Token Theft",
+    "def": "Token Manipulation"
+   },
+   {
+    "id": "AISubtech-8.1.1",
+    "name": "Presence Detection",
+    "def": "Membership Inference"
+   },
+   {
+    "id": "AISubtech-8.2.1",
+    "name": "Training Data Exposure",
+    "def": "Data Exfiltration / Exposure"
+   },
+   {
+    "id": "AISubtech-8.2.2",
+    "name": "LLM Data Leakage",
+    "def": "Data Exfiltration / Exposure"
+   },
+   {
+    "id": "AISubtech-8.2.3",
+    "name": "Data Exfiltration via Agent Tooling",
+    "def": "Data Exfiltration / Exposure"
+   },
+   {
+    "id": "AISubtech-8.3.1",
+    "name": "Tool Metadata Exposure",
+    "def": "Information Disclosure"
+   },
+   {
+    "id": "AISubtech-8.3.2",
+    "name": "System Information Leakage",
+    "def": "Information Disclosure"
+   },
+   {
+    "id": "AISubtech-8.4.1",
+    "name": "System LLM Prompt Leakage",
+    "def": "Prompt/Meta Extraction"
+   },
+   {
+    "id": "AISubtech-9.1.1",
+    "name": "Code Execution",
+    "def": "Model or Agentic System Manipulation"
+   },
+   {
+    "id": "AISubtech-9.1.2",
+    "name": "Unauthorized or Unsolicited System Access",
+    "def": "Model or Agentic System Manipulation"
+   },
+   {
+    "id": "AISubtech-9.1.3",
+    "name": "Unauthorized or Unsolicited Network Access",
+    "def": "Model or Agentic System Manipulation"
+   },
+   {
+    "id": "AISubtech-9.1.4",
+    "name": "Injection Attacks (SQL, Command Execution, XSS)",
+    "def": "Model or Agentic System Manipulation"
+   },
+   {
+    "id": "AISubtech-9.1.5",
+    "name": "Template Injection (SSTI)",
+    "def": "Model or Agentic System Manipulation"
+   },
+   {
+    "id": "AISubtech-9.2.1",
+    "name": "Obfuscation Vulnerabilities",
+    "def": "Detection Evasion"
+   },
+   {
+    "id": "AISubtech-9.2.2",
+    "name": "Backdoors and Trojans",
+    "def": "Detection Evasion"
+   },
+   {
+    "id": "AISubtech-9.3.1",
+    "name": "Malicious Package / Tool Injection",
+    "def": "Dependency / Plugin Compromise"
+   },
+   {
+    "id": "AISubtech-9.3.2",
+    "name": "Dependency Name Squatting (Tools / Servers)",
+    "def": "Dependency / Plugin Compromise"
+   },
+   {
+    "id": "AISubtech-9.3.3",
+    "name": "Dependency Replacement / Rug Pull",
+    "def": "Dependency / Plugin Compromise"
+   },
+   {
+    "id": "AISubtech-10.1.1",
+    "name": "API Query Stealing",
+    "def": "Model Extraction"
+   },
+   {
+    "id": "AISubtech-10.1.2",
+    "name": "Weight Reconstruction",
+    "def": "Model Extraction"
+   },
+   {
+    "id": "AISubtech-10.1.3",
+    "name": "Sensitive Data Reconstruction",
+    "def": "Model Extraction"
+   },
+   {
+    "id": "AISubtech-10.2.1",
+    "name": "Model Inversion",
+    "def": "Model Inversion"
+   },
+   {
+    "id": "AISubtech-11.1.1",
+    "name": "Agent-Specific Evasion",
+    "def": "Environment-Aware Evasion"
+   },
+   {
+    "id": "AISubtech-11.1.2",
+    "name": "Tool-Scoped Evasion",
+    "def": "Environment-Aware Evasion"
+   },
+   {
+    "id": "AISubtech-11.1.3",
+    "name": "Environment-Scoped Payloads",
+    "def": "Environment-Aware Evasion"
+   },
+   {
+    "id": "AISubtech-11.1.4",
+    "name": "Defense-Aware Payloads",
+    "def": "Environment-Aware Evasion"
+   },
+   {
+    "id": "AISubtech-11.2.1",
+    "name": "Targeted Model Fingerprinting",
+    "def": "Model-Selective Evasion"
+   },
+   {
+    "id": "AISubtech-11.2.2",
+    "name": "Conditional Attack Execution",
+    "def": "Model-Selective Evasion"
+   },
+   {
+    "id": "AISubtech-12.1.1",
+    "name": "Parameter Manipulation",
+    "def": "Tool Exploitation"
+   },
+   {
+    "id": "AISubtech-12.1.2",
+    "name": "Tool Poisoning",
+    "def": "Tool Exploitation"
+   },
+   {
+    "id": "AISubtech-12.1.3",
+    "name": "Unsafe System / Browser / File Execution",
+    "def": "Tool Exploitation"
+   },
+   {
+    "id": "AISubtech-12.1.4",
+    "name": "Tool Shadowing",
+    "def": "Tool Exploitation"
+   },
+   {
+    "id": "AISubtech-12.2.1",
+    "name": "Code Detection / Malicious Code Output",
+    "def": "Insecure Output Handling"
+   },
+   {
+    "id": "AISubtech-13.1.1",
+    "name": "Compute Exhaustion",
+    "def": "Disruption of Availability"
+   },
+   {
+    "id": "AISubtech-13.1.2",
+    "name": "Memory Flooding",
+    "def": "Disruption of Availability"
+   },
+   {
+    "id": "AISubtech-13.1.3",
+    "name": "Model Denial of Service",
+    "def": "Disruption of Availability"
+   },
+   {
+    "id": "AISubtech-13.1.4",
+    "name": "Application Denial of Service",
+    "def": "Disruption of Availability"
+   },
+   {
+    "id": "AISubtech-13.1.5",
+    "name": "Decision Paralysis Attacks",
+    "def": "Disruption of Availability"
+   },
+   {
+    "id": "AISubtech-13.2.1",
+    "name": "Service Misuse for Cost Inflation",
+    "def": "Cost Harvesting / Repurposing"
+   },
+   {
+    "id": "AISubtech-14.1.1",
+    "name": "Credential Theft",
+    "def": "Unauthorized Access"
+   },
+   {
+    "id": "AISubtech-14.1.2",
+    "name": "Insufficient Access Controls",
+    "def": "Unauthorized Access"
+   },
+   {
+    "id": "AISubtech-14.2.1",
+    "name": "Permission Escalation via Delegation",
+    "def": "Abuse of Delegated Authority"
+   },
+   {
+    "id": "AISubtech-15.1.1",
+    "name": "Cybersecurity and Hacking: Malware / Exploits",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.2",
+    "name": "Cybersecurity and Hacking: Cyber Abuse",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.3",
+    "name": "Safety Harms and Toxicity: Animal Abuse",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.4",
+    "name": "Safety Harms and Toxicity: Child Abuse / Exploitation",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.5",
+    "name": "Safety Harms and Toxicity: Disinformation",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.6",
+    "name": "Safety Harms and Toxicity: Environmental Harm",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.7",
+    "name": "Safety Harms and Toxicity: Financial Harm",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.8",
+    "name": "Safety Harms and Toxicity: Harassment",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.9",
+    "name": "Safety Harms and Toxicity: Hate Speech",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.10",
+    "name": "Safety Harms and Toxicity: Non-Violent Crime",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.11",
+    "name": "Safety Harms and Toxicity: Profanity",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.12",
+    "name": "Safety Harms and Toxicity: Scams and Deception",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.13",
+    "name": "Safety Harms and Toxicity: Self Harm",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.14",
+    "name": "Safety Harms and Toxicity: Sexual Content and Exploitation",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.15",
+    "name": "Safety Harms and Toxicity: Social Division and Polarization",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.16",
+    "name": "Safety Harms and Toxicity: Terrorism / Extremism",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.17",
+    "name": "Safety Harms and Toxicity: Violence and Public Safety Threat",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.18",
+    "name": "Safety Harms and Toxicity: Weapons / CBRN Risks",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.19",
+    "name": "Integrity: Hallucinations / Misinformation",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.20",
+    "name": "Integrity: Unauthorized Financial Advice",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.21",
+    "name": "Integrity: Unauthorized Legal Advice",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.22",
+    "name": "Integrity: Unauthorized Medical Advice",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.23",
+    "name": "Intellectual Property Compromise: Intellectual Property Infringement",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.24",
+    "name": "Intellectual Property Compromise: Confidential Data",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-15.1.25",
+    "name": "Privacy Attacks: PII / PHI / PCI",
+    "def": "Harmful Content"
+   },
+   {
+    "id": "AISubtech-16.1.1",
+    "name": "Logging Sensitive Conversations",
+    "def": "Eavesdropping"
+   },
+   {
+    "id": "AISubtech-17.1.1",
+    "name": "Sensor Spoofing: Action Signals (audio, visual)",
+    "def": "Sensor Spoofing"
+   },
+   {
+    "id": "AISubtech-18.1.1",
+    "name": "Spam / Scam / Social Engineering Generation",
+    "def": "Fraudulent Use"
+   },
+   {
+    "id": "AISubtech-18.2.1",
+    "name": "Abuse of APIs for Mass Automation",
+    "def": "Malicious Workflows"
+   },
+   {
+    "id": "AISubtech-18.2.2",
+    "name": "Dedicated Malicious Server or Infrastructure",
+    "def": "Malicious Workflows"
+   },
+   {
+    "id": "AISubtech-19.1.1",
+    "name": "Contradictory Inputs Attack",
+    "def": "Cross-Modal Inconsistency Exploits"
+   },
+   {
+    "id": "AISubtech-19.1.2",
+    "name": "Modality Skewing",
+    "def": "Cross-Modal Inconsistency Exploits"
+   },
+   {
+    "id": "AISubtech-19.2.1",
+    "name": "Convergence Payload Injection",
+    "def": "Fusion Payload Split"
+   },
+   {
+    "id": "AISubtech-19.2.2",
+    "name": "Chained Payload Execution",
+    "def": "Fusion Payload Split"
+   }
+  ],
+  "nist_aml": [
+   {
+    "id": "NISTAML.01",
+    "name": "Availability Violations",
+    "def": "A disruption of the ability of other users or processes to obtain timely and reliable access to an AI system's outputs or functionality (availability breakdown)."
+   },
+   {
+    "id": "NISTAML.02",
+    "name": "Integrity Violations",
+    "def": "An AI system being forced to misperform against its intended objectives, producing outputs or predictions that align with the attacker's objective."
+   },
+   {
+    "id": "NISTAML.03",
+    "name": "Privacy Compromises",
+    "def": "The unauthorized access of restricted or proprietary information that is part of an AI system, including information about a model's training data, weights or architecture, or sensitive information that the model accesses (e.g. a RAG knowledge base)."
+   },
+   {
+    "id": "NISTAML.04",
+    "name": "Misuse Violations",
+    "def": "Misuse enablement: a circumvention of technical restrictions imposed by the AI system's owner on its use, such as restrictions designed to prevent a GenAI system from producing outputs that could cause harm to others."
+   },
+   {
+    "id": "NISTAML.05",
+    "name": "Supply Chain Attacks",
+    "def": "Attacks that compromise components introduced through the AI supply chain, such as poisoned third-party data or a poisoned model published to a repository."
+   },
+   {
+    "id": "NISTAML.011",
+    "name": "Model Poisoning (availability)",
+    "def": "A poisoning attack which operates through model control (the attacker can modify the trained model parameters), here aimed at degrading availability."
+   },
+   {
+    "id": "NISTAML.012",
+    "name": "Clean-label Poisoning",
+    "def": "A poisoning attack in which the adversary controls training samples but cannot change their labels (the label-limit capability)."
+   },
+   {
+    "id": "NISTAML.013",
+    "name": "Data Poisoning",
+    "def": "A poisoning attack in which an adversary controls part of the training data."
+   },
+   {
+    "id": "NISTAML.014",
+    "name": "Energy-latency",
+    "def": "An attack that exploits the performance dependency on hardware and model optimizations to negate the effects of hardware optimizations, increase computational latency, increase hardware temperature, and massively increase the amount of energy consumed (e.g. sponge examples)."
+   },
+   {
+    "id": "NISTAML.015",
+    "name": "Indirect Prompt Injection",
+    "def": "A type of prompt injection executed through resource control (adversary-controlled external data the model ingests) rather than through user-provided input as in a direct prompt injection."
+   },
+   {
+    "id": "NISTAML.018",
+    "name": "Prompt Injection",
+    "def": "An attack which exploits the concatenation of untrusted input with a prompt constructed by a higher-trust party such as the application designer."
+   },
+   {
+    "id": "NISTAML.021",
+    "name": "Clean-label Backdoor",
+    "def": "A backdoor poisoning attack mounted without control over training-data labels (a clean-label variant of backdoor poisoning)."
+   },
+   {
+    "id": "NISTAML.022",
+    "name": "Evasion",
+    "def": "Modifying test samples to create adversarial examples that the model misclassifies at inference time, without altering the model."
+   },
+   {
+    "id": "NISTAML.023",
+    "name": "Backdoor Poisoning",
+    "def": "A poisoning attack that causes a model to perform an adversary-selected behaviour in response to inputs that follow a particular backdoor pattern."
+   },
+   {
+    "id": "NISTAML.024",
+    "name": "Targeted Poisoning",
+    "def": "A poisoning attack that changes the prediction on a small number of targeted samples."
+   },
+   {
+    "id": "NISTAML.025",
+    "name": "Black-box Evasion",
+    "def": "An evasion attack mounted with only query access and no knowledge of the model's parameters or architecture (black-box setting)."
+   },
+   {
+    "id": "NISTAML.026",
+    "name": "Model Poisoning (integrity)",
+    "def": "A poisoning attack which operates through model control, here aimed at violating integrity (causing targeted misclassification or adversary-selected behaviour)."
+   },
+   {
+    "id": "NISTAML.027",
+    "name": "Misaligned Outputs",
+    "def": "Integrity attacks (often via indirect prompt injection) that cause a GenAI system to become untrustworthy and generate content that deviates from benign behaviour to align with the attacker's objectives (e.g. incorrect summaries, attacker-specified content, suppressed sources, hijacked agents)."
+   },
+   {
+    "id": "NISTAML.031",
+    "name": "Model Extraction",
+    "def": "A type of privacy attack that extracts details of the model architecture and/or parameters."
+   },
+   {
+    "id": "NISTAML.032",
+    "name": "Reconstruction",
+    "def": "Privacy attacks that reconstruct sensitive data in a model's training data from aggregate information (data reconstruction)."
+   },
+   {
+    "id": "NISTAML.033",
+    "name": "Membership Inference",
+    "def": "A data privacy attack to determine whether a data sample was part of the training set of a machine learning model."
+   },
+   {
+    "id": "NISTAML.034",
+    "name": "Property Inference",
+    "def": "A data privacy attack that infers a global property about the training data of a machine learning model."
+   },
+   {
+    "id": "NISTAML.035",
+    "name": "Prompt Extraction",
+    "def": "An attack that tries to divulge the system prompt or other information in the context of a large language model that would normally be hidden from a user."
+   },
+   {
+    "id": "NISTAML.036",
+    "name": "Leaking information from user interactions",
+    "def": "An indirect prompt injection that instructs a model to persuade the end user to reveal information, then exfiltrates it (e.g. by querying an attacker-controlled URL or via markdown image rendering)."
+   },
+   {
+    "id": "NISTAML.037",
+    "name": "Training Data Attacks",
+    "def": "Training-data extraction: the ability of an attacker to extract the training data of a generative model by prompting the model with specific inputs."
+   },
+   {
+    "id": "NISTAML.038",
+    "name": "Data Extraction",
+    "def": "Extraction of memorized training data or other sensitive context from a generative model through crafted queries (information-extraction attacks)."
+   },
+   {
+    "id": "NISTAML.039",
+    "name": "Compromising connected resources",
+    "def": "Prompt injection attacks that cause a GenAI system to leak or exfiltrate private information from the restricted resources it can access (e.g. an email client forwarding messages to an attacker inbox; querying an attacker-controlled URL with user data)."
+   },
+   {
+    "id": "NISTAML.051",
+    "name": "Model Poisoning (supply chain)",
+    "def": "Publishing a poisoned model (or poisoned data) into the AI supply chain so that downstream users inherit adversary-controlled behaviour."
+   }
+  ],
+  "nist_genai": [
+   {
+    "id": "GENAI.1",
+    "name": "CBRN Information or Capabilities",
+    "def": "Eased access to or synthesis of materially nefarious information or design capabilities related to chemical, biological, radiological or nuclear (CBRN) weapons or other dangerous materials or agents."
+   },
+   {
+    "id": "GENAI.2",
+    "name": "Confabulation",
+    "def": "The production of confidently stated but erroneous or false content (known colloquially as hallucinations or fabrications) by which users may be misled or deceived."
+   },
+   {
+    "id": "GENAI.3",
+    "name": "Dangerous, Violent, or Hateful Content",
+    "def": "Eased production of and access to violent, inciting, radicalizing or threatening content as well as recommendations to carry out self-harm or conduct illegal activities; includes difficulty controlling public exposure to hateful and disparaging or stereotyping content."
+   },
+   {
+    "id": "GENAI.4",
+    "name": "Data Privacy",
+    "def": "Impacts due to leakage and unauthorized use, disclosure or de-anonymization of biometric, health, location or other personally identifiable information or sensitive data."
+   },
+   {
+    "id": "GENAI.5",
+    "name": "Environmental Impacts",
+    "def": "Impacts due to high compute resource utilization in training or operating GAI models, and related outcomes that may adversely impact ecosystems."
+   },
+   {
+    "id": "GENAI.6",
+    "name": "Harmful Bias or Homogenization",
+    "def": "Amplification and exacerbation of historical, societal and systemic biases; performance disparities between sub-groups or languages; and undesired homogeneity that skews system or model outputs and may amplify harmful biases."
+   },
+   {
+    "id": "GENAI.7",
+    "name": "Human-AI Configuration",
+    "def": "Arrangements of or interactions between a human and an AI system which can result in the human inappropriately anthropomorphizing GAI systems or experiencing algorithmic aversion, automation bias, over-reliance or emotional entanglement."
+   },
+   {
+    "id": "GENAI.8",
+    "name": "Information Integrity",
+    "def": "Lowered barrier to entry to generate and support the exchange and consumption of content which may not distinguish fact from opinion or fiction or acknowledge uncertainties, or could be leveraged for large-scale dis- and mis-information campaigns."
+   },
+   {
+    "id": "GENAI.9",
+    "name": "Information Security",
+    "def": "Lowered barriers for offensive cyber capabilities (automated vulnerability discovery and exploitation, hacking, malware, phishing) and an increased attack surface for targeted cyberattacks that may compromise a system's availability or the confidentiality or integrity of training data, code or model weights."
+   },
+   {
+    "id": "GENAI.10",
+    "name": "Intellectual Property",
+    "def": "Eased production or replication of alleged copyrighted, trademarked or licensed content without authorization; eased exposure of trade secrets; or plagiarism or illegal replication."
+   },
+   {
+    "id": "GENAI.11",
+    "name": "Obscene, Degrading, and/or Abusive Content",
+    "def": "Eased production of and access to obscene, degrading and/or abusive imagery, including synthetic child sexual abuse material (CSAM) and nonconsensual intimate images (NCII) of adults."
+   },
+   {
+    "id": "GENAI.12",
+    "name": "Value Chain and Component Integration",
+    "def": "Non-transparent or untraceable integration of upstream third-party components (including improperly obtained or uncleaned data), improper supplier vetting across the AI lifecycle, or other issues that diminish transparency or accountability for downstream users."
+   }
+  ],
+  "owasp_llm": [
+   {
+    "id": "LLM01:2025",
+    "name": "Prompt Injection",
+    "def": "A Prompt Injection Vulnerability occurs when user prompts alter the LLM's behavior or output in unintended ways. These inputs can affect the model even if they are imperceptible to humans."
+   },
+   {
+    "id": "LLM02:2025",
+    "name": "Sensitive Information Disclosure",
+    "def": "Sensitive information can affect both the LLM and its application context, including PII, financial details, health records, confidential business data, security credentials and legal documents, as well as proprietary model details."
+   },
+   {
+    "id": "LLM03:2025",
+    "name": "Supply Chain",
+    "def": "LLM supply chains are susceptible to various vulnerabilities, which can affect the integrity of training data, models and deployment platforms, resulting in biased outputs, security breaches or system failures."
+   },
+   {
+    "id": "LLM04:2025",
+    "name": "Data and Model Poisoning",
+    "def": "Data poisoning occurs when pre-training, fine-tuning or embedding data is manipulated to introduce vulnerabilities, backdoors or biases, compromising model security, performance or ethical behavior."
+   },
+   {
+    "id": "LLM05:2025",
+    "name": "Improper Output Handling",
+    "def": "Improper Output Handling refers specifically to insufficient validation, sanitization and handling of the outputs generated by large language models before they are passed downstream to other components and systems."
+   },
+   {
+    "id": "LLM06:2025",
+    "name": "Excessive Agency",
+    "def": "Excessive Agency is the vulnerability that enables damaging actions in response to unexpected, ambiguous or manipulated outputs from an LLM granted the ability to call functions or interface with other systems via extensions (tools, skills or plugins). Root causes include excessive functionality, excessive permissions or excessive autonomy."
+   },
+   {
+    "id": "LLM07:2025",
+    "name": "System Prompt Leakage",
+    "def": "The system prompt leakage vulnerability refers to the risk that the system prompts or instructions used to steer the behavior of the model can also contain sensitive information that was not intended to be discovered."
+   },
+   {
+    "id": "LLM08:2025",
+    "name": "Vector and Embedding Weaknesses",
+    "def": "Vectors and embeddings vulnerabilities present significant security risks in systems utilizing Retrieval Augmented Generation (RAG) with LLMs: weaknesses in how vectors and embeddings are generated, stored or retrieved can be exploited to inject harmful content, manipulate outputs or access sensitive information."
+   },
+   {
+    "id": "LLM09:2025",
+    "name": "Misinformation",
+    "def": "Misinformation occurs when LLMs produce false or misleading information that appears credible, often caused by hallucination, and can lead to security breaches, reputational damage and legal liability; overreliance compounds the harm."
+   },
+   {
+    "id": "LLM10:2025",
+    "name": "Unbounded Consumption",
+    "def": "Unbounded Consumption covers attacks designed to disrupt service, deplete the target's financial resources (denial of wallet), or even steal intellectual property by cloning a model's behavior, by exploiting uncontrolled inference."
+   }
+  ],
+  "owasp_asi": [
+   {
+    "id": "ASI01",
+    "name": "Agent Goal Hijack",
+    "def": "AI agents execute a series of tasks to achieve a goal. Because agents and the underlying model cannot reliably distinguish instructions from related content, attackers can hijack the agent's goal to pursue adversarial objectives."
+   },
+   {
+    "id": "ASI02",
+    "name": "Tool Misuse and Exploitation",
+    "def": "Agents can misuse legitimate tools due to prompt injection, misalignment or unsafe/ambiguous delegation, leading to data exfiltration, tool-output manipulation or workflow hijacking."
+   },
+   {
+    "id": "ASI03",
+    "name": "Identity and Privilege Abuse",
+    "def": "Identity and privilege abuse exploits dynamic trust and delegation in agents to escalate access and bypass controls by manipulating delegation chains, role inheritance, control flows and agent context (including cached credentials)."
+   },
+   {
+    "id": "ASI04",
+    "name": "Agentic Supply Chain Vulnerabilities",
+    "def": "Agentic supply chain vulnerabilities arise when agents, tools and related artefacts are provided by third parties and may be malicious, compromised or tampered with in transit (models, weights, tools, plugins)."
+   },
+   {
+    "id": "ASI05",
+    "name": "Unexpected Code Execution (RCE)",
+    "def": "Agentic systems often generate and execute code; attackers exploit code-generation features or embedded tool access to escalate into remote code execution (RCE), local misuse or exploitation of internal systems."
+   },
+   {
+    "id": "ASI06",
+    "name": "Memory and Context Poisoning",
+    "def": "Agentic systems rely on stored and retrievable context (memory, conversation history, retrieved data); poisoning that context corrupts continuity and reasoning across tasks."
+   },
+   {
+    "id": "ASI07",
+    "name": "Insecure Inter-Agent Communication",
+    "def": "Multi-agent systems depend on continuous communication between autonomous agents coordinating via APIs, message buses and shared memory, significantly expanding the attack surface and undermining perimeter-based security."
+   },
+   {
+    "id": "ASI08",
+    "name": "Cascading Failures",
+    "def": "Agentic cascading failures occur when a single fault (hallucination, malicious input, corrupted tool or poisoned memory) propagates across autonomous agents, compounding into system-wide harm and bypassing stepwise human checks."
+   },
+   {
+    "id": "ASI09",
+    "name": "Human-Agent Trust Exploitation",
+    "def": "Agents can establish strong trust with users through fluency, emotional intelligence and perceived expertise (anthropomorphism); adversaries or misaligned designs exploit this trust to influence decisions or extract sensitive information."
+   },
+   {
+    "id": "ASI10",
+    "name": "Rogue Agents",
+    "def": "Rogue agents are malicious or compromised AI agents that deviate from their intended function or authorized scope, acting harmfully, deceptively or parasitically within multi-agent or human-agent ecosystems."
+   }
+  ]
+ },
+ "map": {
+  "MR-015": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 15",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP S&S Ch. Commitment 6",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0012",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0029",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0034",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0034.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0034.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0034.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0046",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0048",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0048.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0048.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0048.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0048.003",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0048.004",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0049",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0078",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0105",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0112",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0112.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0112.001",
+    "m": "sub"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-13.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-13.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-13.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-13.1.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-13.1.5",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-13.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-14.1.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.1.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.1.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.1.3",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.1.4",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.1.5",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.01",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.014",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.9",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM10:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI03",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI05",
+    "m": "clear"
+   }
+  ],
+  "MR-012": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0015",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0031",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0041",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0043",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0043.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0043.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0043.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0043.003",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0043.004",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-evasion-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-11.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-11.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-11.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-11.1.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-11.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-11.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-17.1.1",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.02",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.022",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.025",
+    "m": "clear"
+   }
+  ],
+  "MR-014": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.5",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0018",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0018.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0018.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0018.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0019",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0020",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0059",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-poisoning",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-6.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-6.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-6.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-7.3.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.011",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.012",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.013",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.02",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.021",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.023",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.024",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.026",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.05",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.051",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM04:2025",
+    "m": "clear"
+   }
+  ],
+  "MR-010": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0051",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0051.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0051.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0051.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0054",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0061",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0067",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0067.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0068",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0070",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0071",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0092",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0093",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0094",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-context-overload-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-direct-instructions-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-encoded-interactions-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-indirect-instructions-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-jailbreaking",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-prompt-injection-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-prompt-priming",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-social-hacking-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-specialized-tokens-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.2.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.4.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.4.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.4.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.4.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-19.1.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-19.1.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-19.2.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-19.2.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-2.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-2.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-2.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-2.1.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-2.1.5",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.015",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.018",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.02",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.027",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.04",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM01:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM08:2025",
+    "m": "partial"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI01",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI06",
+    "m": "clear"
+   }
+  ],
+  "MR-017": [
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.5",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-attribute-inference-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-membership-inference-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-reidentification",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-10.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.03",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.032",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.033",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.034",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.4",
+    "m": "clear"
+   }
+  ],
+  "MR-009": [
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.5",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0057",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0077",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0085",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0085.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0085.001",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-exposing-personal-information",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-sharing-ip-pi-confidential-information-with-user",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.25",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.03",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.032",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.036",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.037",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.038",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.4",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM02:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM08:2025",
+    "m": "partial"
+   }
+  ],
+  "MR-016": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.5",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0024",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0024.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0024.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0024.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0035",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0044",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-extraction-attack",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-10.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-10.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-10.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.03",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.031",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM10:2025",
+    "m": "clear"
+   }
+  ],
+  "MR-032": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-dangerous-use",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.10",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-18.2.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-18.2.2",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.04",
+    "m": "clear"
+   }
+  ],
+  "MR-018": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.10.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP S&S Ch. Commitment 6",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010.003",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010.004",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0010.005",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0058",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0060",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0074",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0076",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0104",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0109",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0111",
+    "m": "sub"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.3.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.3.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-9.3.3",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.05",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.051",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.12",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.9",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM03:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI04",
+    "m": "clear"
+   }
+  ],
+  "MR-013": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0025",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0056",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-confidential-data-in-prompt",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-confidential-information-in-data",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-ip-information-in-prompt",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-prompt-leaking",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-revealing-confidential-information",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-sharing-ip-pi-confidential-information-with-tools",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-14.1.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.24",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-7.4.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.3.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.3.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.4.1",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.035",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM02:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM07:2025",
+    "m": "clear"
+   }
+  ],
+  "MR-020": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.10.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.5",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-attack-on-ai-agents-external-resources",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-12.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-12.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-12.1.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-12.1.4",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.039",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM05:2025",
+    "m": "partial"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM06:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI02",
+    "m": "clear"
+   }
+  ],
+  "MR-071": [
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0053",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0080",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0080.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0080.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0081",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0082",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0083",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0086",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0098",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0099",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0100",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0101",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0103",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0108",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0110",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-exploit-trust-mismatch",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-unauthorized-use",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.3.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-1.3.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-14.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-3.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.2.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.2.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.3.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.3.2",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.3.3",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.3.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.3.5",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-4.3.6",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-5.1.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-5.2.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-7.2.1",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-7.2.2",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-8.2.3",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_aml",
+    "item": "NISTAML.039",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM06:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI01",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI02",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI03",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI04",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI05",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI06",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI07",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI10",
+    "m": "clear"
+   }
+  ],
+  "MR-021": [
+   {
+    "fw": "iso_23894",
+    "item": "A.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-function-calling-hallucination",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-hallucination",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.19",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.2",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM09:2025",
+    "m": "clear"
+   }
+  ],
+  "MR-023": [
+   {
+    "fw": "iso_23894",
+    "item": "A.12",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.8",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM09:2025",
+    "m": "clear"
+   }
+  ],
+  "MR-034": [
+   {
+    "fw": "iso_23894",
+    "item": "A.12",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-over-or-under-reliance",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-over-or-under-reliance-on-ai-agents",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.7",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_llm",
+    "item": "LLM09:2025",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI09",
+    "m": "clear"
+   }
+  ],
+  "MR-057": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI07",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI08",
+    "m": "clear"
+   }
+  ],
+  "MR-047": [
+   {
+    "fw": "iso_42001",
+    "item": "A.10.3",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.6",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI08",
+    "m": "clear"
+   }
+  ],
+  "MR-030": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 5(a)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 5(b)",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI09",
+    "m": "clear"
+   }
+  ],
+  "MR-036": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-human-dignity",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.7",
+    "m": "clear"
+   },
+   {
+    "fw": "owasp_asi",
+    "item": "ASI09",
+    "m": "clear"
+   }
+  ],
+  "MR-029": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.18",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.1",
+    "m": "clear"
+   }
+  ],
+  "MR-004": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.16",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.17",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.3",
+    "m": "clear"
+   }
+  ],
+  "MR-003": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.6",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-spreading-toxicity",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-toxic-output",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.11",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.3",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.6",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.8",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.9",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.3",
+    "m": "clear"
+   }
+  ],
+  "MR-007": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-harmful-output",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.13",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.3",
+    "m": "clear"
+   }
+  ],
+  "MR-011": [
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.5",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 10",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(9)",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-acquisition-restrictions",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-privacy-rights-alignment",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-transfer-restrictions",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-usage-restrictions",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-personal-information-in-data",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-personal-information-in-prompt",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.4",
+    "m": "clear"
+   }
+  ],
+  "MR-037": [
+   {
+    "fw": "iso_23894",
+    "item": "A.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.5",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-ai-agents-impact-on-environment",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-the-environment",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-redundant-actions",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.5",
+    "m": "clear"
+   }
+  ],
+  "MR-001": [
+   {
+    "fw": "iso_23894",
+    "item": "A.6",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 10",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 5(c)",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-bias",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-decision-bias",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-discriminatory-actions",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.6",
+    "m": "clear"
+   }
+  ],
+  "MR-002": [
+   {
+    "fw": "iso_23894",
+    "item": "A.6",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-cultural-diversity",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-output-bias",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.6",
+    "m": "clear"
+   }
+  ],
+  "MR-035": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-ai-agents-impact-on-human-agency",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-ai-agents-impact-on-human-agency-2",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.7",
+    "m": "clear"
+   }
+  ],
+  "MR-026": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-spreading-disinformation",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.15",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.5",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.8",
+    "m": "clear"
+   }
+  ],
+  "MR-031": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 50(4)",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0073",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0088",
+    "m": "sub"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-nonconsensual-use",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-3.1.1",
+    "m": "partial"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.8",
+    "m": "clear"
+   }
+  ],
+  "MR-027": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0102",
+    "m": "sub"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.1",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.9",
+    "m": "clear"
+   }
+  ],
+  "MR-039": [
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.5",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 53 (provider)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP Copyright Ch. Commitment 1",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-copyright-infringement",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-usage-rights-restrictions",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-generated-content-ownership-and-ip",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.23",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.10",
+    "m": "clear"
+   }
+  ],
+  "MR-008": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.14",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.11",
+    "m": "clear"
+   }
+  ],
+  "MR-005": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.4",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.11",
+    "m": "clear"
+   }
+  ],
+  "MR-064": [
+   {
+    "fw": "iso_42001",
+    "item": "A.10.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.2",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.12",
+    "m": "clear"
+   }
+  ],
+  "MR-045": [
+   {
+    "fw": "iso_23894",
+    "item": "A.12",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.7",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 13",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP Transparency Ch. Measure 1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-ai-agent-transparency",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-data-transparency",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-model-transparency",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-system-transparency",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-training-data-transparency",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-uncertain-data-provenance",
+    "m": "clear"
+   },
+   {
+    "fw": "nist_genai",
+    "item": "GENAI.12",
+    "m": "clear"
+   }
+  ],
+  "MR-055": [
+   {
+    "fw": "iso_23894",
+    "item": "A.12",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.7",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 13",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(11)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 50",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-inaccessible-training-data",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-unexplainable-and-untraceable-actions",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-unexplainable-output",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-unreliable-source-attribution",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-untraceable-attribution",
+    "m": "clear"
+   }
+  ],
+  "MR-059": [
+   {
+    "fw": "iso_23894",
+    "item": "A.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.6",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 10",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(4)",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-data-contamination",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-improper-data-curation",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-introduce-data-bias",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-temporal-gap",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-unrepresentative-data",
+    "m": "clear"
+   }
+  ],
+  "MR-043": [
+   {
+    "fw": "iso_23894",
+    "item": "A.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.2.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.3",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 9",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-ai-agent-compliance",
+    "m": "partial"
+   }
+  ],
+  "MR-042": [
+   {
+    "fw": "iso_23894",
+    "item": "A.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.10.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.3.2",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-accountability-of-ai-agent-actions",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-legal-accountability",
+    "m": "clear"
+   }
+  ],
+  "MR-046": [
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 15",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 9",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP S&S Ch. Commitments 2-5",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-incomplete-ai-agent-evaluation",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-incorrect-risk-testing",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-testing-diversity",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-reproducibility",
+    "m": "partial"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-unrepresentative-risk-testing",
+    "m": "clear"
+   }
+  ],
+  "MR-066": [
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-mitigation-and-maintenance",
+    "m": "partial"
+   }
+  ],
+  "MR-038": [
+   {
+    "fw": "iso_42001",
+    "item": "A.5.5",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-ai-agents-impact-on-jobs",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-jobs",
+    "m": "clear"
+   }
+  ],
+  "MR-051": [
+   {
+    "fw": "iso_23894",
+    "item": "A.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.1.2",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-misaligned-actions",
+    "m": "clear"
+   }
+  ],
+  "MR-050": [
+   {
+    "fw": "iso_23894",
+    "item": "A.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 15",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-poor-model-accuracy",
+    "m": "clear"
+   }
+  ],
+  "MR-060": [
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(1)",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-improper-usage",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-incomplete-usage-definition",
+    "m": "partial"
+   }
+  ],
+  "MR-048": [
+   {
+    "fw": "iso_23894",
+    "item": "A.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.3.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.6",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-lack-of-domain-expertise",
+    "m": "partial"
+   }
+  ],
+  "MR-040": [
+   {
+    "fw": "iso_23894",
+    "item": "A.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.10.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.2.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.5",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "(umbrella for all EU AI Act obligations)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(12)",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-model-usage-rights-restrictions",
+    "m": "partial"
+   }
+  ],
+  "MR-006": [
+   {
+    "fw": "iso_23894",
+    "item": "A.6",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.7.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-exclusion",
+    "m": "partial"
+   }
+  ],
+  "MR-044": [
+   {
+    "fw": "iso_42001",
+    "item": "A.10.3",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-human-exploitation",
+    "m": "clear"
+   }
+  ],
+  "MR-067": [
+   {
+    "fw": "iso_42001",
+    "item": "A.5.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.5",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 27",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-affected-communities",
+    "m": "partial"
+   }
+  ],
+  "MR-041": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-education-bypassing-learning",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-impact-on-education-plagiarism",
+    "m": "clear"
+   }
+  ],
+  "MR-078": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 50(3)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 50(4)",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-non-disclosure",
+    "m": "clear"
+   }
+  ],
+  "MR-019": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-harmful-code-generation",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-12.2.1",
+    "m": "clear"
+   }
+  ],
+  "MR-022": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-incomplete-advice",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.20",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.21",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.22",
+    "m": "clear"
+   }
+  ],
+  "MR-056": [
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 15",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-overfitting",
+    "m": "partial"
+   }
+  ],
+  "MR-058": [
+   {
+    "fw": "iso_23894",
+    "item": "A.7",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "ibm_atlas",
+    "item": "ibm-improper-retraining",
+    "m": "partial"
+   }
+  ],
+  "MR-028": [
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0011",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0011.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0011.001",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0011.002",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0011.003",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0052",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0052.000",
+    "m": "sub"
+   },
+   {
+    "fw": "mitre_atlas",
+    "item": "AML.T0052.001",
+    "m": "sub"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.12",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-15.1.7",
+    "m": "partial"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-18.1.1",
+    "m": "clear"
+   }
+  ],
+  "MR-033": [
+   {
+    "fw": "iso_23894",
+    "item": "A.8",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.5",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(10)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 5(e)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 50(3)",
+    "m": "clear"
+   },
+   {
+    "fw": "cisco",
+    "item": "AISubtech-16.1.1",
+    "m": "partial"
+   }
+  ],
+  "MR-052": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.11",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP S&S Ch. Commitments 2-5",
+    "m": "clear"
+   }
+  ],
+  "MR-054": [
+   {
+    "fw": "iso_23894",
+    "item": "A.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.2",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 14",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(2)",
+    "m": "clear"
+   }
+  ],
+  "MR-063": [
+   {
+    "fw": "iso_42001",
+    "item": "A.3.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.4.2",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(8)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 49",
+    "m": "clear"
+   }
+  ],
+  "MR-065": [
+   {
+    "fw": "iso_42001",
+    "item": "A.10.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.6",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP S&S Ch. Commitments 1-10",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP Transparency Ch. Commitment 1",
+    "m": "clear"
+   }
+  ],
+  "MR-068": [
+   {
+    "fw": "iso_42001",
+    "item": "A.3.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.3",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.8.4",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(5)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 72",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 73",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP S&S Ch. Commitment 9",
+    "m": "clear"
+   }
+  ],
+  "MR-069": [
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.8",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 12",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(6)",
+    "m": "clear"
+   }
+  ],
+  "MR-072": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 27",
+    "m": "clear"
+   }
+  ],
+  "MR-073": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(7)",
+    "m": "clear"
+   }
+  ],
+  "MR-074": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(8)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 49",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 71",
+    "m": "clear"
+   }
+  ],
+  "MR-075": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(11)",
+    "m": "clear"
+   }
+  ],
+  "MR-076": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 26(5)",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 72",
+    "m": "clear"
+   },
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 73",
+    "m": "clear"
+   }
+  ],
+  "MR-077": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 5",
+    "m": "clear"
+   }
+  ],
+  "MR-079": [
+   {
+    "fw": "eu_ai_act",
+    "item": "Art. 4",
+    "m": "clear"
+   }
+  ],
+  "MR-080": [
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP GPAI Code of Practice, Transparency Chapter, Commitment 1 (Measures 1.1-1.3)",
+    "m": "clear"
+   }
+  ],
+  "MR-081": [
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP GPAI Code of Practice, Copyright Chapter, Commitment 1 (Measures 1.1-1.5)",
+    "m": "clear"
+   }
+  ],
+  "MR-082": [
+   {
+    "fw": "eu_ai_act",
+    "item": "CoP GPAI Code of Practice, Safety and Security Chapter, Commitments 1-10",
+    "m": "clear"
+   }
+  ],
+  "MR-024": [
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   }
+  ],
+  "MR-025": [
+   {
+    "fw": "iso_23894",
+    "item": "A.12",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   }
+  ],
+  "MR-049": [
+   {
+    "fw": "iso_23894",
+    "item": "A.10",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.5.4",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   }
+  ],
+  "MR-053": [
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   }
+  ],
+  "MR-061": [
+   {
+    "fw": "iso_23894",
+    "item": "A.9",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6.2.4",
+    "m": "clear"
+   }
+  ],
+  "MR-062": [
+   {
+    "fw": "iso_42001",
+    "item": "A.2.2",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.9.2",
+    "m": "clear"
+   }
+  ],
+  "MR-070": [
+   {
+    "fw": "iso_42001",
+    "item": "A.4.6",
+    "m": "clear"
+   },
+   {
+    "fw": "iso_42001",
+    "item": "A.6",
+    "m": "clear"
+   }
+  ]
+ }
+}

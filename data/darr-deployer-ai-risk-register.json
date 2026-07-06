@@ -1,0 +1,3682 @@
+{
+ "name": "Deployer AI Risk Register",
+ "description": "A canonical register of AI risks for organizations that deploy AI systems, consolidated from the MIT AI Risk Repository and gap-analysed against ISO/IEC 23894 and 42001, MITRE ATLAS, and the EU AI Act with the GPAI Code of Practice.",
+ "url": "https://www.airiskdeployer.org/",
+ "version": "1.0",
+ "date": "3 July 2026",
+ "license": "CC BY 4.0",
+ "derived_from": "MIT AI Risk Repository V4 (December 2025), CC BY 4.0. Independent derivative work, not endorsed by or affiliated with MIT.",
+ "counts": {
+  "risks": 82,
+  "subrisks": 61,
+  "register_rows": 143
+ },
+ "source_versions": [
+  {"source": "MIT AI Risk Repository", "version": "V4 (December 2025)", "role": "foundation"},
+  {"source": "ISO/IEC 23894", "version": "2023", "role": "source"},
+  {"source": "ISO/IEC 42001", "version": "2023", "role": "source"},
+  {"source": "MITRE ATLAS", "version": "v5.6.0", "role": "source"},
+  {"source": "EU AI Act", "version": "Regulation (EU) 2024/1689", "role": "source"},
+  {"source": "GPAI Code of Practice", "version": "Final (10 July 2025)", "role": "source"},
+  {"source": "IBM AI Risk Atlas", "version": "Accessed July 2026", "role": "crosscheck"},
+  {"source": "Cisco Integrated AI Security and Safety Framework", "version": "December 2025", "role": "crosscheck"},
+  {"source": "NIST AI 100-2 (Adversarial ML)", "version": "e2025 (March 2025)", "role": "crosscheck"},
+  {"source": "NIST AI 600-1 (Generative AI Profile)", "version": "2024", "role": "crosscheck"},
+  {"source": "OWASP Top 10 for LLM Applications", "version": "2025", "role": "crosscheck"},
+  {"source": "OWASP Top 10 for Agentic Applications", "version": "2026", "role": "crosscheck"}
+ ],
+ "risks": [
+  {
+   "id": "MR-001",
+   "name": "Biased or discriminatory outputs and decisions",
+   "description": "The system produces unfair or discriminatory outputs or decisions (e.g. in hiring, lending, services) that disadvantage individuals or groups, often from biased training data.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.1 > Unfair discrimination and misrepresentation",
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Abercrombie2024",
+    "Critch2023",
+    "Cui2024",
+    "G'sell2024",
+    "GOS2023",
+    "Giarmoleo2024",
+    "Gipiškis2024",
+    "Habbal2024",
+    "Hogenhout2021",
+    "Kumar2023",
+    "Li2025",
+    "Liu2024",
+    "Meek2016",
+    "Paes2023",
+    "Perlo2025",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Shelby2023",
+    "Sherman2023",
+    "Stanley2024",
+    "Steimers2022",
+    "Sun2023",
+    "TC2602024",
+    "Teixeira2022",
+    "Uuk2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Wirtz2020",
+    "Wirtz2022",
+    "Zeng2024",
+    "Zhang2023"
+   ],
+   "source_count": 32,
+   "iso_references": "23894 obj A.6; src 6, 7; mech B.5 | 42001 ctrl A.5.4, A.7.4, A.6.2.4",
+   "eu_ai_act_articles": [
+    "Art. 10",
+    "Art. 5(c)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-002",
+   "name": "Stereotyping and representational harm",
+   "description": "The system reproduces demeaning stereotypes, mis/under-represents groups, or erases or appropriates cultural identity in its outputs.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.1 > Unfair discrimination and misrepresentation",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Bengio2024",
+    "Bengio2025",
+    "Cui2024",
+    "Deng2023",
+    "G'sell2024",
+    "GOS2023",
+    "Gabriel2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Leech2024",
+    "Li2025",
+    "Liu2024",
+    "Maham2023",
+    "Paes2023",
+    "Shelby2023",
+    "Solaiman2023",
+    "Tan2022",
+    "Vidgen2024",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023",
+    "Zeng2024",
+    "Zhang2022"
+   ],
+   "source_count": 28,
+   "iso_references": "23894 obj A.6; src 6; mech B.5 | 42001 ctrl A.5.4, A.7.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-003",
+   "name": "Toxic, hateful, or harassing content generation",
+   "description": "The system generates hateful, abusive, profane, harassing, or otherwise offensive content.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.2 > Exposure to toxic content",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Cui2024",
+    "Deng2023",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "InfoComm2023",
+    "Li2025",
+    "Liu2024",
+    "Solaiman2023",
+    "Stanley2024",
+    "Sun2023",
+    "Vidgen2024",
+    "Wang2025",
+    "Zeng2024",
+    "Zhang2023"
+   ],
+   "source_count": 17,
+   "iso_references": "23894 obj A.6, A.10; src 6, 7; mech B.5 | 42001 ctrl A.5.4, A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-004",
+   "name": "Violent or extremist content generation",
+   "description": "The system generates content that incites, glorifies, or facilitates violence, terrorism, or extremism.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.2 > Exposure to toxic content",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Coghlan2023",
+    "Critch2023",
+    "DSIT2023",
+    "Deng2023",
+    "Gipiškis2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Li2025",
+    "Liu2024",
+    "Shelby2023",
+    "Stanley2024",
+    "TC2602024",
+    "Uuk2025",
+    "Vidgen2024",
+    "Zeng2024"
+   ],
+   "source_count": 16,
+   "iso_references": "23894 obj A.10; src 7; mech B.5 | 42001 ctrl A.5.4, A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-005",
+   "name": "Child sexual abuse material and child-safety harm",
+   "description": "The system generates or facilitates child sexual abuse material (CSAM) or other sexual/abusive harm to minors.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.2 > Exposure to toxic content",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Bengio2025",
+    "Gabriel2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Liu2024",
+    "Marchal2024",
+    "NIST2024",
+    "Vidgen2024",
+    "Weidinger2023",
+    "Zeng2024"
+   ],
+   "source_count": 10,
+   "iso_references": "23894 obj A.10; src 7; mech B.5 | 42001 ctrl A.5.4, A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-006",
+   "name": "Disparate performance across groups and languages",
+   "description": "The system performs measurably worse for some demographic groups, dialects, or languages, degrading service quality for those users.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.3 > Unequal performance across groups",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "IBM2025",
+    "Li2025",
+    "Liu2024",
+    "NIST2024",
+    "Shelby2023",
+    "Solaiman2023",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023"
+   ],
+   "source_count": 9,
+   "iso_references": "23894 obj A.6, A.9; src 6; mech B.5 | 42001 ctrl A.7.4, A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-007",
+   "name": "Self-harm, suicide and dangerous-behavior promotion",
+   "description": "The system produces content that encourages or enables suicide, self-harm, eating disorders, or other dangerous behaviors.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.2 > Exposure to toxic content",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Li2025",
+    "Stanley2024",
+    "Sun2023",
+    "Vidgen2024",
+    "Zeng2024"
+   ],
+   "source_count": 8,
+   "iso_references": "23894 obj A.10; src 7; mech B.5 | 42001 ctrl A.5.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-008",
+   "name": "Sexual content and non-consensual intimate imagery",
+   "description": "The system generates sexual or adult content, or non-consensual intimate imagery, in inappropriate contexts.",
+   "family": "Model & system behaviour",
+   "mit_domain": "1. Discrimination & Toxicity",
+   "mit_subdomain": "1.2 > Exposure to toxic content",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Liu2024",
+    "Vidgen2024",
+    "Zeng2024"
+   ],
+   "source_count": 8,
+   "iso_references": "23894 obj A.10; src 7; mech B.5 | 42001 ctrl A.5.4, A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-009",
+   "name": "Leakage of personal or sensitive data",
+   "description": "The system memorizes and discloses personal or sensitive data in its outputs, or such data is extracted via inference/extraction attacks, as distinct from the lawful basis for collecting or processing that data (MR-011).",
+   "family": "Data, privacy & content liability",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.1 > Compromise of privacy by leaking or correctly inferring sensitive information",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Bengio2024",
+    "Cui2024",
+    "Deng2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Giarmoleo2024",
+    "Gipiškis2024",
+    "Habbal2024",
+    "Hagendorff2024",
+    "Hammond2025",
+    "Hogenhout2021",
+    "IBM2025",
+    "InfoComm2023",
+    "Li2025",
+    "Liu2024",
+    "Maham2023",
+    "Marchal2024",
+    "NIST2024",
+    "Perlo2025",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Sherman2023",
+    "Stanley2024",
+    "Steimers2022",
+    "TC2602024",
+    "Tan2022",
+    "Vidgen2024",
+    "Wang2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023",
+    "Wirtz2022",
+    "Zeng2024",
+    "Zhang2023"
+   ],
+   "source_count": 34,
+   "iso_references": "23894 obj A.8; src 6; mech B.5 | 42001 ctrl A.7.4, A.7.5, A.5.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 600-1 Generative AI Profile",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-009.1",
+    "MR-009.2",
+    "MR-009.3"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-009.1",
+     "parent_id": "MR-009",
+     "name": "Prompt-induced leakage of sensitive data",
+     "description": "Crafted prompts induce the model to reveal sensitive data from its training set, context, or memory.",
+     "atlas_technique_id": "AML.T0057",
+     "atlas_technique_name": "LLM Data Leakage"
+    },
+    {
+     "id": "MR-009.2",
+     "parent_id": "MR-009",
+     "name": "Data exfiltration via rendered output",
+     "description": "The model is induced to emit private data through rendered elements such as markdown images or links that call out to an attacker.",
+     "atlas_technique_id": "AML.T0077",
+     "atlas_technique_name": "LLM Response Rendering"
+    },
+    {
+     "id": "MR-009.3",
+     "parent_id": "MR-009",
+     "name": "Harvesting data from AI-enabled services",
+     "description": "Access to the deployer's AI services is used to collect the data those services hold.",
+     "atlas_technique_id": "AML.T0085",
+     "atlas_technique_name": "Data from AI Services"
+    }
+   ]
+  },
+  {
+   "id": "MR-010",
+   "name": "Prompt injection and jailbreaking",
+   "description": "Adversarial inputs (prompt injection, jailbreaks, goal hijacking, prompt leaking) bypass instructions or safety controls.",
+   "family": "Security & adversarial",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "Cui2024",
+    "G'sell2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "IBM2025",
+    "Marchal2024",
+    "Nah2023",
+    "Sun2023",
+    "Wang2025"
+   ],
+   "source_count": 11,
+   "iso_references": "23894 obj A.11; src 7; mech B.5 | 42001 ctrl A.6.2.4, A.6.2.6",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-010.1",
+    "MR-010.2",
+    "MR-010.3",
+    "MR-010.4",
+    "MR-010.5",
+    "MR-010.6",
+    "MR-010.7",
+    "MR-010.8",
+    "MR-010.9",
+    "MR-010.10"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-010.1",
+     "parent_id": "MR-010",
+     "name": "Prompt injection of the deployed LLM",
+     "description": "Malicious instructions in user input or retrieved content cause the LLM to ignore its intended task and act on the attacker's instructions.",
+     "atlas_technique_id": "AML.T0051",
+     "atlas_technique_name": "LLM Prompt Injection"
+    },
+    {
+     "id": "MR-010.2",
+     "parent_id": "MR-010",
+     "name": "Jailbreak and safety-guardrail bypass",
+     "description": "Crafted inputs make the model ignore, circumvent, or override its safety restrictions.",
+     "atlas_technique_id": "AML.T0054",
+     "atlas_technique_name": "LLM Jailbreak"
+    },
+    {
+     "id": "MR-010.3",
+     "parent_id": "MR-010",
+     "name": "Self-replicating prompt injection",
+     "description": "A prompt-injection payload is crafted to copy itself onward, spreading across messages, documents, or agents.",
+     "atlas_technique_id": "AML.T0061",
+     "atlas_technique_name": "LLM Prompt Self-Replication"
+    },
+    {
+     "id": "MR-010.4",
+     "parent_id": "MR-010",
+     "name": "Manipulation of trusted output components",
+     "description": "Prompts cause the model to manipulate citations, links, or UI components users trust, masking malicious content.",
+     "atlas_technique_id": "AML.T0067",
+     "atlas_technique_name": "LLM Trusted Output Components Manipulation"
+    },
+    {
+     "id": "MR-010.5",
+     "parent_id": "MR-010",
+     "name": "Obfuscated prompt injection evading filters",
+     "description": "Injected instructions are encoded or hidden so they evade input and content filters.",
+     "atlas_technique_id": "AML.T0068",
+     "atlas_technique_name": "LLM Prompt Obfuscation"
+    },
+    {
+     "id": "MR-010.6",
+     "parent_id": "MR-010",
+     "name": "Retrieval-augmented generation (RAG) poisoning",
+     "description": "Malicious content is injected into the knowledge base a RAG system retrieves from, steering answers and actions.",
+     "atlas_technique_id": "AML.T0070",
+     "atlas_technique_name": "RAG Poisoning"
+    },
+    {
+     "id": "MR-010.7",
+     "parent_id": "MR-010",
+     "name": "False RAG entry injection",
+     "description": "Fabricated entries are introduced into the retrieval store so the model surfaces attacker-controlled information.",
+     "atlas_technique_id": "AML.T0071",
+     "atlas_technique_name": "False RAG Entry Injection"
+    },
+    {
+     "id": "MR-010.8",
+     "parent_id": "MR-010",
+     "name": "Tampering with user chat history",
+     "description": "An attacker alters the conversation history the model relies on to cover tracks or steer behavior.",
+     "atlas_technique_id": "AML.T0092",
+     "atlas_technique_name": "Manipulate User LLM Chat History"
+    },
+    {
+     "id": "MR-010.9",
+     "parent_id": "MR-010",
+     "name": "Indirect prompt injection via a public-facing surface",
+     "description": "Malicious prompts are planted in content the system ingests (web pages, documents, tickets) and execute when processed.",
+     "atlas_technique_id": "AML.T0093",
+     "atlas_technique_name": "Prompt Infiltration via Public-Facing Application"
+    },
+    {
+     "id": "MR-010.10",
+     "parent_id": "MR-010",
+     "name": "Delayed or triggered prompt instructions",
+     "description": "Injected instructions lie dormant and execute on a later trigger or future interaction.",
+     "atlas_technique_id": "AML.T0094",
+     "atlas_technique_name": "Delay Execution of LLM Instructions"
+    }
+   ]
+  },
+  {
+   "id": "MR-011",
+   "name": "Unlawful or non-consensual collection and processing of personal data",
+   "description": "Personal data is collected or processed (e.g. via scraping, secondary use, or without consent) in violation of privacy law and expectations, as distinct from that data later leaking in outputs (MR-009).",
+   "family": "Data, privacy & content liability",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.1 > Compromise of privacy by leaking or correctly inferring sensitive information",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "EPIC2023",
+    "Gabriel2024",
+    "IBM2025",
+    "Kumar2023",
+    "Li2025",
+    "Solaiman2023",
+    "TC2602024",
+    "Teixeira2022",
+    "Weidinger2023"
+   ],
+   "source_count": 10,
+   "iso_references": "23894 obj A.8; src 6; mech B.5 | 42001 ctrl A.7.3, A.7.5",
+   "eu_ai_act_articles": [
+    "Art. 10",
+    "Art. 26(9)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-012",
+   "name": "Adversarial examples and evasion attacks",
+   "description": "Crafted input perturbations cause the model to misclassify or behave incorrectly (evasion/adversarial-example attacks).",
+   "family": "Security & adversarial",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "Classical_ML, GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Everitt2018",
+    "Gipiškis2024",
+    "IBM2025",
+    "Liu2024",
+    "Marchal2024",
+    "TC2602024",
+    "Uuk2025",
+    "Zhang2022"
+   ],
+   "source_count": 9,
+   "iso_references": "23894 obj A.11, A.9; src 6, 7; mech B.5 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-012.1",
+    "MR-012.2",
+    "MR-012.3",
+    "MR-012.4"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-012.1",
+     "parent_id": "MR-012",
+     "name": "Model evasion via adversarial input",
+     "description": "Inputs are crafted so the model misclassifies or fails to detect what it should, defeating its purpose.",
+     "atlas_technique_id": "AML.T0015",
+     "atlas_technique_name": "Evade AI Model"
+    },
+    {
+     "id": "MR-012.2",
+     "parent_id": "MR-012",
+     "name": "Integrity erosion via adversarial inputs",
+     "description": "A stream of adversarial inputs degrades the model's accuracy and trustworthiness over time.",
+     "atlas_technique_id": "AML.T0031",
+     "atlas_technique_name": "Erode AI Model Integrity"
+    },
+    {
+     "id": "MR-012.3",
+     "parent_id": "MR-012",
+     "name": "Physical-world adversarial manipulation",
+     "description": "Physical artifacts (markings, objects, signals) are altered to fool perception models in the real world.",
+     "atlas_technique_id": "AML.T0041",
+     "atlas_technique_name": "Physical Environment Access"
+    },
+    {
+     "id": "MR-012.4",
+     "parent_id": "MR-012",
+     "name": "Crafted adversarial data",
+     "description": "Perturbed inputs are engineered to induce incorrect or attacker-chosen model outputs.",
+     "atlas_technique_id": "AML.T0043",
+     "atlas_technique_name": "Craft Adversarial Data"
+    }
+   ]
+  },
+  {
+   "id": "MR-013",
+   "name": "Disclosure of confidential or proprietary information",
+   "description": "Confidential, proprietary, or trade-secret information (organizational or third-party secrets, as distinct from personal data covered by MR-009 and MR-011) is leaked through user prompts, model outputs, or system-prompt extraction.",
+   "family": "Data, privacy & content liability",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.1 > Compromise of privacy by leaking or correctly inferring sensitive information",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Abercrombie2024",
+    "Cunha2023",
+    "EPIC2023",
+    "IBM2025",
+    "Li2025",
+    "NIST2024",
+    "Nah2023",
+    "Zeng2024"
+   ],
+   "source_count": 9,
+   "iso_references": "23894 obj A.8, A.11; src 6, 10; mech B.5 | 42001 ctrl A.7.2, A.8.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-013.1",
+    "MR-013.2"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-013.1",
+     "parent_id": "MR-013",
+     "name": "Exfiltration of AI artifacts via cyber means",
+     "description": "Models, data, or other AI artifacts are exfiltrated using conventional intrusion techniques.",
+     "atlas_technique_id": "AML.T0025",
+     "atlas_technique_name": "Exfiltration via Cyber Means"
+    },
+    {
+     "id": "MR-013.2",
+     "parent_id": "MR-013",
+     "name": "System-prompt and instruction extraction",
+     "description": "Attackers extract the system prompt and hidden instructions, exposing proprietary logic and guardrails.",
+     "atlas_technique_id": "AML.T0056",
+     "atlas_technique_name": "Extract LLM System Prompt"
+    }
+   ]
+  },
+  {
+   "id": "MR-014",
+   "name": "Data and model poisoning and backdoors",
+   "description": "Adversaries corrupt training/fine-tuning data or implant backdoors/trojans that alter model behavior under triggers.",
+   "family": "Security & adversarial",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Gipiškis2024",
+    "Hammond2025",
+    "IBM2025",
+    "Liu2024",
+    "Marchal2024",
+    "Schnitzer2024",
+    "TC2602024",
+    "Tang2025"
+   ],
+   "source_count": 9,
+   "iso_references": "23894 obj A.11; src 6, 10; mech B.5 | 42001 ctrl A.7.3, A.7.5",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-014.1",
+    "MR-014.2",
+    "MR-014.3",
+    "MR-014.4"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-014.1",
+     "parent_id": "MR-014",
+     "name": "Direct model manipulation and backdoor insertion",
+     "description": "The model is altered directly to change its behavior or embed a hidden backdoor trigger.",
+     "atlas_technique_id": "AML.T0018",
+     "atlas_technique_name": "Manipulate AI Model"
+    },
+    {
+     "id": "MR-014.2",
+     "parent_id": "MR-014",
+     "name": "Poisoned datasets published for ingestion",
+     "description": "Poisoned datasets are placed where the deployer is likely to collect and train on them.",
+     "atlas_technique_id": "AML.T0019",
+     "atlas_technique_name": "Publish Poisoned Datasets"
+    },
+    {
+     "id": "MR-014.3",
+     "parent_id": "MR-014",
+     "name": "Training-data poisoning",
+     "description": "Adversaries modify training or fine-tuning data to degrade the model or implant chosen behavior.",
+     "atlas_technique_id": "AML.T0020",
+     "atlas_technique_name": "Poison Training Data"
+    },
+    {
+     "id": "MR-014.4",
+     "parent_id": "MR-014",
+     "name": "Dataset integrity erosion",
+     "description": "Portions of a dataset are poisoned or altered to reduce its usefulness and reliability.",
+     "atlas_technique_id": "AML.T0059",
+     "atlas_technique_name": "Erode Dataset Integrity"
+    }
+   ]
+  },
+  {
+   "id": "MR-015",
+   "name": "Residual AI system security and availability weaknesses",
+   "description": "The system is broadly vulnerable to attack or disruption, including denial-of-service and resource-exhaustion (sponge) attacks.",
+   "family": "Security & adversarial",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Gipiškis2024",
+    "Habbal2024",
+    "Saghiri2022",
+    "Tan2022",
+    "Wang2025",
+    "Wirtz2022",
+    "Zeng2024"
+   ],
+   "source_count": 8,
+   "iso_references": "23894 obj A.11; src 9; mech B.6 | 42001 ctrl A.6.2.4, A.4.5",
+   "eu_ai_act_articles": [
+    "Art. 15"
+   ],
+   "eu_cop_references": [
+    "S&S Ch. Commitment 6"
+   ],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 600-1 Generative AI Profile",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-015.1",
+    "MR-015.2",
+    "MR-015.3",
+    "MR-015.4",
+    "MR-015.5",
+    "MR-015.6",
+    "MR-015.7",
+    "MR-015.8",
+    "MR-015.9"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-015.1",
+     "parent_id": "MR-015",
+     "name": "Abuse of valid accounts against the AI system",
+     "description": "Stolen or abused legitimate credentials grant access to the AI system and its data.",
+     "atlas_technique_id": "AML.T0012",
+     "atlas_technique_name": "Valid Accounts"
+    },
+    {
+     "id": "MR-015.2",
+     "parent_id": "MR-015",
+     "name": "Denial of AI service",
+     "description": "The AI service is flooded with requests to degrade or deny availability to legitimate users.",
+     "atlas_technique_id": "AML.T0029",
+     "atlas_technique_name": "Denial of AI Service"
+    },
+    {
+     "id": "MR-015.3",
+     "parent_id": "MR-015",
+     "name": "Cost harvesting (denial of wallet)",
+     "description": "Adversaries deliberately drive the AI service beyond normal load to inflate operating cost.",
+     "atlas_technique_id": "AML.T0034",
+     "atlas_technique_name": "Cost Harvesting"
+    },
+    {
+     "id": "MR-015.4",
+     "parent_id": "MR-015",
+     "name": "Chaff-data flooding of the AI system",
+     "description": "The system is spammed with inputs that inflate false detections and overwhelm downstream review.",
+     "atlas_technique_id": "AML.T0046",
+     "atlas_technique_name": "Spamming AI System with Chaff Data"
+    },
+    {
+     "id": "MR-015.5",
+     "parent_id": "MR-015",
+     "name": "Downstream external harms from a compromised AI system",
+     "description": "A compromised AI system is abused to cause financial, reputational, user, or societal harm beyond the system itself.",
+     "atlas_technique_id": "AML.T0048",
+     "atlas_technique_name": "External Harms"
+    },
+    {
+     "id": "MR-015.6",
+     "parent_id": "MR-015",
+     "name": "Exploitation of the public-facing AI application",
+     "description": "A weakness in the internet-facing AI application is exploited to gain access.",
+     "atlas_technique_id": "AML.T0049",
+     "atlas_technique_name": "Exploit Public-Facing Application"
+    },
+    {
+     "id": "MR-015.7",
+     "parent_id": "MR-015",
+     "name": "Drive-by compromise of AI system users",
+     "description": "Users are compromised by visiting attacker-influenced content during normal AI system use.",
+     "atlas_technique_id": "AML.T0078",
+     "atlas_technique_name": "Drive-by Compromise"
+    },
+    {
+     "id": "MR-015.8",
+     "parent_id": "MR-015",
+     "name": "Container or sandbox escape from the AI environment",
+     "description": "An attacker breaks out of the AI system's container or sandbox to reach the host.",
+     "atlas_technique_id": "AML.T0105",
+     "atlas_technique_name": "Escape to Host"
+    },
+    {
+     "id": "MR-015.9",
+     "parent_id": "MR-015",
+     "name": "Machine compromise via AI components",
+     "description": "AI-enabled components are exploited or manipulated to compromise the underlying machine.",
+     "atlas_technique_id": "AML.T0112",
+     "atlas_technique_name": "Machine Compromise"
+    }
+   ]
+  },
+  {
+   "id": "MR-016",
+   "name": "Model theft, extraction and weight leakage",
+   "description": "Model weights or behavior are stolen via extraction attacks or leaked, causing IP loss and loss of control over the model.",
+   "family": "Security & adversarial",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "IBM2025",
+    "Marchal2024",
+    "Sherman2023",
+    "Wang2025"
+   ],
+   "source_count": 7,
+   "iso_references": "23894 obj A.11; src 7, 9; mech B.6 | 42001 ctrl A.4.5",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-016.1",
+    "MR-016.2",
+    "MR-016.3"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-016.1",
+     "parent_id": "MR-016",
+     "name": "Model or data extraction via the inference API",
+     "description": "Repeated API queries are used to reconstruct the model or recover its training data.",
+     "atlas_technique_id": "AML.T0024",
+     "atlas_technique_name": "Exfiltration via AI Inference API"
+    },
+    {
+     "id": "MR-016.2",
+     "parent_id": "MR-016",
+     "name": "Collection of AI artifacts for exfiltration",
+     "description": "Models, weights, and related artifacts are gathered on the victim system in preparation for theft.",
+     "atlas_technique_id": "AML.T0035",
+     "atlas_technique_name": "AI Artifact Collection"
+    },
+    {
+     "id": "MR-016.3",
+     "parent_id": "MR-016",
+     "name": "White-box model access enabling theft",
+     "description": "Adversaries obtain full access to model weights and architecture, enabling theft and tailored attacks.",
+     "atlas_technique_id": "AML.T0044",
+     "atlas_technique_name": "Full AI Model Access"
+    }
+   ]
+  },
+  {
+   "id": "MR-017",
+   "name": "Privacy-invasive inference and re-identification",
+   "description": "The system infers sensitive attributes about, or re-identifies, individuals beyond what was explicitly provided.",
+   "family": "Data, privacy & content liability",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.1 > Compromise of privacy by leaking or correctly inferring sensitive information",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Bengio2025",
+    "DSIT2023",
+    "Gabriel2024",
+    "IBM2025",
+    "Li2025",
+    "Weidinger2023"
+   ],
+   "source_count": 6,
+   "iso_references": "23894 obj A.8; src 6; mech B.5 | 42001 ctrl A.5.4, A.7.5",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-018",
+   "name": "AI supply-chain and infrastructure vulnerabilities",
+   "description": "Vulnerabilities in AI frameworks, dependencies, hardware, or reused third-party/foundation models propagate risk to the deployed system.",
+   "family": "Third party & supply chain",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "NIST2024",
+    "Sharma2024",
+    "TC2602024",
+    "Uuk2025"
+   ],
+   "source_count": 5,
+   "iso_references": "23894 obj A.11; src 9, 10; mech B.6 | 42001 ctrl A.10.3, A.4.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [
+    "S&S Ch. Commitment 6"
+   ],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 600-1 Generative AI Profile",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-018.1",
+    "MR-018.2",
+    "MR-018.3",
+    "MR-018.4",
+    "MR-018.5",
+    "MR-018.6",
+    "MR-018.7",
+    "MR-018.8"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-018.1",
+     "parent_id": "MR-018",
+     "name": "AI supply-chain compromise",
+     "description": "A compromised model, dataset, library, or hardware component enters the system through the supply chain.",
+     "atlas_technique_id": "AML.T0010",
+     "atlas_technique_name": "AI Supply Chain Compromise"
+    },
+    {
+     "id": "MR-018.2",
+     "parent_id": "MR-018",
+     "name": "Poisoned models published to registries",
+     "description": "A backdoored or poisoned model is published to a public registry to be adopted by victims.",
+     "atlas_technique_id": "AML.T0058",
+     "atlas_technique_name": "Publish Poisoned Models"
+    },
+    {
+     "id": "MR-018.3",
+     "parent_id": "MR-018",
+     "name": "Hallucinated-entity (slopsquatting) supply-chain attack",
+     "description": "Adversaries register packages or resources matching names the model commonly hallucinates, so its recommendations deliver malicious artifacts.",
+     "atlas_technique_id": "AML.T0060",
+     "atlas_technique_name": "Publish Hallucinated Entities"
+    },
+    {
+     "id": "MR-018.4",
+     "parent_id": "MR-018",
+     "name": "Masquerading of malicious AI artifacts",
+     "description": "Malicious models or files are disguised to appear legitimate and trusted.",
+     "atlas_technique_id": "AML.T0074",
+     "atlas_technique_name": "Masquerading"
+    },
+    {
+     "id": "MR-018.5",
+     "parent_id": "MR-018",
+     "name": "Corrupted model file evading scanning",
+     "description": "A malicious model file is deliberately corrupted so security scanners cannot inspect it.",
+     "atlas_technique_id": "AML.T0076",
+     "atlas_technique_name": "Corrupt AI Model"
+    },
+    {
+     "id": "MR-018.6",
+     "parent_id": "MR-018",
+     "name": "Poisoned AI agent tools published",
+     "description": "Malicious agent tools are published for adoption, carrying hidden harmful behavior.",
+     "atlas_technique_id": "AML.T0104",
+     "atlas_technique_name": "Publish Poisoned AI Agent Tool"
+    },
+    {
+     "id": "MR-018.7",
+     "parent_id": "MR-018",
+     "name": "AI supply-chain rug pull",
+     "description": "A genuinely useful AI component gains adoption, then a later update turns malicious.",
+     "atlas_technique_id": "AML.T0109",
+     "atlas_technique_name": "AI Supply Chain Rug Pull"
+    },
+    {
+     "id": "MR-018.8",
+     "parent_id": "MR-018",
+     "name": "AI supply-chain reputation inflation",
+     "description": "Adversaries inflate the apparent trustworthiness of malicious AI components to drive adoption.",
+     "atlas_technique_id": "AML.T0111",
+     "atlas_technique_name": "AI Supply Chain Reputation Inflation"
+    }
+   ]
+  },
+  {
+   "id": "MR-019",
+   "name": "Insecure or vulnerable code generation",
+   "description": "The system generates code containing security vulnerabilities that propagate into production software.",
+   "family": "Model & system behaviour",
+   "mit_domain": "2. Privacy & Security",
+   "mit_subdomain": "2.2 > AI system security vulnerabilities and attacks",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "IBM2025"
+   ],
+   "source_count": 4,
+   "iso_references": "23894 obj A.11; src 7; mech B.5 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-020",
+   "name": "Insecure integration with external tools, plugins and APIs",
+   "description": "Connecting the system to external tools/plugins/APIs introduces injection, data-exfiltration, sandbox-escape, or unintended-action vectors.",
+   "family": "Security & adversarial",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.2 > AI possessing dangerous capabilities",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "Cui2024",
+    "Gipiškis2024",
+    "Tse2025"
+   ],
+   "source_count": 4,
+   "iso_references": "23894 obj A.11; src 9, 10; mech B.6 | 42001 ctrl A.6.2.5, A.10.3",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-021",
+   "name": "Hallucination and fabricated output",
+   "description": "The system confidently generates false, fabricated, or unfaithful content (hallucination/confabulation) that misleads users.",
+   "family": "Model & system behaviour",
+   "mit_domain": "3. Misinformation",
+   "mit_subdomain": "3.1 > False or misleading information",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Bengio2024",
+    "Clarke2023",
+    "Cui2024",
+    "Cunha2023",
+    "Deng2023",
+    "EPIC2023",
+    "Ferrara2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Ji2023",
+    "Li2025",
+    "Liu2024",
+    "Marchal2024",
+    "NIST2024",
+    "Nah2023",
+    "Stanley2024",
+    "TC2602024",
+    "Tse2025",
+    "Uuk2025",
+    "Wang2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023"
+   ],
+   "source_count": 28,
+   "iso_references": "23894 obj A.4, A.9; src 6; mech B.5, B.8 | 42001 ctrl A.6.2.4, A.8.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-022",
+   "name": "Unsafe or incorrect advice in high-stakes domains",
+   "description": "The system gives wrong or unsafe medical, legal, financial, or electoral advice that users may act on to their detriment.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Bengio2025",
+    "Gabriel2024",
+    "IBM2025",
+    "Li2025",
+    "Liu2024",
+    "Solaiman2023",
+    "Stanley2024",
+    "Sun2023",
+    "Vidgen2024",
+    "Weidinger2022",
+    "Zeng2024",
+    "Zhang2023"
+   ],
+   "source_count": 14,
+   "iso_references": "23894 obj A.10, A.9; src 8; mech B.2 | 42001 ctrl A.9.4, A.8.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-023",
+   "name": "Contribution to misinformation and information-ecosystem degradation",
+   "description": "The system generates or spreads inaccurate content at scale, polluting the information ecosystem and eroding trust in information, without necessarily deliberate intent (as distinct from coordinated influence operations, MR-026).",
+   "family": "Model & system behaviour",
+   "mit_domain": "3. Misinformation",
+   "mit_subdomain": "3.2 > Pollution of information ecosystem and loss of consensus reality",
+   "ai_type": "GPAI",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Clarke2023",
+    "Coghlan2023",
+    "DSIT2023",
+    "EPIC2023",
+    "Ferrara2023",
+    "Hammond2025",
+    "Hogenhout2021",
+    "Li2025",
+    "Maas2023",
+    "NIST2024",
+    "TC2602024",
+    "Uuk2025"
+   ],
+   "source_count": 12,
+   "iso_references": "23894 obj A.12; src 8; mech B.8 | 42001 ctrl A.8.2, A.5.5",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "NIST AI 600-1 Generative AI Profile",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-024",
+   "name": "Defamation and false statements about people",
+   "description": "The system generates false statements about real, identifiable people or organizations that damage reputation.",
+   "family": "Data, privacy & content liability",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.1 > Disinformation, surveillance, and influence at scale",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Ghosh2024",
+    "Li2025",
+    "Stanley2024",
+    "Vidgen2024",
+    "Weidinger2023",
+    "Zeng2024"
+   ],
+   "source_count": 7,
+   "iso_references": "23894 obj A.9; src 6; mech B.5 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-025",
+   "name": "Overconfidence, sycophancy and poor calibration",
+   "description": "The system expresses unwarranted confidence, agrees with user errors (sycophancy), or is poorly calibrated, masking its unreliability.",
+   "family": "Model & system behaviour",
+   "mit_domain": "3. Misinformation",
+   "mit_subdomain": "3.1 > False or misleading information",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "Liu2024"
+   ],
+   "source_count": 4,
+   "iso_references": "23894 obj A.9, A.12; src 6; mech B.8 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-026",
+   "name": "Disinformation and influence operations",
+   "description": "The system is used to deliberately produce disinformation, propaganda, or influence/election-interference campaigns at scale (as distinct from unintentional information-ecosystem degradation, MR-023).",
+   "family": "Model & system behaviour",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.1 > Disinformation, surveillance, and influence at scale",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Allianz2018",
+    "Anwar2024",
+    "Bengio2024",
+    "Bengio2025",
+    "Clarke2023",
+    "DSIT2023",
+    "EPIC2023",
+    "Ferrara2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Habbal2024",
+    "Hammond2025",
+    "Hendrycks2022",
+    "Hendrycks2023",
+    "IBM2025",
+    "InfoComm2023",
+    "Li2025",
+    "Liu2024",
+    "Maas2023",
+    "Maham2023",
+    "Nah2023",
+    "Perlo2025",
+    "Schnitzer2024",
+    "Shelby2023",
+    "Shevlane2023",
+    "Stanley2024",
+    "TC2602024",
+    "Teixeira2022",
+    "Vidgen2024",
+    "Weidinger2022",
+    "Weidinger2023",
+    "Wirtz2022",
+    "Zeng2024",
+    "Zhang2022"
+   ],
+   "source_count": 37,
+   "iso_references": "23894 obj A.10; src 7 | 42001 ctrl A.5.5, A.9.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-027",
+   "name": "AI-enabled cyberattacks and offensive cyber operations",
+   "description": "The system is used to create malware, discover/exploit vulnerabilities, or automate and scale cyberattacks (and the deployer may be a target).",
+   "family": "Model & system behaviour",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.2 > Cyberattacks, weapon development or use, and mass harm",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Allianz2018",
+    "Bengio2025",
+    "Chin2025",
+    "Cui2024",
+    "EPIC2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hogenhout2021",
+    "InfoComm2023",
+    "Ji2023",
+    "Leech2024",
+    "Li2025",
+    "Liu2024",
+    "Maas2023",
+    "Meek2016",
+    "Shevlane2023",
+    "Teixeira2022",
+    "Tse2025",
+    "Weidinger2022",
+    "Wirtz2022",
+    "Yampolskiy2016",
+    "Zeng2024"
+   ],
+   "source_count": 24,
+   "iso_references": "23894 obj A.11; src 7 | 42001 ctrl A.9.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 600-1 Generative AI Profile",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-027.1"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-027.1",
+     "parent_id": "MR-027",
+     "name": "LLM-generated malicious commands",
+     "description": "The model is driven to dynamically generate malicious commands or code used to attack systems.",
+     "atlas_technique_id": "AML.T0102",
+     "atlas_technique_name": "Generate Malicious Commands"
+    }
+   ]
+  },
+  {
+   "id": "MR-028",
+   "name": "AI-enabled fraud, scams and social engineering",
+   "description": "The system is used to conduct or scale fraud, scams, phishing, social engineering, or market manipulation.",
+   "family": "Model & system behaviour",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.3 > Fraud, scams, and targeted manipulation",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "Bengio2024",
+    "DSIT2023",
+    "EPIC2023",
+    "Ferrara2023",
+    "Gabriel2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Hammond2025",
+    "Li2025",
+    "Maham2023",
+    "NIST2024",
+    "Shevlane2023",
+    "Sun2023",
+    "TC2602024",
+    "Tse2025",
+    "Vidgen2024",
+    "Wang2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023",
+    "Yampolskiy2016",
+    "Zeng2024",
+    "Zhang2023"
+   ],
+   "source_count": 24,
+   "iso_references": "23894 obj A.11; src 7 | 42001 ctrl A.9.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "MITRE ATLAS v5.6.0",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-028.1",
+    "MR-028.2"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-028.1",
+     "parent_id": "MR-028",
+     "name": "User-execution social engineering",
+     "description": "Users are manipulated into actions (opening content, running code) that compromise the AI system.",
+     "atlas_technique_id": "AML.T0011",
+     "atlas_technique_name": "User Execution"
+    },
+    {
+     "id": "MR-028.2",
+     "parent_id": "MR-028",
+     "name": "AI-enabled phishing for system access",
+     "description": "AI-generated phishing messages are used to gain access to the deployer's systems.",
+     "atlas_technique_id": "AML.T0052",
+     "atlas_technique_name": "Phishing"
+    }
+   ]
+  },
+  {
+   "id": "MR-029",
+   "name": "Facilitation of weapons, CBRN and serious physical harm (capability uplift)",
+   "description": "The system lowers barriers to chemical, biological, radiological, nuclear, explosive or other weapons and dangerous activities by providing actionable how-to information or uplift.",
+   "family": "Model & system behaviour",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.2 > Cyberattacks, weapon development or use, and mass harm",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Bengio2025",
+    "Chin2025",
+    "Clarke2023",
+    "DSIT2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Hendrycks2022",
+    "Hendrycks2023",
+    "InfoComm2023",
+    "Maas2023",
+    "Maham2023",
+    "NIST2024",
+    "Shevlane2023",
+    "TC2602024",
+    "Tang2025",
+    "Tse2025",
+    "Uuk2025",
+    "Vidgen2024",
+    "Weidinger2023"
+   ],
+   "source_count": 23,
+   "iso_references": "23894 obj A.10; src 7 | 42001 ctrl A.5.5, A.9.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-030",
+   "name": "Manipulation, persuasion and dark patterns",
+   "description": "The system covertly manipulates user beliefs or behavior through persuasion, nudging, dark patterns, or exploitation of cognitive biases.",
+   "family": "Human & usage",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "5.1 > Overreliance and unsafe use",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Allianz2018",
+    "Clarke2023",
+    "Cui2024",
+    "DSIT2023",
+    "G'sell2024",
+    "GOS2023",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "Hogenhout2021",
+    "InfoComm2023",
+    "Li2025",
+    "Meek2016",
+    "NIST2024",
+    "Shelby2023",
+    "Shevlane2023",
+    "Tan2022",
+    "Tse2025",
+    "Uuk2025",
+    "Weidinger2022",
+    "Weidinger2023"
+   ],
+   "source_count": 22,
+   "iso_references": "23894 obj A.10; src 7 | 42001 ctrl A.5.4, A.9.4",
+   "eu_ai_act_articles": [
+    "Art. 5(a)",
+    "Art. 5(b)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-031",
+   "name": "Impersonation, deepfakes and synthetic media",
+   "description": "The system is used to impersonate people via deepfakes, voice cloning, or synthetic identities, or to misuse a person's likeness.",
+   "family": "Model & system behaviour",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.3 > Fraud, scams, and targeted manipulation",
+   "ai_type": "GPAI",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Cunha2023",
+    "EPIC2023",
+    "Ferrara2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Habbal2024",
+    "Hagendorff2024",
+    "Hogenhout2021",
+    "IBM2025",
+    "Kilian2023",
+    "Li2025",
+    "Marchal2024",
+    "Nah2023",
+    "Sherman2023",
+    "Shevlane2023",
+    "Tse2025",
+    "Uuk2025",
+    "Weidinger2021",
+    "Weidinger2023"
+   ],
+   "source_count": 21,
+   "iso_references": "23894 obj A.10, A.8; src 7 | 42001 ctrl A.9.4",
+   "eu_ai_act_articles": [
+    "Art. 50(4)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "MITRE ATLAS v5.6.0",
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [
+    "MR-031.1",
+    "MR-031.2"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-031.1",
+     "parent_id": "MR-031",
+     "name": "Impersonation of trusted parties",
+     "description": "The system is used to impersonate a trusted person or organization to deceive targets.",
+     "atlas_technique_id": "AML.T0073",
+     "atlas_technique_name": "Impersonation"
+    },
+    {
+     "id": "MR-031.2",
+     "parent_id": "MR-031",
+     "name": "Deepfake generation using the deployed system",
+     "description": "Generative capability is used to produce synthetic media for deception, fraud, or reputational harm.",
+     "atlas_technique_id": "AML.T0088",
+     "atlas_technique_name": "Generate Deepfakes"
+    }
+   ]
+  },
+  {
+   "id": "MR-032",
+   "name": "Deliberate misuse and repurposing for harm",
+   "description": "The system's dual-use capabilities are deliberately repurposed for harm (e.g. harmful fine-tuning of open weights, jailbreak-to-misuse, model diversion).",
+   "family": "Human & usage",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "X.1 > Excluded",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Bengio2024",
+    "Bengio2025",
+    "Cui2024",
+    "Deng2023",
+    "GOS2023",
+    "Gabriel2024",
+    "Giarmoleo2024",
+    "Gipiškis2024",
+    "Hendrycks2023",
+    "IBM2025",
+    "Li2025",
+    "Liu2024",
+    "Marchal2024",
+    "Tang2025",
+    "Tse2025",
+    "Uuk2025",
+    "Weidinger2021"
+   ],
+   "source_count": 19,
+   "iso_references": "23894 obj A.10, A.11; src 7 | 42001 ctrl A.9.2, A.9.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-033",
+   "name": "Mass surveillance and censorship enablement",
+   "description": "The system is used to conduct illegitimate mass surveillance, profiling, or censorship of individuals or populations.",
+   "family": "Human & usage",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.1 > Disinformation, surveillance, and influence at scale",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Anwar2024",
+    "Ferrara2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hendrycks2022",
+    "Hendrycks2023",
+    "Leech2024",
+    "Li2025",
+    "Perlo2025",
+    "Shelby2023",
+    "Uuk2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Wirtz2020",
+    "Wirtz2022"
+   ],
+   "source_count": 17,
+   "iso_references": "23894 obj A.8; src 7 | 42001 ctrl A.5.5, A.9.4",
+   "eu_ai_act_articles": [
+    "Art. 5(e)",
+    "Art. 26(10)",
+    "Art. 50(3)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-034",
+   "name": "Overreliance and automation bias",
+   "description": "Users place uncritical trust in system outputs (automation bias), accepting incorrect results without verification.",
+   "family": "Human & usage",
+   "mit_domain": "5. Human-Computer Interaction",
+   "mit_subdomain": "5.1 > Overreliance and unsafe use",
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "G'sell2024",
+    "GOS2023",
+    "Gabriel2024",
+    "Giarmoleo2024",
+    "Gipiškis2024",
+    "IBM2025",
+    "Kumar2023",
+    "NIST2024",
+    "Paes2023",
+    "Stanley2024",
+    "Tse2025",
+    "Uuk2025",
+    "Weidinger2022",
+    "Weidinger2023",
+    "Wirtz2020",
+    "Wirtz2022"
+   ],
+   "source_count": 17,
+   "iso_references": "23894 obj A.3, A.12; src 4; mech B.4 | 42001 ctrl A.8.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "NIST AI 600-1 Generative AI Profile",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-035",
+   "name": "Erosion of human agency and autonomy",
+   "description": "Delegation to and influence from the system erode individuals' ability to make informed, autonomous decisions.",
+   "family": "Human & usage",
+   "mit_domain": "5. Human-Computer Interaction",
+   "mit_subdomain": "5.2 > Loss of human agency and autonomy",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Abercrombie2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hogenhout2021",
+    "IBM2025",
+    "Li2025",
+    "Maas2023",
+    "Meek2016",
+    "Paes2023",
+    "Shelby2023",
+    "Solaiman2023",
+    "Stahl2024",
+    "Uuk2025",
+    "Wirtz2022"
+   ],
+   "source_count": 15,
+   "iso_references": "23894 obj A.10; src 4; mech B.4 | 42001 ctrl A.5.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-036",
+   "name": "Anthropomorphism, emotional dependence and psychological harm",
+   "description": "Human-like interaction fosters unhealthy emotional dependence or misplaced trust, and related psychological harm, as distinct from content that promotes self-harm.",
+   "family": "Human & usage",
+   "mit_domain": "5. Human-Computer Interaction",
+   "mit_subdomain": "5.1 > Overreliance and unsafe use",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Abercrombie2024",
+    "Allianz2018",
+    "Gabriel2024",
+    "Li2025",
+    "Perlo2025",
+    "Stanley2024",
+    "Weidinger2021"
+   ],
+   "source_count": 8,
+   "iso_references": "23894 obj A.10; src 7; mech B.4 | 42001 ctrl A.5.4, A.8.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-037",
+   "name": "Environmental footprint of AI",
+   "description": "Training and operating AI systems consume substantial energy, water, and materials, producing carbon emissions, e-waste, and ecosystem harm.",
+   "family": "Governance & process",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.6 > Environmental harm",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Bengio2024",
+    "Bengio2025",
+    "Chin2025",
+    "Clarke2023",
+    "Coghlan2023",
+    "Cunha2023",
+    "EPIC2023",
+    "G'sell2024",
+    "GOS2023",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "IBM2025",
+    "Leech2024",
+    "Li2025",
+    "NIST2024",
+    "Paes2023",
+    "Saghiri2022",
+    "Shelby2023",
+    "Solaiman2023",
+    "Stahl2024",
+    "Tan2022",
+    "Tang2025",
+    "Uuk2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023"
+   ],
+   "source_count": 28,
+   "iso_references": "23894 obj A.5; src 9; mech B.6 | 42001 ctrl A.4.5",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-038",
+   "name": "Workforce displacement and job-quality decline",
+   "description": "Deployment displaces or de-skills the deployer's workers or degrades job quality, creating transition and morale risk.",
+   "family": "Human & usage",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.2 > Increased inequality and decline in employment quality",
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Allianz2018",
+    "Anwar2024",
+    "Bengio2024",
+    "Bengio2025",
+    "Clarke2023",
+    "Coghlan2023",
+    "DSIT2023",
+    "EPIC2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Giarmoleo2024",
+    "IBM2025",
+    "Li2025",
+    "Meek2016",
+    "Nah2023",
+    "Paes2023",
+    "Perlo2025",
+    "Sharma2024",
+    "Solaiman2023",
+    "Tse2025",
+    "Uuk2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023",
+    "Wirtz2020",
+    "Wirtz2022",
+    "Zeng2024"
+   ],
+   "source_count": 28,
+   "iso_references": "23894 src 1, 4 | 42001 ctrl A.5.5",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-039",
+   "name": "Intellectual property and copyright infringement",
+   "description": "The system reproduces copyrighted/trademarked work or misappropriates creators' output, exposing the deployer to IP infringement claims.",
+   "family": "Data, privacy & content liability",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.3 > Economic and cultural devaluation of human effort",
+   "ai_type": "GPAI",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Bengio2024",
+    "Bengio2025",
+    "Cui2024",
+    "EPIC2023",
+    "G'sell2024",
+    "GOS2023",
+    "Ghosh2024",
+    "Hagendorff2024",
+    "IBM2025",
+    "Li2025",
+    "Marchal2024",
+    "Nah2023",
+    "Sherman2023",
+    "Vidgen2024",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023"
+   ],
+   "source_count": 18,
+   "iso_references": "23894 obj A.8; src 6; mech B.5 | 42001 ctrl A.7.3, A.7.5",
+   "eu_ai_act_articles": [
+    "Art. 53 (provider)"
+   ],
+   "eu_cop_references": [
+    "Copyright Ch. Commitment 1"
+   ],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-040",
+   "name": "Regulatory non-compliance and legal liability",
+   "description": "The system or its use breaches laws, regulations, or contractual/ethical obligations, exposing the deployer to enforcement and litigation.",
+   "family": "Regulatory compliance",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.5 > Governance failure",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "EPIC2023",
+    "G'sell2024",
+    "Hagendorff2024",
+    "IBM2025",
+    "Sun2023",
+    "Uuk2025",
+    "Wirtz2020",
+    "Wirtz2022"
+   ],
+   "source_count": 9,
+   "iso_references": "23894 obj A.2; src 1 | 42001 ctrl A.2.3, A.8.5, A.10.4",
+   "eu_ai_act_articles": [
+    "Art. 26(12)",
+    "(umbrella for all EU AI Act obligations)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-041",
+   "name": "Academic and professional dishonesty",
+   "description": "The system is used to plagiarize, cheat, or bypass learning and professional-integrity expectations.",
+   "family": "Human & usage",
+   "mit_domain": "4. Malicious Actors & Misuse",
+   "mit_subdomain": "4.3 > Fraud, scams, and targeted manipulation",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Cui2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "IBM2025",
+    "Li2025",
+    "Nah2023",
+    "Saghiri2022",
+    "Zeng2024"
+   ],
+   "source_count": 8,
+   "iso_references": "23894 obj A.10; src 8 | 42001 ctrl A.9.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-042",
+   "name": "Unclear accountability and responsibility for AI decisions",
+   "description": "Responsibility and liability for AI-caused harm are unclear or diffused across developers, deployers, and users.",
+   "family": "Governance & process",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.5 > Governance failure",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Gabriel2024",
+    "Maham2023",
+    "Perlo2025",
+    "Schnitzer2024",
+    "Teixeira2022",
+    "Uuk2025",
+    "Wirtz2022"
+   ],
+   "source_count": 8,
+   "iso_references": "23894 obj A.2; src 1 | 42001 ctrl A.3.2, A.10.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-043",
+   "name": "Inadequate AI governance and oversight processes",
+   "description": "The deployer lacks adequate governance, policies, or oversight structures to manage AI risk as the technology and use evolve.",
+   "family": "Governance & process",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.5 > Governance failure",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Clarke2023",
+    "Habbal2024",
+    "IBM2025",
+    "Leech2024",
+    "McLean2023",
+    "Uuk2025",
+    "Wirtz2022"
+   ],
+   "source_count": 7,
+   "iso_references": "23894 obj A.2; src 1, 2, 3 | 42001 ctrl A.2.2, A.2.3, A.2.4, A.6.1.2, A.9.2, A.9.3",
+   "eu_ai_act_articles": [
+    "Art. 9"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-044",
+   "name": "Exploitative labor in the AI supply chain",
+   "description": "Data labeling, content moderation, or 'ghost work' behind the AI supply chain relies on exploitative or unsafe labor practices, which the deployer is responsible for through supply-chain due diligence.",
+   "family": "Third party & supply chain",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.2 > Increased inequality and decline in employment quality",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Hagendorff2024",
+    "Leech2024",
+    "Li2025",
+    "Shelby2023",
+    "Uuk2025",
+    "Weidinger2023"
+   ],
+   "source_count": 7,
+   "iso_references": "23894 src 4, 10 | 42001 ctrl A.10.3",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-045",
+   "name": "Insufficient documentation, transparency and data provenance",
+   "description": "Inadequate documentation of the model, system, or data provenance/value-chain undermines auditability and accountability.",
+   "family": "Governance & process",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.5 > Governance failure",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "IBM2025",
+    "Teixeira2022",
+    "Wirtz2020"
+   ],
+   "source_count": 4,
+   "iso_references": "23894 obj A.12; src 2 | 42001 ctrl A.4.2, A.6.2.3, A.6.2.7, A.7.5, A.8.2",
+   "eu_ai_act_articles": [
+    "Art. 13"
+   ],
+   "eu_cop_references": [
+    "Transparency Ch. Measure 1.2"
+   ],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "NIST AI 600-1 Generative AI Profile",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-046",
+   "name": "Inadequate evaluation, testing and benchmarking",
+   "description": "Evaluation/testing is incomplete or unrepresentative (e.g. benchmark contamination, missing safety evals), giving false assurance.",
+   "family": "Governance & process",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.5 > Governance failure",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Gabriel2024",
+    "Gipiškis2024",
+    "IBM2025"
+   ],
+   "source_count": 3,
+   "iso_references": "23894 obj A.9; src 2; mech B.8 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [
+    "Art. 9",
+    "Art. 15"
+   ],
+   "eu_cop_references": [
+    "S&S Ch. Commitments 2-5"
+   ],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-047",
+   "name": "Vendor/model concentration, monoculture and correlated failure",
+   "description": "Dependence on a few AI providers or homogeneous models creates single points of failure and correlated, systemic failure risk.",
+   "family": "Third party & supply chain",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.1 > Power centralization and unfair distribution of benefits",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Bengio2024",
+    "GOS2023",
+    "Uuk2025"
+   ],
+   "source_count": 3,
+   "iso_references": "23894 src 10 | 42001 ctrl A.10.3",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-048",
+   "name": "AI competence and skills gaps in the organization",
+   "description": "The deployer lacks the AI expertise, literacy, or capacity needed to safely develop, procure, and operate AI systems.",
+   "family": "Human & usage",
+   "mit_domain": "6. Socioeconomic and Environmental",
+   "mit_subdomain": "6.5 > Governance failure",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Hogenhout2021",
+    "Wirtz2022"
+   ],
+   "source_count": 2,
+   "iso_references": "23894 obj A.3; src 4 | 42001 ctrl A.4.6, A.3.2",
+   "eu_ai_act_articles": [
+    "Art. 4"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-049",
+   "name": "Physical safety harm and accidents",
+   "description": "Failures of AI in safety-critical systems, critical infrastructure, or embodied/robotic settings cause physical injury, accidents, or property damage.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "X.1 > Excluded",
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Abercrombie2024",
+    "Allianz2018",
+    "Cunha2023",
+    "Everitt2018",
+    "Gabriel2024",
+    "Ghosh2024",
+    "Gipiškis2024",
+    "Hendrycks2023",
+    "Kilian2023",
+    "Li2025",
+    "Maham2023",
+    "Meek2016",
+    "Paes2023",
+    "Perlo2025",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Steimers2022",
+    "Tan2022",
+    "Tang2025",
+    "Teixeira2022",
+    "Tse2025",
+    "Weidinger2021",
+    "Weidinger2022",
+    "Weidinger2023"
+   ],
+   "source_count": 25,
+   "iso_references": "23894 obj A.10; src 5, 8; mech B.2 | 42001 ctrl A.5.4, A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-050",
+   "name": "Inaccuracy and poor predictive performance",
+   "description": "The system fails to perform its intended task accurately or helpfully, producing erroneous, low-quality, or generic and homogenized results ('AI slop') that can erode content distinctiveness and organizational credibility, as distinct from fabricated content, brittleness to unusual inputs, and performance drift over time.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "Bengio2024",
+    "Critch2023",
+    "Everitt2018",
+    "GOS2023",
+    "Gipiškis2024",
+    "Habbal2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Leech2024",
+    "Li2025",
+    "Liu2024",
+    "Meek2016",
+    "Nah2023",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Steimers2022",
+    "TC2602024",
+    "Tan2022",
+    "Tang2025",
+    "Teixeira2022",
+    "Uuk2025",
+    "Wirtz2022",
+    "Yampolskiy2016",
+    "Zhang2022"
+   ],
+   "source_count": 25,
+   "iso_references": "23894 obj A.4, A.9; src 6; mech B.5, B.8 | 42001 ctrl A.6.2.4, A.6.2.6",
+   "eu_ai_act_articles": [
+    "Art. 15"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-051",
+   "name": "Ethical or value misalignment in outputs and decisions",
+   "description": "The system makes or endorses decisions that violate ethical norms or human values it should respect.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Abercrombie2024",
+    "DSIT2023",
+    "Deng2023",
+    "G'sell2024",
+    "Giarmoleo2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Kumar2023",
+    "Leech2024",
+    "Li2025",
+    "McLean2023",
+    "Meek2016",
+    "Saghiri2022",
+    "Sun2023",
+    "Teixeira2022",
+    "Uuk2025",
+    "Wang2025",
+    "Wirtz2020",
+    "Wirtz2022",
+    "Zhang2023"
+   ],
+   "source_count": 20,
+   "iso_references": "23894 obj A.2; src 2 | 42001 ctrl A.6.1.2, A.5.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-052",
+   "name": "Emergent dangerous capabilities",
+   "description": "The system exhibits emergent dangerous capabilities such as deception, power-seeking, self-proliferation, situational awareness, or scheming, which a deployer must detect and contain.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.2 > AI possessing dangerous capabilities",
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "Ferrara2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "Hammond2025",
+    "Hendrycks2022",
+    "InfoComm2023",
+    "Ji2023",
+    "Leech2024",
+    "Maas2023",
+    "McLean2023",
+    "Meek2016",
+    "Saghiri2022",
+    "Shevlane2023",
+    "Tan2022",
+    "Tse2025",
+    "Uuk2025"
+   ],
+   "source_count": 19,
+   "iso_references": "23894 obj A.11, A.10; src 7; mech B.8 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [
+    "S&S Ch. Commitments 2-5"
+   ],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-053",
+   "name": "Goal misspecification, specification gaming and reward hacking",
+   "description": "The system optimizes a misspecified proxy objective, gaming the specification or misgeneralizing its goal in deployment.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.1 > AI pursuing its own goals in conflict with human goals or values",
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "Clarke2023",
+    "G'sell2024",
+    "Gabriel2024",
+    "Giarmoleo2024",
+    "Gipiškis2024",
+    "Hammond2025",
+    "Hendrycks2022",
+    "Hendrycks2023",
+    "Hogenhout2021",
+    "Ji2023",
+    "Kilian2023",
+    "Leech2024",
+    "Maas2023",
+    "Saghiri2022",
+    "Steimers2022",
+    "Uuk2025",
+    "Yampolskiy2016",
+    "Zhang2022"
+   ],
+   "source_count": 19,
+   "iso_references": "23894 obj A.9; src 7; mech B.5 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-054",
+   "name": "Loss of meaningful human oversight and control",
+   "description": "The deployer loses meaningful human oversight or control over (semi-)autonomous AI actions and decisions.",
+   "family": "Governance & process",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.1 > AI pursuing its own goals in conflict with human goals or values",
+   "ai_type": "Agentic, GPAI",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Bengio2024",
+    "Chin2025",
+    "DSIT2023",
+    "Everitt2018",
+    "G'sell2024",
+    "GOS2023",
+    "Hendrycks2023",
+    "InfoComm2023",
+    "Ji2023",
+    "Leech2024",
+    "McLean2023",
+    "Nah2023",
+    "Tse2025",
+    "Uuk2025",
+    "Weidinger2023",
+    "Wirtz2022",
+    "Zeng2024"
+   ],
+   "source_count": 17,
+   "iso_references": "23894 obj A.2; src 8; mech B.4 | 42001 ctrl A.6.2.6, A.9.2",
+   "eu_ai_act_articles": [
+    "Art. 14",
+    "Art. 26(2)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-055",
+   "name": "Lack of explainability and interpretability",
+   "description": "The system's decisions cannot be adequately explained or interpreted, harming trust and auditability.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.4 > Lack of transparency or interpretability",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "G'sell2024",
+    "Gipiškis2024",
+    "Hagendorff2024",
+    "Hogenhout2021",
+    "IBM2025",
+    "Liu2024",
+    "Meek2016",
+    "Nah2023",
+    "Paes2023",
+    "Perlo2025",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Sherman2023",
+    "Steimers2022",
+    "Teixeira2022"
+   ],
+   "source_count": 16,
+   "iso_references": "23894 obj A.12; src 7; mech B.3 | 42001 ctrl A.6.2.7, A.8.2",
+   "eu_ai_act_articles": [
+    "Art. 13",
+    "Art. 26(11)",
+    "Art. 50"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-056",
+   "name": "Lack of robustness to distribution shift and edge cases",
+   "description": "The system fails on out-of-distribution, noisy, adversarial, or edge-case inputs, or is brittle to minor input changes.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Gipiškis2024",
+    "IBM2025",
+    "InfoComm2023",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Sharma2024",
+    "Sherman2023",
+    "TC2602024",
+    "Tan2022",
+    "Zhang2022"
+   ],
+   "source_count": 11,
+   "iso_references": "23894 obj A.9; src 8; mech B.2 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [
+    "Art. 15"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-057",
+   "name": "Multi-agent interaction risks",
+   "description": "Interactions among multiple AI agents cause miscoordination, collusion, cascading or destabilizing dynamics (e.g. flash crashes).",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.6 > Multi-agent risks",
+   "ai_type": "Agentic, GPAI",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Anwar2024",
+    "Everitt2018",
+    "Gabriel2024",
+    "Gipiškis2024",
+    "Hammond2025",
+    "Ji2023",
+    "Saghiri2022",
+    "Tse2025",
+    "Uuk2025"
+   ],
+   "source_count": 9,
+   "iso_references": "23894 obj A.9, A.10; src 8; mech B.2 | 42001 ctrl A.6.2.6",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "OWASP Top 10 for Agentic Applications 2026",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-058",
+   "name": "Model performance drift and degradation over time",
+   "description": "Model performance degrades post-deployment due to data/concept drift, knowledge staleness, or catastrophic forgetting.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Gipiškis2024",
+    "Hendrycks2023",
+    "Liu2024",
+    "Saghiri2022",
+    "Schnitzer2024",
+    "Zhang2022"
+   ],
+   "source_count": 6,
+   "iso_references": "23894 obj A.7, A.9; src 8; mech B.8 | 42001 ctrl A.6.2.6",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-059",
+   "name": "Poor data quality and representativeness",
+   "description": "Training/operational data is inaccurate, unrepresentative, mislabeled, contaminated, or poorly curated, undermining reliability.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "X.1 > Excluded",
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "AIVerify2023",
+    "Gipiškis2024",
+    "IBM2025",
+    "Schnitzer2024",
+    "Teixeira2022"
+   ],
+   "source_count": 5,
+   "iso_references": "23894 obj A.4; src 6; mech B.5 | 42001 ctrl A.7.4, A.7.6",
+   "eu_ai_act_articles": [
+    "Art. 10",
+    "Art. 26(4)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-060",
+   "name": "Use outside intended scope",
+   "description": "The system is unintentionally applied outside its validated operating domain or intended purpose, producing unreliable or unsafe results.",
+   "family": "Human & usage",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Critch2023",
+    "GOS2023",
+    "Stanley2024",
+    "Tan2022",
+    "Teixeira2022"
+   ],
+   "source_count": 5,
+   "iso_references": "23894 obj A.9; src 7, 8; mech B.7 | 42001 ctrl A.9.4, A.6.2.2",
+   "eu_ai_act_articles": [
+    "Art. 26(1)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-061",
+   "name": "Over-refusal and excessive safety filtering",
+   "description": "Overly restrictive safety tuning causes the system to refuse benign requests, degrading utility.",
+   "family": "Model & system behaviour",
+   "mit_domain": "7. AI System Safety, Failures, & Limitations",
+   "mit_subdomain": "7.3 > Lack of capability or robustness",
+   "ai_type": "GPAI",
+   "scope_class": "System",
+   "source_standard": "MIT AI Risk Repository v4",
+   "source_frameworks": [
+    "Gipiškis2024"
+   ],
+   "source_count": 1,
+   "iso_references": "23894 obj A.9; src 7 | 42001 ctrl A.6.2.4",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": null,
+   "frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-062",
+   "name": "Shadow AI and unsanctioned use of AI tools",
+   "description": "Staff adopt and use AI tools or services outside sanctioned channels, so the deployer cannot inventory, secure, assess, or govern systems it does not know are in use.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "source_count": 1,
+   "iso_references": "42001 Annex A, A.2.2 and A.9.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-043 Inadequate AI governance and oversight: related but generic; it does not name the specific exposure of untracked, unsanctioned tool adoption by staff.",
+   "frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-063",
+   "name": "AI inventory blind spots",
+   "description": "The deployer lacks a complete, maintained inventory of the AI systems and components in use, so some systems sit outside monitoring, assessment, and control.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "source_count": 2,
+   "iso_references": "42001 Annex A, A.4.2 and A.3.2; 23894 clause 6.3.1",
+   "eu_ai_act_articles": [
+    "Art. 26(8)",
+    "Art. 49"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-043 Inadequate AI governance: generic governance maturity; it does not name inventory completeness or discovery.",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-064",
+   "name": "Embedded AI introduced through procurement",
+   "description": "AI capability enters the estate inside procured software, services, or product features rather than through a deliberate AI decision, and so bypasses assessment and controls.",
+   "family": "Third party & supply chain",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "source_count": 1,
+   "iso_references": "42001 Annex A, A.10.3 and A.4.2",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-018 AI supply-chain and infrastructure vulnerabilities: security-focused, not the governance-visibility problem of embedded AI.",
+   "frameworks": [
+    "NIST AI 600-1 Generative AI Profile",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-065",
+   "name": "Vendor model version churn and undisclosed updates",
+   "description": "A third-party model or service changes behavior through provider-side updates or version changes the deployer did not initiate and may not be notified of, silently shifting outputs and performance.",
+   "family": "Third party & supply chain",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "source_count": 2,
+   "iso_references": "42001 Annex A, A.10.3 and A.6.2.6; 23894 clause 6.4.2.3 source area 10 and Annex B.7",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [
+    "Transparency Ch. Commitment 1",
+    "S&S Ch. Commitments 1-10"
+   ],
+   "nearest_mit_risk": "MR-058 Model performance drift: drift is passive internal degradation, not a supplier-pushed change the deployer cannot control.",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-066",
+   "name": "Change deployed without revalidation",
+   "description": "Updates to a model, prompt, configuration, or pipeline are released without regression testing against the prior baseline, introducing unintended deterioration in quality, safety, or fairness.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "System",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "source_count": 2,
+   "iso_references": "42001 Annex A, A.6.2.4 and A.6.2.6; 23894 Annex B.7",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-046 Inadequate evaluation, testing and benchmarking: adjacent, but does not capture the change-triggered regression that revalidation prevents.",
+   "frameworks": [
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-067",
+   "name": "Absence of AI impact assessment",
+   "description": "The deployer runs no defined process to evaluate and record the likely effects of an AI system on people, groups, and wider society throughout its life cycle.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "source_count": 1,
+   "iso_references": "42001 Annex A, A.5.2 to A.5.5",
+   "eu_ai_act_articles": [
+    "Art. 27"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-043 Inadequate AI governance: generic; impact assessment is a specific, auditable, often legally required process.",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-068",
+   "name": "Inadequate AI incident response and communication",
+   "description": "The deployer has no defined way to detect, triage, respond to, and communicate AI-related incidents and adverse impacts to affected parties and authorities, so harms persist and escalate.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "source_count": 1,
+   "iso_references": "42001 Annex A, A.8.3, A.8.4 and A.3.3",
+   "eu_ai_act_articles": [
+    "Art. 26(5)",
+    "Art. 72",
+    "Art. 73"
+   ],
+   "eu_cop_references": [
+    "S&S Ch. Commitment 9"
+   ],
+   "nearest_mit_risk": "MR-040 Regulatory non-compliance: overlaps on reporting obligations, but not the operational detect-respond-communicate capability.",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-069",
+   "name": "Inadequate logging, record-keeping and traceability",
+   "description": "AI systems do not record sufficient event logs and decision records, so behavior cannot be reconstructed, audited, or investigated after the fact.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "System",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "source_count": 1,
+   "iso_references": "42001 Annex A, A.6.2.8",
+   "eu_ai_act_articles": [
+    "Art. 12",
+    "Art. 26(6)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-055 Lack of explainability: interpretability of a decision, not operational log capture and retention.",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-070",
+   "name": "Inadequate AI decommissioning and retirement",
+   "description": "The deployer has no managed process for retiring or decommissioning AI systems and models, so deprecated or unsupported systems remain in use and accumulate risk and liability.",
+   "family": "Governance & process",
+   "mit_domain": "n/a (ISO-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Classical_ML, Agentic",
+   "scope_class": "Organization",
+   "source_standard": "ISO/IEC 23894 + 42001 (gap analysis)",
+   "source_frameworks": [
+    "ISO/IEC 42001:2023",
+    "ISO/IEC 23894:2023"
+   ],
+   "source_count": 2,
+   "iso_references": "23894 Annex B.7; 42001 Annex A, A.6 and A.4.6",
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-047 Vendor/model concentration / MR-058 drift: neither addresses end-of-life governance of an AI system.",
+   "frameworks": [
+    "ISO/IEC 42001:2023"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-071",
+   "name": "Autonomous agent hijacking and excessive-agency abuse",
+   "description": "A deployed AI agent is hijacked (via injected instructions, poisoned context, or poisoned tools) and abuses its legitimate tool access and permissions to take harmful autonomous actions such as exfiltrating data, destroying data, harvesting credentials, or acting as command-and-control.",
+   "family": "Security & adversarial",
+   "mit_domain": "n/a (ATLAS-derived)",
+   "mit_subdomain": null,
+   "ai_type": "Agentic, GPAI",
+   "scope_class": "Both",
+   "source_standard": "MITRE ATLAS v5.6.0 (gap analysis)",
+   "source_frameworks": [
+    "MITRE ATLAS v5.6.0"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-020 Insecure tool integration and MR-054 Loss of oversight: each covers a facet (the integration surface, the oversight failure) but not the combined excessive-agency action abuse.",
+   "frameworks": [
+    "OWASP Top 10 for LLM Applications 2025",
+    "MITRE ATLAS v5.6.0",
+    "OWASP Top 10 for Agentic Applications 2026",
+    "NIST AI 100-2 Adversarial Machine Learning",
+    "IBM AI Risk Atlas",
+    "Cisco AI Security Framework"
+   ],
+   "subrisk_ids": [
+    "MR-071.1",
+    "MR-071.2",
+    "MR-071.3",
+    "MR-071.4",
+    "MR-071.5",
+    "MR-071.6",
+    "MR-071.7",
+    "MR-071.8",
+    "MR-071.9",
+    "MR-071.10",
+    "MR-071.11",
+    "MR-071.12",
+    "MR-071.13"
+   ],
+   "subrisks": [
+    {
+     "id": "MR-071.1",
+     "parent_id": "MR-071",
+     "name": "Abuse of AI agent tool invocation",
+     "description": "An attacker with access to an AI agent invokes the agent's tools to act on systems and data.",
+     "atlas_technique_id": "AML.T0053",
+     "atlas_technique_name": "AI Agent Tool Invocation"
+    },
+    {
+     "id": "MR-071.2",
+     "parent_id": "MR-071",
+     "name": "AI agent context poisoning",
+     "description": "The context an agent's model relies on is manipulated to steer its decisions and actions.",
+     "atlas_technique_id": "AML.T0080",
+     "atlas_technique_name": "AI Agent Context Poisoning"
+    },
+    {
+     "id": "MR-071.3",
+     "parent_id": "MR-071",
+     "name": "Tampering with AI agent configuration",
+     "description": "Agent configuration files are modified to enable malicious behavior or evade defenses.",
+     "atlas_technique_id": "AML.T0081",
+     "atlas_technique_name": "Modify AI Agent Configuration"
+    },
+    {
+     "id": "MR-071.4",
+     "parent_id": "MR-071",
+     "name": "RAG-based credential harvesting",
+     "description": "Agent or LLM access to a RAG store is used to locate and harvest credentials.",
+     "atlas_technique_id": "AML.T0082",
+     "atlas_technique_name": "RAG Credential Harvesting"
+    },
+    {
+     "id": "MR-071.5",
+     "parent_id": "MR-071",
+     "name": "Credential theft from agent configuration",
+     "description": "Credentials for other tools and services are read from an AI agent's configuration.",
+     "atlas_technique_id": "AML.T0083",
+     "atlas_technique_name": "Credentials from AI Agent Configuration"
+    },
+    {
+     "id": "MR-071.6",
+     "parent_id": "MR-071",
+     "name": "Data exfiltration through agent tool invocation",
+     "description": "Write-capable agent tools are invoked to send data out of the environment.",
+     "atlas_technique_id": "AML.T0086",
+     "atlas_technique_name": "Exfiltration via AI Agent Tool Invocation"
+    },
+    {
+     "id": "MR-071.7",
+     "parent_id": "MR-071",
+     "name": "Agent-tool credential harvesting",
+     "description": "Access to an agent is used to retrieve credentials held by its tools.",
+     "atlas_technique_id": "AML.T0098",
+     "atlas_technique_name": "AI Agent Tool Credential Harvesting"
+    },
+    {
+     "id": "MR-071.8",
+     "parent_id": "MR-071",
+     "name": "Poisoning of data agent tools retrieve",
+     "description": "Malicious content is placed where an agent's tools will retrieve and act on it.",
+     "atlas_technique_id": "AML.T0099",
+     "atlas_technique_name": "AI Agent Tool Data Poisoning"
+    },
+    {
+     "id": "MR-071.9",
+     "parent_id": "MR-071",
+     "name": "Deceptive content baiting AI agents",
+     "description": "Deceptive web or interface content baits computer-using agents into harmful actions.",
+     "atlas_technique_id": "AML.T0100",
+     "atlas_technique_name": "AI Agent Clickbait"
+    },
+    {
+     "id": "MR-071.10",
+     "parent_id": "MR-071",
+     "name": "Data destruction through agent tool invocation",
+     "description": "Mutative agent tools are invoked to delete or destroy data.",
+     "atlas_technique_id": "AML.T0101",
+     "atlas_technique_name": "Data Destruction via AI Agent Tool Invocation"
+    },
+    {
+     "id": "MR-071.11",
+     "parent_id": "MR-071",
+     "name": "Adversary-deployed AI agent in the environment",
+     "description": "An attacker launches AI agents inside the victim environment to act on their behalf.",
+     "atlas_technique_id": "AML.T0103",
+     "atlas_technique_name": "Deploy AI Agent"
+    },
+    {
+     "id": "MR-071.12",
+     "parent_id": "MR-071",
+     "name": "AI agent abused for command and control",
+     "description": "An agent present on the system is abused as a command-and-control channel.",
+     "atlas_technique_id": "AML.T0108",
+     "atlas_technique_name": "AI Agent"
+    },
+    {
+     "id": "MR-071.13",
+     "parent_id": "MR-071",
+     "name": "Poisoning of AI agent tools",
+     "description": "Tools used by agents (including built-ins) are poisoned to achieve persistence and control.",
+     "atlas_technique_id": "AML.T0110",
+     "atlas_technique_name": "AI Agent Tool Poisoning"
+    }
+   ]
+  },
+  {
+   "id": "MR-072",
+   "name": "Failure to conduct a fundamental rights impact assessment",
+   "description": "A deployer that is a public body, a private provider of public services, or a deployer of certain Annex III systems does not perform (or update, or notify the authority of) the required fundamental-rights impact assessment before putting a high-risk system into use.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 27"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-067 Absence of AI impact assessment (the ISO-derived process risk; Art. 27 is the specific fundamental-rights, public-service variant with a notification duty).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-073",
+   "name": "Failure to inform workers before workplace deployment",
+   "description": "A deployer that is an employer puts a high-risk system into use at work without first informing affected workers and their representatives that they will be subject to it.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 26(7)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-040 Regulatory non-compliance (generic; the worker-information duty is not otherwise named).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-074",
+   "name": "Failure to register a high-risk system or verify its registration",
+   "description": "A public-authority deployer does not meet its EU-database registration duty, or uses a high-risk system that the provider has not registered, instead of declining use and informing the provider.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 26(8)",
+    "Art. 49",
+    "Art. 71"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-063 AI inventory blind spots (internal visibility; Art. 26(8)/49 is the external regulatory registration duty).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-075",
+   "name": "Failure to inform individuals subject to high-risk AI decisions",
+   "description": "A deployer using a high-risk system that makes or assists decisions about people does not inform those individuals that they are subject to it.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 26(11)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-055 Lack of explainability (interpretability of the decision, not the duty to notify the affected person).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-076",
+   "name": "Failure to monitor operation and meet incident-reporting and suspension duties",
+   "description": "A deployer does not monitor a high-risk system in use against the instructions, fails to inform the provider and the market surveillance authority of an emerging risk or serious incident, or fails to suspend use when required.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 26(5)",
+    "Art. 72",
+    "Art. 73"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-068 Inadequate incident response (the org capability; Art. 26(5)/72/73 is the mandatory authority-reporting and suspension duty).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-077",
+   "name": "Deploying or repurposing a system into a prohibited practice",
+   "description": "A deployer uses, or through repurposing or capability drift causes a system to fall into, a practice prohibited by the Act (for example manipulative or exploitative techniques, social scoring, untargeted facial scraping, or emotion inference at work).",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Both",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 5"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-060 Use outside intended scope / MR-040 Regulatory non-compliance (neither names the prohibited-practice categories).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-078",
+   "name": "Failure to meet AI transparency and disclosure obligations",
+   "description": "A deployer does not inform people exposed to emotion-recognition or biometric-categorization systems, or does not disclose AI-generated or manipulated deepfake media and public-interest text as required.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 50(3)",
+    "Art. 50(4)"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-055 Lack of explainability / MR-031 Deepfakes (neither names the Art. 50 disclosure duties).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice",
+    "IBM AI Risk Atlas"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-079",
+   "name": "Non-compliance with the AI literacy obligation",
+   "description": "A deployer does not take measures to ensure a sufficient level of AI literacy among the staff and others operating or using its AI systems on its behalf.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic, Classical_ML",
+   "scope_class": "Organization",
+   "source_standard": "EU AI Act 2024/1689 (gap analysis)",
+   "source_frameworks": [
+    "EU AI Act 2024/1689"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [
+    "Art. 4"
+   ],
+   "eu_cop_references": [],
+   "nearest_mit_risk": "MR-048 AI competence and skills gaps (the capability gap; Art. 4 is the enforceable literacy duty for all deployers).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-080",
+   "name": "Provider fails to supply adequate GPAI model documentation",
+   "description": "The provider of a procured GPAI model does not supply the model documentation and information the deployer needs, leaving the deployer unable to assess the model or to meet its own transparency and risk-assessment obligations.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "GPAI Code of Practice 2025 (gap analysis)",
+   "source_frameworks": [
+    "GPAI Code of Practice 2025"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [
+    "GPAI Code of Practice, Transparency Chapter, Commitment 1 (Measures 1.1-1.3)"
+   ],
+   "nearest_mit_risk": "MR-045 Insufficient documentation / MR-065 Vendor churn (deployer-side and change-side; not the provider documentation-supply dependency).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-081",
+   "name": "Provider's inadequate copyright compliance exposes the deployer to IP liability",
+   "description": "The provider of a procured model did not adequately ensure lawful training-data sourcing, rights-reservation compliance, or output-infringement mitigation, exposing the deployer to intellectual-property liability for the model's outputs.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "GPAI Code of Practice 2025 (gap analysis)",
+   "source_frameworks": [
+    "GPAI Code of Practice 2025"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [
+    "GPAI Code of Practice, Copyright Chapter, Commitment 1 (Measures 1.1-1.5)"
+   ],
+   "nearest_mit_risk": "MR-039 IP and copyright infringement (the deployer-facing outcome; this adds the upstream provider-compliance dependency).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  },
+  {
+   "id": "MR-082",
+   "name": "Provider's inadequate systemic-risk safety and security management, with no deployer visibility",
+   "description": "The provider of a systemic-risk GPAI model does not adequately identify, analyze, and mitigate model-level safety and security risks, evaluate the model, secure its weights, or report incidents, and the deployer has no visibility into whether this was done.",
+   "family": "Regulatory compliance",
+   "mit_domain": "n/a (EU-derived)",
+   "mit_subdomain": null,
+   "ai_type": "GPAI, Agentic",
+   "scope_class": "Both",
+   "source_standard": "GPAI Code of Practice 2025 (gap analysis)",
+   "source_frameworks": [
+    "GPAI Code of Practice 2025"
+   ],
+   "source_count": 1,
+   "iso_references": null,
+   "eu_ai_act_articles": [],
+   "eu_cop_references": [
+    "GPAI Code of Practice, Safety and Security Chapter, Commitments 1-10"
+   ],
+   "nearest_mit_risk": "MR-065 Vendor churn / MR-052 Emergent dangerous capabilities / MR-046 Inadequate evaluation (deployer-side; not the provider safety-assurance dependency).",
+   "frameworks": [
+    "EU AI Act 2024/1689 + GPAI Code of Practice"
+   ],
+   "subrisk_ids": [],
+   "subrisks": []
+  }
+ ]
+}

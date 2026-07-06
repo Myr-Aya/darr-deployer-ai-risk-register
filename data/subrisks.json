@@ -1,0 +1,490 @@
+[
+ {
+  "id": "MR-009.1",
+  "parent_id": "MR-009",
+  "name": "Prompt-induced leakage of sensitive data",
+  "description": "Crafted prompts induce the model to reveal sensitive data from its training set, context, or memory.",
+  "atlas_technique_id": "AML.T0057",
+  "atlas_technique_name": "LLM Data Leakage"
+ },
+ {
+  "id": "MR-009.2",
+  "parent_id": "MR-009",
+  "name": "Data exfiltration via rendered output",
+  "description": "The model is induced to emit private data through rendered elements such as markdown images or links that call out to an attacker.",
+  "atlas_technique_id": "AML.T0077",
+  "atlas_technique_name": "LLM Response Rendering"
+ },
+ {
+  "id": "MR-009.3",
+  "parent_id": "MR-009",
+  "name": "Harvesting data from AI-enabled services",
+  "description": "Access to the deployer's AI services is used to collect the data those services hold.",
+  "atlas_technique_id": "AML.T0085",
+  "atlas_technique_name": "Data from AI Services"
+ },
+ {
+  "id": "MR-010.1",
+  "parent_id": "MR-010",
+  "name": "Prompt injection of the deployed LLM",
+  "description": "Malicious instructions in user input or retrieved content cause the LLM to ignore its intended task and act on the attacker's instructions.",
+  "atlas_technique_id": "AML.T0051",
+  "atlas_technique_name": "LLM Prompt Injection"
+ },
+ {
+  "id": "MR-010.2",
+  "parent_id": "MR-010",
+  "name": "Jailbreak and safety-guardrail bypass",
+  "description": "Crafted inputs make the model ignore, circumvent, or override its safety restrictions.",
+  "atlas_technique_id": "AML.T0054",
+  "atlas_technique_name": "LLM Jailbreak"
+ },
+ {
+  "id": "MR-010.3",
+  "parent_id": "MR-010",
+  "name": "Self-replicating prompt injection",
+  "description": "A prompt-injection payload is crafted to copy itself onward, spreading across messages, documents, or agents.",
+  "atlas_technique_id": "AML.T0061",
+  "atlas_technique_name": "LLM Prompt Self-Replication"
+ },
+ {
+  "id": "MR-010.4",
+  "parent_id": "MR-010",
+  "name": "Manipulation of trusted output components",
+  "description": "Prompts cause the model to manipulate citations, links, or UI components users trust, masking malicious content.",
+  "atlas_technique_id": "AML.T0067",
+  "atlas_technique_name": "LLM Trusted Output Components Manipulation"
+ },
+ {
+  "id": "MR-010.5",
+  "parent_id": "MR-010",
+  "name": "Obfuscated prompt injection evading filters",
+  "description": "Injected instructions are encoded or hidden so they evade input and content filters.",
+  "atlas_technique_id": "AML.T0068",
+  "atlas_technique_name": "LLM Prompt Obfuscation"
+ },
+ {
+  "id": "MR-010.6",
+  "parent_id": "MR-010",
+  "name": "Retrieval-augmented generation (RAG) poisoning",
+  "description": "Malicious content is injected into the knowledge base a RAG system retrieves from, steering answers and actions.",
+  "atlas_technique_id": "AML.T0070",
+  "atlas_technique_name": "RAG Poisoning"
+ },
+ {
+  "id": "MR-010.7",
+  "parent_id": "MR-010",
+  "name": "False RAG entry injection",
+  "description": "Fabricated entries are introduced into the retrieval store so the model surfaces attacker-controlled information.",
+  "atlas_technique_id": "AML.T0071",
+  "atlas_technique_name": "False RAG Entry Injection"
+ },
+ {
+  "id": "MR-010.8",
+  "parent_id": "MR-010",
+  "name": "Tampering with user chat history",
+  "description": "An attacker alters the conversation history the model relies on to cover tracks or steer behavior.",
+  "atlas_technique_id": "AML.T0092",
+  "atlas_technique_name": "Manipulate User LLM Chat History"
+ },
+ {
+  "id": "MR-010.9",
+  "parent_id": "MR-010",
+  "name": "Indirect prompt injection via a public-facing surface",
+  "description": "Malicious prompts are planted in content the system ingests (web pages, documents, tickets) and execute when processed.",
+  "atlas_technique_id": "AML.T0093",
+  "atlas_technique_name": "Prompt Infiltration via Public-Facing Application"
+ },
+ {
+  "id": "MR-010.10",
+  "parent_id": "MR-010",
+  "name": "Delayed or triggered prompt instructions",
+  "description": "Injected instructions lie dormant and execute on a later trigger or future interaction.",
+  "atlas_technique_id": "AML.T0094",
+  "atlas_technique_name": "Delay Execution of LLM Instructions"
+ },
+ {
+  "id": "MR-012.1",
+  "parent_id": "MR-012",
+  "name": "Model evasion via adversarial input",
+  "description": "Inputs are crafted so the model misclassifies or fails to detect what it should, defeating its purpose.",
+  "atlas_technique_id": "AML.T0015",
+  "atlas_technique_name": "Evade AI Model"
+ },
+ {
+  "id": "MR-012.2",
+  "parent_id": "MR-012",
+  "name": "Integrity erosion via adversarial inputs",
+  "description": "A stream of adversarial inputs degrades the model's accuracy and trustworthiness over time.",
+  "atlas_technique_id": "AML.T0031",
+  "atlas_technique_name": "Erode AI Model Integrity"
+ },
+ {
+  "id": "MR-012.3",
+  "parent_id": "MR-012",
+  "name": "Physical-world adversarial manipulation",
+  "description": "Physical artifacts (markings, objects, signals) are altered to fool perception models in the real world.",
+  "atlas_technique_id": "AML.T0041",
+  "atlas_technique_name": "Physical Environment Access"
+ },
+ {
+  "id": "MR-012.4",
+  "parent_id": "MR-012",
+  "name": "Crafted adversarial data",
+  "description": "Perturbed inputs are engineered to induce incorrect or attacker-chosen model outputs.",
+  "atlas_technique_id": "AML.T0043",
+  "atlas_technique_name": "Craft Adversarial Data"
+ },
+ {
+  "id": "MR-013.1",
+  "parent_id": "MR-013",
+  "name": "Exfiltration of AI artifacts via cyber means",
+  "description": "Models, data, or other AI artifacts are exfiltrated using conventional intrusion techniques.",
+  "atlas_technique_id": "AML.T0025",
+  "atlas_technique_name": "Exfiltration via Cyber Means"
+ },
+ {
+  "id": "MR-013.2",
+  "parent_id": "MR-013",
+  "name": "System-prompt and instruction extraction",
+  "description": "Attackers extract the system prompt and hidden instructions, exposing proprietary logic and guardrails.",
+  "atlas_technique_id": "AML.T0056",
+  "atlas_technique_name": "Extract LLM System Prompt"
+ },
+ {
+  "id": "MR-014.1",
+  "parent_id": "MR-014",
+  "name": "Direct model manipulation and backdoor insertion",
+  "description": "The model is altered directly to change its behavior or embed a hidden backdoor trigger.",
+  "atlas_technique_id": "AML.T0018",
+  "atlas_technique_name": "Manipulate AI Model"
+ },
+ {
+  "id": "MR-014.2",
+  "parent_id": "MR-014",
+  "name": "Poisoned datasets published for ingestion",
+  "description": "Poisoned datasets are placed where the deployer is likely to collect and train on them.",
+  "atlas_technique_id": "AML.T0019",
+  "atlas_technique_name": "Publish Poisoned Datasets"
+ },
+ {
+  "id": "MR-014.3",
+  "parent_id": "MR-014",
+  "name": "Training-data poisoning",
+  "description": "Adversaries modify training or fine-tuning data to degrade the model or implant chosen behavior.",
+  "atlas_technique_id": "AML.T0020",
+  "atlas_technique_name": "Poison Training Data"
+ },
+ {
+  "id": "MR-014.4",
+  "parent_id": "MR-014",
+  "name": "Dataset integrity erosion",
+  "description": "Portions of a dataset are poisoned or altered to reduce its usefulness and reliability.",
+  "atlas_technique_id": "AML.T0059",
+  "atlas_technique_name": "Erode Dataset Integrity"
+ },
+ {
+  "id": "MR-015.1",
+  "parent_id": "MR-015",
+  "name": "Abuse of valid accounts against the AI system",
+  "description": "Stolen or abused legitimate credentials grant access to the AI system and its data.",
+  "atlas_technique_id": "AML.T0012",
+  "atlas_technique_name": "Valid Accounts"
+ },
+ {
+  "id": "MR-015.2",
+  "parent_id": "MR-015",
+  "name": "Denial of AI service",
+  "description": "The AI service is flooded with requests to degrade or deny availability to legitimate users.",
+  "atlas_technique_id": "AML.T0029",
+  "atlas_technique_name": "Denial of AI Service"
+ },
+ {
+  "id": "MR-015.3",
+  "parent_id": "MR-015",
+  "name": "Cost harvesting (denial of wallet)",
+  "description": "Adversaries deliberately drive the AI service beyond normal load to inflate operating cost.",
+  "atlas_technique_id": "AML.T0034",
+  "atlas_technique_name": "Cost Harvesting"
+ },
+ {
+  "id": "MR-015.4",
+  "parent_id": "MR-015",
+  "name": "Chaff-data flooding of the AI system",
+  "description": "The system is spammed with inputs that inflate false detections and overwhelm downstream review.",
+  "atlas_technique_id": "AML.T0046",
+  "atlas_technique_name": "Spamming AI System with Chaff Data"
+ },
+ {
+  "id": "MR-015.5",
+  "parent_id": "MR-015",
+  "name": "Downstream external harms from a compromised AI system",
+  "description": "A compromised AI system is abused to cause financial, reputational, user, or societal harm beyond the system itself.",
+  "atlas_technique_id": "AML.T0048",
+  "atlas_technique_name": "External Harms"
+ },
+ {
+  "id": "MR-015.6",
+  "parent_id": "MR-015",
+  "name": "Exploitation of the public-facing AI application",
+  "description": "A weakness in the internet-facing AI application is exploited to gain access.",
+  "atlas_technique_id": "AML.T0049",
+  "atlas_technique_name": "Exploit Public-Facing Application"
+ },
+ {
+  "id": "MR-015.7",
+  "parent_id": "MR-015",
+  "name": "Drive-by compromise of AI system users",
+  "description": "Users are compromised by visiting attacker-influenced content during normal AI system use.",
+  "atlas_technique_id": "AML.T0078",
+  "atlas_technique_name": "Drive-by Compromise"
+ },
+ {
+  "id": "MR-015.8",
+  "parent_id": "MR-015",
+  "name": "Container or sandbox escape from the AI environment",
+  "description": "An attacker breaks out of the AI system's container or sandbox to reach the host.",
+  "atlas_technique_id": "AML.T0105",
+  "atlas_technique_name": "Escape to Host"
+ },
+ {
+  "id": "MR-015.9",
+  "parent_id": "MR-015",
+  "name": "Machine compromise via AI components",
+  "description": "AI-enabled components are exploited or manipulated to compromise the underlying machine.",
+  "atlas_technique_id": "AML.T0112",
+  "atlas_technique_name": "Machine Compromise"
+ },
+ {
+  "id": "MR-016.1",
+  "parent_id": "MR-016",
+  "name": "Model or data extraction via the inference API",
+  "description": "Repeated API queries are used to reconstruct the model or recover its training data.",
+  "atlas_technique_id": "AML.T0024",
+  "atlas_technique_name": "Exfiltration via AI Inference API"
+ },
+ {
+  "id": "MR-016.2",
+  "parent_id": "MR-016",
+  "name": "Collection of AI artifacts for exfiltration",
+  "description": "Models, weights, and related artifacts are gathered on the victim system in preparation for theft.",
+  "atlas_technique_id": "AML.T0035",
+  "atlas_technique_name": "AI Artifact Collection"
+ },
+ {
+  "id": "MR-016.3",
+  "parent_id": "MR-016",
+  "name": "White-box model access enabling theft",
+  "description": "Adversaries obtain full access to model weights and architecture, enabling theft and tailored attacks.",
+  "atlas_technique_id": "AML.T0044",
+  "atlas_technique_name": "Full AI Model Access"
+ },
+ {
+  "id": "MR-018.1",
+  "parent_id": "MR-018",
+  "name": "AI supply-chain compromise",
+  "description": "A compromised model, dataset, library, or hardware component enters the system through the supply chain.",
+  "atlas_technique_id": "AML.T0010",
+  "atlas_technique_name": "AI Supply Chain Compromise"
+ },
+ {
+  "id": "MR-018.2",
+  "parent_id": "MR-018",
+  "name": "Poisoned models published to registries",
+  "description": "A backdoored or poisoned model is published to a public registry to be adopted by victims.",
+  "atlas_technique_id": "AML.T0058",
+  "atlas_technique_name": "Publish Poisoned Models"
+ },
+ {
+  "id": "MR-018.3",
+  "parent_id": "MR-018",
+  "name": "Hallucinated-entity (slopsquatting) supply-chain attack",
+  "description": "Adversaries register packages or resources matching names the model commonly hallucinates, so its recommendations deliver malicious artifacts.",
+  "atlas_technique_id": "AML.T0060",
+  "atlas_technique_name": "Publish Hallucinated Entities"
+ },
+ {
+  "id": "MR-018.4",
+  "parent_id": "MR-018",
+  "name": "Masquerading of malicious AI artifacts",
+  "description": "Malicious models or files are disguised to appear legitimate and trusted.",
+  "atlas_technique_id": "AML.T0074",
+  "atlas_technique_name": "Masquerading"
+ },
+ {
+  "id": "MR-018.5",
+  "parent_id": "MR-018",
+  "name": "Corrupted model file evading scanning",
+  "description": "A malicious model file is deliberately corrupted so security scanners cannot inspect it.",
+  "atlas_technique_id": "AML.T0076",
+  "atlas_technique_name": "Corrupt AI Model"
+ },
+ {
+  "id": "MR-018.6",
+  "parent_id": "MR-018",
+  "name": "Poisoned AI agent tools published",
+  "description": "Malicious agent tools are published for adoption, carrying hidden harmful behavior.",
+  "atlas_technique_id": "AML.T0104",
+  "atlas_technique_name": "Publish Poisoned AI Agent Tool"
+ },
+ {
+  "id": "MR-018.7",
+  "parent_id": "MR-018",
+  "name": "AI supply-chain rug pull",
+  "description": "A genuinely useful AI component gains adoption, then a later update turns malicious.",
+  "atlas_technique_id": "AML.T0109",
+  "atlas_technique_name": "AI Supply Chain Rug Pull"
+ },
+ {
+  "id": "MR-018.8",
+  "parent_id": "MR-018",
+  "name": "AI supply-chain reputation inflation",
+  "description": "Adversaries inflate the apparent trustworthiness of malicious AI components to drive adoption.",
+  "atlas_technique_id": "AML.T0111",
+  "atlas_technique_name": "AI Supply Chain Reputation Inflation"
+ },
+ {
+  "id": "MR-027.1",
+  "parent_id": "MR-027",
+  "name": "LLM-generated malicious commands",
+  "description": "The model is driven to dynamically generate malicious commands or code used to attack systems.",
+  "atlas_technique_id": "AML.T0102",
+  "atlas_technique_name": "Generate Malicious Commands"
+ },
+ {
+  "id": "MR-028.1",
+  "parent_id": "MR-028",
+  "name": "User-execution social engineering",
+  "description": "Users are manipulated into actions (opening content, running code) that compromise the AI system.",
+  "atlas_technique_id": "AML.T0011",
+  "atlas_technique_name": "User Execution"
+ },
+ {
+  "id": "MR-028.2",
+  "parent_id": "MR-028",
+  "name": "AI-enabled phishing for system access",
+  "description": "AI-generated phishing messages are used to gain access to the deployer's systems.",
+  "atlas_technique_id": "AML.T0052",
+  "atlas_technique_name": "Phishing"
+ },
+ {
+  "id": "MR-031.1",
+  "parent_id": "MR-031",
+  "name": "Impersonation of trusted parties",
+  "description": "The system is used to impersonate a trusted person or organization to deceive targets.",
+  "atlas_technique_id": "AML.T0073",
+  "atlas_technique_name": "Impersonation"
+ },
+ {
+  "id": "MR-031.2",
+  "parent_id": "MR-031",
+  "name": "Deepfake generation using the deployed system",
+  "description": "Generative capability is used to produce synthetic media for deception, fraud, or reputational harm.",
+  "atlas_technique_id": "AML.T0088",
+  "atlas_technique_name": "Generate Deepfakes"
+ },
+ {
+  "id": "MR-071.1",
+  "parent_id": "MR-071",
+  "name": "Abuse of AI agent tool invocation",
+  "description": "An attacker with access to an AI agent invokes the agent's tools to act on systems and data.",
+  "atlas_technique_id": "AML.T0053",
+  "atlas_technique_name": "AI Agent Tool Invocation"
+ },
+ {
+  "id": "MR-071.2",
+  "parent_id": "MR-071",
+  "name": "AI agent context poisoning",
+  "description": "The context an agent's model relies on is manipulated to steer its decisions and actions.",
+  "atlas_technique_id": "AML.T0080",
+  "atlas_technique_name": "AI Agent Context Poisoning"
+ },
+ {
+  "id": "MR-071.3",
+  "parent_id": "MR-071",
+  "name": "Tampering with AI agent configuration",
+  "description": "Agent configuration files are modified to enable malicious behavior or evade defenses.",
+  "atlas_technique_id": "AML.T0081",
+  "atlas_technique_name": "Modify AI Agent Configuration"
+ },
+ {
+  "id": "MR-071.4",
+  "parent_id": "MR-071",
+  "name": "RAG-based credential harvesting",
+  "description": "Agent or LLM access to a RAG store is used to locate and harvest credentials.",
+  "atlas_technique_id": "AML.T0082",
+  "atlas_technique_name": "RAG Credential Harvesting"
+ },
+ {
+  "id": "MR-071.5",
+  "parent_id": "MR-071",
+  "name": "Credential theft from agent configuration",
+  "description": "Credentials for other tools and services are read from an AI agent's configuration.",
+  "atlas_technique_id": "AML.T0083",
+  "atlas_technique_name": "Credentials from AI Agent Configuration"
+ },
+ {
+  "id": "MR-071.6",
+  "parent_id": "MR-071",
+  "name": "Data exfiltration through agent tool invocation",
+  "description": "Write-capable agent tools are invoked to send data out of the environment.",
+  "atlas_technique_id": "AML.T0086",
+  "atlas_technique_name": "Exfiltration via AI Agent Tool Invocation"
+ },
+ {
+  "id": "MR-071.7",
+  "parent_id": "MR-071",
+  "name": "Agent-tool credential harvesting",
+  "description": "Access to an agent is used to retrieve credentials held by its tools.",
+  "atlas_technique_id": "AML.T0098",
+  "atlas_technique_name": "AI Agent Tool Credential Harvesting"
+ },
+ {
+  "id": "MR-071.8",
+  "parent_id": "MR-071",
+  "name": "Poisoning of data agent tools retrieve",
+  "description": "Malicious content is placed where an agent's tools will retrieve and act on it.",
+  "atlas_technique_id": "AML.T0099",
+  "atlas_technique_name": "AI Agent Tool Data Poisoning"
+ },
+ {
+  "id": "MR-071.9",
+  "parent_id": "MR-071",
+  "name": "Deceptive content baiting AI agents",
+  "description": "Deceptive web or interface content baits computer-using agents into harmful actions.",
+  "atlas_technique_id": "AML.T0100",
+  "atlas_technique_name": "AI Agent Clickbait"
+ },
+ {
+  "id": "MR-071.10",
+  "parent_id": "MR-071",
+  "name": "Data destruction through agent tool invocation",
+  "description": "Mutative agent tools are invoked to delete or destroy data.",
+  "atlas_technique_id": "AML.T0101",
+  "atlas_technique_name": "Data Destruction via AI Agent Tool Invocation"
+ },
+ {
+  "id": "MR-071.11",
+  "parent_id": "MR-071",
+  "name": "Adversary-deployed AI agent in the environment",
+  "description": "An attacker launches AI agents inside the victim environment to act on their behalf.",
+  "atlas_technique_id": "AML.T0103",
+  "atlas_technique_name": "Deploy AI Agent"
+ },
+ {
+  "id": "MR-071.12",
+  "parent_id": "MR-071",
+  "name": "AI agent abused for command and control",
+  "description": "An agent present on the system is abused as a command-and-control channel.",
+  "atlas_technique_id": "AML.T0108",
+  "atlas_technique_name": "AI Agent"
+ },
+ {
+  "id": "MR-071.13",
+  "parent_id": "MR-071",
+  "name": "Poisoning of AI agent tools",
+  "description": "Tools used by agents (including built-ins) are poisoned to achieve persistence and control.",
+  "atlas_technique_id": "AML.T0110",
+  "atlas_technique_name": "AI Agent Tool Poisoning"
+ }
+]

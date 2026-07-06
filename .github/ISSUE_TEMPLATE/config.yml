@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Register website
+    url: https://www.airiskdeployer.org
+    about: Browse the register, methodology, and downloads before filing.
+  - name: Contribution roadmap
+    url: https://www.airiskdeployer.org/contribute/
+    about: See where the project is headed and where help is most useful.
