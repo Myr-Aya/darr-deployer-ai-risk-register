@@ -3244,7 +3244,7 @@
    "name": "Autonomous agent hijacking and excessive-agency abuse",
    "description": "A deployed AI agent is hijacked (via injected instructions, poisoned context, or poisoned tools) and abuses its legitimate tool access and permissions to take harmful autonomous actions such as exfiltrating data, destroying data, harvesting credentials, or acting as command-and-control.",
    "family": "Security & adversarial",
-   "mit_domain": "n/a (ATLAS-derived)",
+   "mit_domain": "n/a (MITRE ATLAS-derived)",
    "mit_subdomain": null,
    "ai_type": "Agentic, GPAI",
    "scope_class": "Both",
