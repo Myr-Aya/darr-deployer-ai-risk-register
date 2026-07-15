@@ -1,0 +1,13 @@
+{
+  "name": "Deployer AI Risk Register",
+  "abbrev": "DARR",
+  "version": "1.0",
+  "schema_version": "1.0",
+  "release_date": "2026-07-03",
+  "build_date": "2026-07-05",
+  "doi": "10.5281/zenodo.21223593",
+  "license": "CC BY 4.0",
+  "license_spdx": "CC-BY-4.0",
+  "site_url": "https://www.airiskdeployer.org",
+  "repository": "https://github.com/Myr-Aya/darr-deployer-ai-risk-register"
+}

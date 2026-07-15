@@ -1,0 +1,20 @@
+# Validates the public dataset on every push and pull request - independently
+# of the private build pipeline, so contributions from anyone are checked the
+# same way. See validate.py for the full check list.
+name: validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate the dataset
+        run: python validate.py

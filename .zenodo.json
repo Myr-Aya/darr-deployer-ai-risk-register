@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "Deployer AI Risk Register (DARR)",
+  "version": "1.0",
+  "publication_date": "2026-07-03",
+  "description": "An open, citable AI risk register for organizations that deploy AI systems: 82 canonical risks and 61 MITRE ATLAS-anchored sub-risks across seven families, consolidated from the MIT AI Risk Repository and mapped to ISO/IEC 23894 and 42001, MITRE ATLAS, and the EU AI Act, then cross-checked against IBM, Cisco, NIST, and OWASP. Published under CC BY 4.0.",
+  "creators": [
+    {
+      "name": "MindXO"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "AI risk",
+    "AI governance",
+    "AI safety",
+    "risk register",
+    "MITRE ATLAS",
+    "EU AI Act",
+    "ISO/IEC 42001",
+    "NIST AI RMF",
+    "responsible AI",
+    "LLM security"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.airiskdeployer.org/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ]
+}
