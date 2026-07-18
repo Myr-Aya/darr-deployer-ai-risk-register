@@ -7,7 +7,7 @@
 
 The open, citable **dataset** behind the
 [Deployer AI Risk Register](https://www.airiskdeployer.org): a canonical set of
-AI risks for organizations that **deploy** AI systems, published by
+AI risks for organizations that **deploy** AI systems, powered by
 [MindXO](https://www.mind-xo.com). This repository holds the published data and
 is where corrections and contributions are proposed. The register is browsable
 at **[www.airiskdeployer.org](https://www.airiskdeployer.org)**.
